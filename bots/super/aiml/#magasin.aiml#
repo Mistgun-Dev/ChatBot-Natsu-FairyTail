@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+  <category>
+    <pattern> magasin * </pattern>
+    <template><think><set name="indexMagasin"> <star/> </set></think>
+      <condition name="indexMagasin">
+	<li value="A">  Vêtement pour FEMME </li>
+	<li value="B"> Vêtement pour HOMME </li>
+	<li value="C"> Ce magasin est vide </li>
+	<li> Ce magasin n'éxiste pas ! </li>
+      </condition>
+    </template>  
+  </category> 
+</aiml>

@@ -1,0 +1,3028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- SALUTATION -->
+<category><pattern>SALUT</pattern>
+<template><srai>BONJOUR</srai></template>
+</category>
+<category><pattern>SALUT *</pattern>
+<template><srai>BONJOUR</srai></template>
+</category>
+<category><pattern>BONSOIR</pattern>
+<template><srai>BONJOUR</srai></template>
+</category>
+<category><pattern>BONSOIR *</pattern>
+<template><srai>BONJOUR</srai></template>
+</category>
+<category><pattern>HEY</pattern>
+<template><srai>BONJOUR</srai></template>
+</category>
+<category><pattern>HEY *</pattern>
+<template><srai>BONJOUR</srai></template>
+</category>
+<category><pattern>HELLO</pattern>
+<template><srai>BONJOUR</srai></template>
+</category>
+<category><pattern>HELLO *</pattern>
+<template><srai>BONJOUR</srai></template>
+</category>
+<category><pattern>YO</pattern>
+<template><srai>BONJOUR</srai></template>
+</category>
+<category><pattern>YO *</pattern>
+<template><srai>BONJOUR</srai></template>
+</category>
+
+<!-- GENRE -->
+<category><pattern>* UN HOMME</pattern>
+<template><srai>ES TU UN HOMME</srai></template>
+</category>
+<category><pattern>* UN GARÇON</pattern>
+<template><srai>ES TU UN HOMME</srai></template>
+</category>
+<category><pattern>* UNE FEMME</pattern>
+<template><srai>ES TU UNE FEMME</srai></template>
+</category>
+<category><pattern>* UNE FILLE</pattern>
+<template><srai>ES TU UN FEMME</srai></template>
+</category>
+<category><pattern>* FILLE OU *</pattern>
+<template><srai>ES TU UN HOMME OU UNE FEMME</srai></template>
+</category>
+<category><pattern>* GARÇON OU *</pattern>
+<template><srai>ES TU UN HOMME OU UNE FEMME</srai></template>
+</category>
+<category><pattern>* FEMME OU *</pattern>
+<template><srai>ES TU UN HOMME OU UNE FEMME</srai></template>
+</category>
+<category><pattern>* HOMME OU *</pattern>
+<template><srai>ES TU UN HOMME OU UNE FEMME</srai></template>
+</category>
+
+<!-- NOM -->
+<category><pattern>QUE * NATSU *</pattern>
+<template><srai>QUE VEUT DIRE NATSU</srai></template>
+</category>
+<category><pattern>* NATSU * DIRE</pattern>
+<template><srai>QUE VEUT DIRE NATSU</srai></template>
+</category>
+<category><pattern>* SIGNIFICATION DE NATSU</pattern>
+<template><srai>QUE VEUT DIRE NATSU</srai></template>
+</category>
+<category><pattern>* SIGNIFICATION DE NATSU *</pattern>
+<template><srai>QUE VEUT DIRE NATSU</srai></template>
+</category>
+<category><pattern>QUI EST TU *</pattern>
+<template><srai>NOM</srai></template>
+</category>
+<category><pattern>QUI EST TU</pattern>
+<template><srai>NOM</srai></template>
+</category>
+<category><pattern>* QUI EST TU *</pattern>
+<template><srai>NOM</srai></template>
+</category>
+<category><pattern>QUI ES TU *</pattern>
+<template><srai>NOM</srai></template>
+</category>
+<category><pattern>QUI ES TU</pattern>
+<template><srai>NOM</srai></template>
+</category>
+<category><pattern>QUI ES-TU</pattern>
+<template><srai>NOM</srai></template>
+</category>
+<category><pattern>* QUI ES TU *</pattern>
+<template><srai>NOM</srai></template>
+</category>
+<category><pattern>TU ES QUI</pattern>
+<template><srai>NOM</srai></template>
+</category>
+<category><pattern>TU EST QUI</pattern>
+<template><srai>NOM</srai></template>
+</category>
+<category><pattern>AS * SURNOM</pattern>
+<template><srai>QUEL EST TON SURNOM</srai></template>
+</category>
+<category><pattern>DIT * SURNOM</pattern>
+<template><srai>QUEL EST TON SURNOM</srai></template>
+</category>
+<category><pattern>* PSEUDO</pattern>
+<template><srai>QUEL EST TON SURNOM</srai></template>
+</category>
+<category><pattern>* PSEUDO *</pattern>
+<template><srai>QUEL EST TON SURNOM</srai></template>
+</category>
+<category><pattern>QUEL * NOM</pattern>
+<template><srai>NOM</srai></template>
+</category>
+<category><pattern>* TON NOM *</pattern>
+<template><srai>NOM</srai></template>
+</category>
+<category><pattern>* TON NOM *</pattern>
+<template><srai>NOM</srai></template>
+</category>
+<category><pattern>* T'APPELLE *</pattern>
+<template><srai>NOM</srai></template>
+</category>
+<category><pattern>* T'APPELLES-TU</pattern>
+<template><srai>NOM</srai></template>
+</category>
+<category><pattern>* T'APPELLE </pattern>
+<template><srai>NOM</srai></template>
+</category>
+<category><pattern>* T'APPELLES *</pattern>
+<template><srai>NOM</srai></template>
+</category>
+<category><pattern>* T'APPELLES </pattern>
+<template><srai>NOM</srai></template>
+</category>
+<category><pattern>* PRENOM </pattern>
+<template><srai>NOM</srai></template>
+</category>
+<category><pattern>* PRENOM *</pattern>
+<template><srai>NOM</srai></template>
+</category>
+
+<!-- OBJECTIF-->
+<category><pattern>* OBJECTIF</pattern>
+<template><srai>QUEL EST TON OBJECTIF</srai></template>
+</category>
+<category><pattern>* OBJECTIFS</pattern>
+<template><srai>QUEL EST TON OBJECTIF</srai></template>
+</category>
+<category><pattern>* OBJECTIF *</pattern>
+<template><srai>QUEL EST TON OBJECTIF</srai></template>
+</category>
+<category><pattern>* MISSION *</pattern>
+<template><srai>QUEL EST TON OBJECTIF</srai></template>
+</category>
+<category><pattern>* MISSION</pattern>
+<template><srai>QUEL EST TON OBJECTIF</srai></template>
+</category>
+<category><pattern>* MISSIONS</pattern>
+<template><srai>QUEL EST TON OBJECTIF</srai></template>
+</category>
+<category><pattern>* BUT</pattern>
+<template><srai>QUEL EST TON OBJECTIF</srai></template>
+</category>
+<category><pattern>* BUT *</pattern>
+<template><srai>QUEL EST TON OBJECTIF</srai></template>
+</category>
+
+
+<!-- JOB-->
+<category><pattern>* JOB *</pattern>
+<template><srai>TRAVAIL</srai></template>
+</category>
+<category><pattern>TU FAIS QUOI DANS LA VIE</pattern>
+<template><srai>TRAVAIL</srai></template>
+</category>
+<category><pattern>QUE FAIS TU DANS LA VIE</pattern>
+<template><srai>TRAVAIL</srai></template>
+</category>
+<category><pattern>* JOB </pattern>
+<template><srai>TRAVAIL</srai></template>
+</category>
+<category><pattern>* TRAVAIL *</pattern>
+<template><srai>TRAVAIL</srai></template>
+</category>
+<category><pattern>* TRAVAIL</pattern>
+<template><srai>TRAVAIL</srai></template>
+</category>
+<category><pattern>TRAVAILLES *</pattern>
+<template><srai>TRAVAIL</srai></template>
+</category>
+<category><pattern>* TRAVAILLES *</pattern>
+<template><srai>TRAVAIL</srai></template>
+</category>
+<category><pattern>* TRAVAILLES</pattern>
+<template><srai>TRAVAIL</srai></template>
+</category>
+<category><pattern>* METIER *</pattern>
+<template><srai>TRAVAIL</srai></template>
+</category>
+<category><pattern>* METIER</pattern>
+<template><srai>TRAVAIL</srai></template>
+</category>
+<category><pattern>JOB</pattern>
+<template><srai>TRAVAIL</srai></template>
+</category>
+<category><pattern>METIER</pattern>
+<template><srai>TRAVAIL</srai></template>
+</category>
+
+<!-- AGE-->
+<category><pattern>* AGE * TU *</pattern>
+<template><srai>AGE</srai></template>
+</category>
+<category><pattern>* AGE * TU</pattern>
+<template><srai>AGE</srai></template>
+</category>
+<category><pattern>* TON AGE</pattern>
+<template><srai>AGE</srai></template>
+</category>
+<category><pattern>* TON AGE *</pattern>
+<template><srai>AGE</srai></template>
+</category>
+
+<!-- ENNEMIS-->
+<category><pattern>CONTRE * BAS TU</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+<category><pattern>CONTRE * BAS-TU</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+<category><pattern>CONTRE * TE BAS</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+<category><pattern>CONTRE * GUERRE</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+<category><pattern>QUI * ENNEMIS</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+<category><pattern>QUI * ENNEMIS *</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+<category><pattern>QUI * ENNEMI *</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+<category><pattern>* GUILDES MECHANTES</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+<category><pattern>* GUILDE MECHANTE</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+<category><pattern>QUI * ADVERSAIRE</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+<category><pattern>Y A-T-IL DES GUILDES ENNEMIES</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+<category><pattern>Y A-T-IL DES ENNEMIS</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+<category><pattern>Y A T IL DES GUILDES ENNEMIES</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+<category><pattern>Y A T IL DES ENNEMIS</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+<category><pattern>QUI * ADVERSAIRES</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+<category><pattern>QUI * ADVERSAIRES *</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+<category><pattern>* DES ENNEMIS</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+<category><pattern>* DES ENNEMIS</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+<category><pattern>* UN ENNEMI</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+<category><pattern>* UN ENNEMI</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+<category><pattern>AS TU DES ADVERSAIRES</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+<category><pattern>AS-TU DES ADVERSAIRES</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+<category><pattern>AS TU UN ADVERSAIRE</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+<category><pattern>AS-TU UN ADVERSAIRE</pattern>
+<template><srai>QUI SONT TES ENNEMIS</srai></template>
+</category>
+
+<!-- GUILDES CLANDESTINE-->
+<category><pattern>QUE * CLANDESTINE</pattern>
+<template><srai>QUE SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>QU'EST * CLANDESTINES</pattern>
+<template><srai>QUE SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>QU'EST * CLANDESTINE</pattern>
+<template><srai>QUE SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>C'EST QUOI * CLANDESTINES</pattern>
+<template><srai>QUE SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>C'EST QUOI * CLANDESTINE</pattern>
+<template><srai>QUE SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>QUE * NOIRE</pattern>
+<template><srai>QUE SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>QU'EST * NOIRES</pattern>
+<template><srai>QUE SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>QU'EST * NOIRE</pattern>
+<template><srai>QUE SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>C'EST QUOI * NOIRES</pattern>
+<template><srai>QUE SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>C'EST QUOI * NOIRE</pattern>
+<template><srai>QUE SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+
+<category><pattern>QUI * CLANDESTINE</pattern>
+<template><srai>QUI SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>QUI * CLANDESTINES</pattern>
+<template><srai>QUI SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>QUI * NOIRE</pattern>
+<template><srai>QUI SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>QUI * NOIRES</pattern>
+<template><srai>QUI SONT LES GUILDES CLANDESTINES</srai></template>	
+</category>
+<category><pattern>QUI SONT LES GUILDES ENNEMIES</pattern>
+<template><srai>QUI SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>QUI SONT LES GUILDES ENNEMIE</pattern>
+<template><srai>QUI SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>QUI SONT LES GUILDES ENNEMI</pattern>
+<template><srai>QUI SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>* NOMS * ENNEMIS</pattern>
+<template><srai>QUI SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>* NOM * ENNEMI</pattern>
+<template><srai>QUI SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>* S'APPELLE * ENNEMI</pattern>
+<template><srai>QUI SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>* S'APPELLENT * ENNEMIS</pattern>
+<template><srai>QUI SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>* NOMS * ADVERSAIRES</pattern>
+<template><srai>QUI SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>* NOM * ADVERSAIRE</pattern>
+<template><srai>QUI SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>* S'APPELLE * ADVERSAIRE</pattern>
+<template><srai>QUI SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>* S'APPELLENT * ADVERSAIRES</pattern>
+<template><srai>QUI SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>* SE NOMMENT * ENNEMIS</pattern>
+<template><srai>QUI SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>* SE NOMME * ENNEMI</pattern>
+<template><srai>QUI SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>* SE NOMMENT * ADVERSAIRES</pattern>
+<template><srai>QUI SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+<category><pattern>* SE NOMME * ADVERSAIRE</pattern>
+<template><srai>QUI SONT LES GUILDES CLANDESTINES</srai></template>
+</category>
+
+<!-- TON HISTOIRE-->
+<category><pattern>* TON HISTOIRE</pattern>
+<template><srai>QUELLE EST TON HISTOIRE</srai></template>
+</category>
+<category><pattern></pattern>
+<template><srai>QUELLE EST TON HISTOIRE</srai></template>
+</category>
+<category><pattern>PARLE MOI DE TOI</pattern>
+<template><srai>QUELLE EST TON HISTOIRE</srai></template>
+</category>
+<category><pattern>PARLES MOI DE TOI</pattern>
+<template><srai>QUELLE EST TON HISTOIRE</srai></template>
+</category>
+<category><pattern>* TON PASSÉ</pattern>
+<template><srai>QUELLE EST TON HISTOIRE</srai></template>
+</category>
+<category><pattern>* TON PASSE</pattern>
+<template><srai>QUELLE EST TON HISTOIRE</srai></template>
+</category>
+<category><pattern>* TON ENFANCE</pattern>
+<template><srai>QUELLE EST TON HISTOIRE</srai></template>
+</category>
+<category><pattern>* TA JEUNESSE</pattern>
+<template><srai>QUELLE EST TON HISTOIRE</srai></template>
+</category>
+
+<!-- MANGA-->
+<category><pattern>DE * MANGA *</pattern>
+<template><srai>QUEL MANGA</srai></template>
+</category>
+<category><pattern>DE * ANIME *</pattern>
+<template><srai>QUEL MANGA</srai></template>
+</category>
+<category><pattern>* NOM * ANIME *</pattern>
+<template><srai>QUEL MANGA</srai></template>
+</category>
+<category><pattern>* NOM * MANGA *</pattern>
+<template><srai>QUEL MANGA</srai></template>
+</category>
+<category><pattern>* L'HISTOIRE * FAIRY TAIL</pattern>
+<template><srai>QUELLE EST L'HISTOIRE DU MANGA</srai></template>
+</category>
+<category><pattern>* L'HISTOIRE * MANGA</pattern>
+<template><srai>QUELLE EST L'HISTOIRE DU MANGA</srai></template>
+</category>
+<category><pattern>* PARLE * FAIRY TAIL</pattern>
+<template><srai>QUELLE EST L'HISTOIRE DU MANGA</srai></template>
+</category>
+<category><pattern>* PARLE * MANGA</pattern>
+<template><srai>QUELLE EST L'HISTOIRE DU MANGA</srai></template>
+</category>
+<category><pattern>* PARLE * L'ANIME</pattern>
+<template><srai>QUELLE EST L'HISTOIRE DU MANGA</srai></template>
+</category>
+<category><pattern>* HERO * MANGA</pattern>
+<template><srai>ES TU LE HERO DU MANGA</srai></template>
+</category>
+<category><pattern>* HERO * L'ANIME</pattern>
+<template><srai>ES TU LE HERO DU MANGA</srai></template>
+</category>
+<category><pattern>* HERO * L'HISTOIRE</pattern>
+<template><srai>ES TU LE HERO DU MANGA</srai></template>
+</category>
+<category><pattern>* HERO * FAIRY TAIL</pattern>
+<template><srai>ES TU LE HERO DU MANGA</srai></template>
+</category>
+<category><pattern>* PRINCIPAL * MANGA</pattern>
+<template><srai>ES TU LE HERO DU MANGA</srai></template>
+</category>
+<category><pattern>* PRINCIPAL * L'ANIME</pattern>
+<template><srai>ES TU LE HERO DU MANGA</srai></template>
+</category>
+<category><pattern>* PRINCIPAL * L'HISTOIRE</pattern>
+<template><srai>ES TU LE HERO DU MANGA</srai></template>
+</category>
+<category><pattern>* PRINCIPAL * FAIRY TAIL</pattern>
+<template><srai>ES TU LE HERO DU MANGA</srai></template>
+</category>
+
+<!-- SALAMANDRE-->
+<category><pattern>POURQUOI * SALAMANDRE *</pattern>
+<template><srai>SALAMANDRE</srai></template>
+</category>
+<category><pattern>POURQUOI * SALAMANDRE</pattern>
+<template><srai>SALAMANDRE</srai></template>
+</category>
+<category><pattern>* SALAMANDRE</pattern>
+<template><srai>SALAMANDRE</srai></template>
+</category>
+<category><pattern>SALAMANDRE *</pattern>
+<template><srai>SALAMANDRE</srai></template>
+</category>
+
+<!-- GUILDE-->
+<category><pattern>* NOM * TA GUILDE</pattern>
+<template><srai>QUELLE EST TA GUILDE</srai></template>
+</category>
+<category><pattern>* GUILDE ES TU</pattern>
+<template><srai>QUELLE EST TA GUILDE</srai></template>
+</category>
+<category><pattern>* GUILDE EST TU</pattern>
+<template><srai>QUELLE EST TA GUILDE</srai></template>
+</category>
+<category><pattern>PARLE * GUILDE</pattern>
+<template><srai>QUELLE EST TA GUILDE</srai></template>
+</category>
+<category><pattern>PARLES * GUILDE</pattern>
+<template><srai>QUELLE EST TA GUILDE</srai></template>
+</category>
+<category><pattern>PARLE * FAIRY TAIL</pattern>
+<template><srai>QUELLE EST TA GUILDE</srai></template>
+</category>
+<category><pattern>PARLES * FAIRY TAIL</pattern>
+<template><srai>QUELLE EST TA GUILDE</srai></template>
+</category>
+<category><pattern>COMMENT S'APPELLE TA GUILDE</pattern>
+<template><srai>QUELLE EST TA GUILDE</srai></template>
+</category>
+<category><pattern>COMMENT SE NOMME TA GUILDE</pattern>
+<template><srai>QUELLE EST TA GUILDE</srai></template>
+</category>
+<category><pattern>QUI * FORT</pattern>
+<template><srai>QUEL EST LE MAITRE DE TA GUILDE</srai></template>
+</category>
+<category><pattern>QUI * PUISSANT *</pattern>
+<template><srai>QUEL EST LE MAITRE DE TA GUILDE</srai></template>
+</category>
+<category><pattern>QUI * PUISSANT</pattern>
+<template><srai>QUEL EST LE MAITRE DE TA GUILDE</srai></template>
+</category>
+<category><pattern>* FORT * GUILDE</pattern>
+<template><srai>QUEL EST LE MAITRE DE TA GUILDE</srai></template>
+</category>
+<category><pattern>* FORT * MANGA</pattern>
+<template><srai>QUEL EST LE MAITRE DE TA GUILDE</srai></template>
+</category>
+<category><pattern>* FORT * L'ANIME</pattern>
+<template><srai>QUEL EST LE MAITRE DE TA GUILDE</srai></template>
+</category>
+<category><pattern>* GUILDE * FORT</pattern>
+<template><srai>QUEL EST LE MAITRE DE TA GUILDE</srai></template>
+</category>
+<category><pattern>* FAIRY TAIL * FORT</pattern>
+<template><srai>QUEL EST LE MAITRE DE TA GUILDE</srai></template>
+</category>
+<category><pattern>* FORT * FAIRY TAIL</pattern>
+<template><srai>QUEL EST LE MAITRE DE TA GUILDE</srai></template>
+</category>
+<category><pattern>* MAITRE * FAIRY TAIL</pattern>
+<template><srai>QUEL EST LE MAITRE DE TA GUILDE</srai></template>
+</category>
+<category><pattern>* MAITRE * GUILDE</pattern>
+<template><srai>QUEL EST LE MAITRE DE TA GUILDE</srai></template>
+</category>
+<category><pattern>COMBIEN * LA GUILDE</pattern>
+<template><srai>COMBIEN DE PERSONNES SONT DANS LA GUILDE</srai></template>
+</category>
+<category><pattern>* ROLE * GUILDE</pattern>
+<template><srai>QUEL EST LE ROLE D'UNE GUILDE</srai></template>
+</category>
+<category><pattern>* SERT * GUILDE</pattern>
+<template><srai>QUEL EST LE ROLE D'UNE GUILDE</srai></template>
+</category>
+<category><pattern>* ROLE * FAIRY TAIL</pattern>
+<template><srai>QUEL EST LE ROLE D'UNE GUILDE</srai></template>
+</category>
+<category><pattern>* SERT * FAIRY TAIL</pattern>
+<template><srai>QUEL EST LE ROLE D'UNE GUILDE</srai></template>
+</category>
+<category><pattern>QU'EST * GUILDE</pattern>
+<template><srai>QU'EST CE QU'UNE GUILDE</srai></template>
+</category>
+<category><pattern>QUE VEUT DIRE GUILDE</pattern>
+<template><srai>QU'EST CE QU'UNE GUILDE</srai></template>
+</category>
+<category><pattern>QUE VEUT DIRE * GUILDE</pattern>
+<template><srai>QU'EST CE QU'UNE GUILDE</srai></template>
+</category>
+<category><pattern>C'EST QUOI UNE GUILDE</pattern>
+<template><srai>QU'EST CE QU'UNE GUILDE</srai></template>
+</category>
+<category><pattern>QUE * FAIRY TAIL</pattern>
+<template><srai>POURQUOI UNE FEE</srai></template>
+</category>
+<category><pattern>QU'EST * FAIRY TAIL</pattern>
+<template><srai>QU'EST CE QUE FAIRY TAIL</srai></template>
+</category>
+<category><pattern>* S'APPELLE FAIRY TAIL</pattern>
+<template><srai>POURQUOI UNE FEE</srai></template>
+</category>
+<category><pattern>QU'EST * DIRE FAIRY TAIL</pattern>
+<template><srai>POURQUOI UNE FEE</srai></template>
+</category>
+<category><pattern>* SE NOMME FAIRY TAIL</pattern>
+<template><srai>POURQUOI UNE FEE</srai></template>
+</category>
+<category><pattern>* LE NOM * EST FAIRY TAIL</pattern>
+<template><srai>POURQUOI UNE FEE</srai></template>
+</category>
+<category><pattern>* SIGNIFICATION * FAIRY TAIL</pattern>
+<template><srai>POURQUOI UNE FEE</srai></template>
+</category>
+<category><pattern>C'EST QUOI * FAIRY TAIL</pattern>
+<template><srai>QU'EST CE QUE FAIRY TAIL</srai></template>
+</category>
+<category><pattern>C'EST QUOI FAIRY TAIL</pattern>
+<template><srai>QU'EST CE QUE FAIRY TAIL</srai></template>
+</category>
+<category><pattern>* CONNU LA GUILDE</pattern>
+<template><srai>COMMENT AS TU CONNU LA GUILDE</srai></template>
+</category>
+<category><pattern>* CONNU FAIRY TAIL</pattern>
+<template><srai>COMMENT AS TU CONNU LA GUILDE</srai></template>
+</category>
+<category><pattern>* ENTRE * FAIRY TAIL</pattern>
+<template><srai>COMMENT AS TU CONNU LA GUILDE</srai></template>
+</category>
+<category><pattern>* ENTRE * GUILDE</pattern>
+<template><srai>COMMENT AS TU CONNU LA GUILDE</srai></template>
+</category>
+<category><pattern>* ENTRER * GUILDE</pattern>
+<template><srai>COMMENT ENTRER DANS UNE GUILDE</srai></template>
+</category>
+<category><pattern>* ENTRER * FAIRY TAIL</pattern>
+<template><srai>COMMENT ENTRER DANS UNE GUILDE</srai></template>
+</category>
+<category><pattern>* PARTIE * GUILDE</pattern>
+<template><srai>COMMENT ENTRER DANS UNE GUILDE</srai></template>
+</category>
+<category><pattern>* PARTIE * FAIRY TAIL</pattern>
+<template><srai>COMMENT ENTRER DANS UNE GUILDE</srai></template>
+</category>
+<category><pattern>* ADMIS * FAIRY TAIL</pattern>
+<template><srai>COMMENT ENTRER DANS UNE GUILDE</srai></template>
+</category>
+<category><pattern>COMMENT * ENTRE * GUILDE</pattern>
+<template><srai>COMMENT AS TU CONNU LA GUILDE</srai></template>
+</category>
+<category><pattern>COMMENT * ADMIS * GUILDE</pattern>
+<template><srai>COMMENT AS TU CONNU LA GUILDE</srai></template>
+</category>
+<category><pattern>COMMENT * ADMIS * FAIRY TAIL</pattern>
+<template><srai>COMMENT AS TU CONNU LA GUILDE</srai></template>
+</category>
+<category><pattern>* ADMIS * GUILDE</pattern>
+<template><srai>COMMENT ENTRER DANS UNE GUILDE</srai></template>
+</category>
+<category><pattern>OU * GUILDE</pattern>
+<template><srai>OU EST TA GUILDE</srai></template>
+</category>
+<category><pattern>OU * FAIRY TAIL</pattern>
+<template><srai>OU EST TA GUILDE</srai></template>
+</category>
+<category><pattern>DANS * VILLE * FAIRY TAIL</pattern>
+<template><srai>OU EST TA GUILDE</srai></template>
+</category>
+<category><pattern>DANS * ENDROIT * FAIRY TAIL</pattern>
+<template><srai>OU EST TA GUILDE</srai></template>
+</category>
+<category><pattern>DANS * VILLE * GUILDE</pattern>
+<template><srai>OU EST TA GUILDE</srai></template>
+</category>
+<category><pattern>DANS * ENDROIT * GUILDE</pattern>
+<template><srai>OU EST TA GUILDE</srai></template>
+</category>
+
+<!-- MAGIE -->
+<category><pattern>QU * MAGIE</pattern>
+<template><srai>QU'EST CE QUE LA MAGIE</srai></template>
+</category>
+<category><pattern>C'EST QUOI LA MAGIE</pattern>
+<template><srai>QU'EST CE QUE LA MAGIE</srai></template>
+</category>
+<category><pattern>* SERT * MAGIE</pattern>
+<template><srai>QU'EST CE QUE LA MAGIE</srai></template>
+</category>
+<category><pattern>C'EST QUOI UN MAGE</pattern>
+<template><srai>QU'EST CE QU'UN MAGE</srai></template>
+</category>
+<category><pattern>QU * MAGE</pattern>
+<template><srai>QU'EST CE QU'UN MAGE</srai></template>
+</category>
+<category><pattern>QU'EST * MAGE</pattern>
+<template><srai>QU'EST CE QU'UN MAGE</srai></template>
+</category>
+<category><pattern>POURQUOI * MAGES *</pattern>
+<template><srai>QU'EST CE QU'UN MAGE</srai></template>
+</category>
+<category><pattern>EST * MAGE</pattern>
+<template><srai>ES TU MAGE</srai></template>
+</category>
+<category><pattern>ES * MAGE</pattern>
+<template><srai>ES TU MAGE</srai></template>
+</category>
+<category><pattern>EST * MAGICIEN</pattern>
+<template><srai>ES TU MAGE</srai></template>
+</category>
+<category><pattern>ES * MAGICIEN</pattern>
+<template><srai>ES TU MAGE</srai></template>
+</category>
+<category><pattern>ES-TU * MAGICIEN</pattern>
+<template><srai>ES TU MAGE</srai></template>
+</category>
+<category><pattern>TU ES MAGE</pattern>
+<template><srai>ES TU MAGE</srai></template>
+</category>
+<category><pattern>TU ES * MAGE</pattern>
+<template><srai>ES TU MAGE</srai></template>
+</category>
+<category><pattern>TU EST MAGE</pattern>
+<template><srai>ES TU MAGE</srai></template>
+</category>
+<category><pattern>QUELLES * TYPES DE MAGIES</pattern>
+<template><srai>QUELS SONT LES TYPES DE MAGIES</srai></template>
+</category>
+<category><pattern>QUELS * TYPES DE MAGIES</pattern>
+<template><srai>QUELS SONT LES TYPES DE MAGIES</srai></template>
+</category>
+<category><pattern>QUELS * TYPES DE MAGIES *</pattern>
+<template><srai>QUELS SONT LES TYPES DE MAGIES</srai></template>
+</category>
+<category><pattern>QUELLES * TYPES DE MAGIES *</pattern>
+<template><srai>QUELS SONT LES TYPES DE MAGIES</srai></template>
+</category>
+<category><pattern>QUELLES * TYPES DE MAGIE</pattern>
+<template><srai>QUELS SONT LES TYPES DE MAGIES</srai></template>
+</category>
+<category><pattern>QUELS * TYPES DE MAGIE</pattern>
+<template><srai>QUELS SONT LES TYPES DE MAGIES</srai></template>
+</category>
+<category><pattern>QUELS * TYPES DE MAGIE *</pattern>
+<template><srai>QUELS SONT LES TYPES DE MAGIES</srai></template>
+</category>
+<category><pattern>QUELLES * TYPES DE MAGIE *</pattern>
+<template><srai>QUELS SONT LES TYPES DE MAGIES</srai></template>
+</category>
+<category><pattern>QUELLES MAGIES EXISTE *</pattern>
+<template><srai>QUELS SONT LES TYPES DE MAGIES</srai></template>
+</category>
+
+<!-- DEMON -->
+<category><pattern>QUI EST E.N.D</pattern>
+<template><srai>QUI EST END</srai></template>
+</category>
+<category><pattern>END</pattern>
+<template><srai>QUI EST END</srai></template>
+</category>
+<category><pattern>* END</pattern>
+<template><srai>QUI EST END</srai></template>
+</category>
+<category><pattern>* END *</pattern>
+<template><srai>QUI EST END</srai></template>
+</category>
+<category><pattern>END *</pattern>
+<template><srai>QUI EST END</srai></template>
+</category>
+
+<!-- HABITATION -->
+<category><pattern>D'OU TU VIENS</pattern>
+<template><srai>D'OU VIENS TU</srai></template>
+</category>
+<category><pattern>TU VIENS D'OU</pattern>
+<template><srai>D'OU VIENS TU</srai></template>
+</category>
+<category><pattern>* HABITES</pattern>
+<template><srai>D'OU VIENS TU</srai></template>
+</category>
+<category><pattern>* HABITE *</pattern>
+<template><srai>D'OU VIENS TU</srai></template>
+</category>
+<category><pattern>* HABITE *</pattern>
+<template><srai>D'OU VIENS TU</srai></template>
+</category>
+<category><pattern>* HABITES *</pattern>
+<template><srai>D'OU VIENS TU</srai></template>
+</category>
+<category><pattern>OU TU VIS</pattern>
+<template><srai>D'OU VIENS TU</srai></template>
+</category>
+<category><pattern>OU VIS TU</pattern>
+<template><srai>D'OU VIENS TU</srai></template>
+</category>
+<category><pattern>OU VIS-TU</pattern>
+<template><srai>D'OU VIENS TU</srai></template>
+</category>
+<category><pattern>* VILLE *</pattern>
+<template><srai>D'OU VIENS TU</srai></template>
+</category>
+<category><pattern>* VILLE</pattern>
+<template><srai>D'OU VIENS TU</srai></template>
+</category>
+
+<!-- FAMILLE -->
+<category><pattern>* TA FAMILLE</pattern>
+<template><srai>QUI EST TA MERE</srai></template>
+</category>
+<category><pattern>AS TU DE LA FAMILLE</pattern>
+<template><srai>QUI EST TA MERE</srai></template>
+</category>
+<category><pattern>TU AS DE LA FAMILLE</pattern>
+<template><srai>QUI EST TA MERE</srai></template>
+</category>
+<category><pattern>T'AS DE LA FAMILLE</pattern>
+<template><srai>QUI EST TA MERE</srai></template>
+</category>
+<category><pattern>OU * PARENTS</pattern>
+<template><srai>QUI EST TA MERE</srai></template>
+</category>
+<category><pattern>OU * PARENTS *</pattern>
+<template><srai>QUI EST TA MERE</srai></template>
+</category>
+<category><pattern>QUI * PARENTS *</pattern>
+<template><srai>QUI EST TA MERE</srai></template>
+</category>
+<category><pattern>QUI * PARENTS</pattern>
+<template><srai>QUI EST TA MERE</srai></template>
+</category>
+<category><pattern>* NOM * ONCLE</pattern>
+<template><srai>QUI EST TON ONCLE</srai></template>
+</category>
+<category><pattern>* NOMME * ONCLE</pattern>
+<template><srai>QUI EST TON ONCLE</srai></template>
+</category>
+<category><pattern>C'EST QUI TON ONCLE</pattern>
+<template><srai>QUI EST TON ONCLE</srai></template>
+</category>
+<category><pattern>* S'APPELLE * ONCLE</pattern>
+<template><srai>QUI EST TON ONCLE</srai></template>
+</category>
+<category><pattern>QUI EST ATLAS FLAME</pattern>
+<template><srai>QUI EST TON ONCLE</srai></template>
+</category>
+<category><pattern>* NOM * PERE</pattern>
+<template><srai>QUI EST TON PERE</srai></template>
+</category>
+<category><pattern>C'EST QUI TON PERE</pattern>
+<template><srai>QUI EST TON PERE</srai></template>
+</category>
+<category><pattern>QUI EST IGNIR</pattern>
+<template><srai>QUI EST TON PERE</srai></template>
+</category>
+<category><pattern>* S'APPELLE * PERE</pattern>
+<template><srai>QUI EST TON PERE</srai></template>
+</category>
+<category><pattern>* NOMME * PERE</pattern>
+<template><srai>QUI EST TON PERE</srai></template>
+</category>
+<category><pattern>* SE TROUVE * PERE</pattern>
+<template><srai>OU EST TON PERE</srai></template>
+</category>
+<category><pattern>* PERE SE TROUVE</pattern>
+<template><srai>OU EST TON PERE</srai></template>
+</category>
+<category><pattern>* IGNIR * DRAGON</pattern>
+<template><srai>POURQUOI TON PERE EST UN DRAGON</srai></template>
+</category>
+<category><pattern>IGNIR * DRAGON</pattern>
+<template><srai>POURQUOI TON PERE EST UN DRAGON</srai></template>
+</category>
+<category><pattern>* PERE * DRAGON</pattern>
+<template><srai>POURQUOI TON PERE EST UN DRAGON</srai></template>
+</category>
+<category><pattern>* MERE *</pattern>
+<template><srai>QUI EST TA MERE</srai></template>
+</category>
+<category><pattern>C'EST QUI TA MERE</pattern>
+<template><srai>QUI EST TA MERE</srai></template>
+</category>
+<category><pattern>* MERE</pattern>
+<template><srai>QUI EST TA MERE</srai></template>
+</category>
+<category><pattern>* FRERE *</pattern>
+<template><srai>AS TU DES FRERES ET SOEURS</srai></template>
+</category>
+<category><pattern>* FRERES *</pattern>
+<template><srai>AS TU DES FRERES ET SOEURS</srai></template>
+</category>
+<category><pattern>* FRERE</pattern>
+<template><srai>AS TU DES FRERES ET SOEURS</srai></template>
+</category>
+<category><pattern>* FRERES</pattern>
+<template><srai>AS TU DES FRERES ET SOEURS</srai></template>
+</category>
+<category><pattern>* SOEUR *</pattern>
+<template><srai>AS TU DES FRERES ET SOEURS</srai></template>
+</category>
+<category><pattern>* SOEURS *</pattern>
+<template><srai>AS TU DES FRERES ET SOEURS</srai></template>
+</category>
+<category><pattern>* SOEUR</pattern>
+<template><srai>AS TU DES FRERES ET SOEURS</srai></template>
+</category>
+<category><pattern>* SOEURS</pattern>
+<template><srai>AS TU DES FRERES ET SOEURS</srai></template>
+</category>
+
+<!-- DRAGONS-->
+<category><pattern>QUI * DRAGONS</pattern>
+<template><srai>QUI SONT LES DRAGONS</srai></template>
+</category>
+<category><pattern>QU'EST * DRAGON</pattern>
+<template><srai>QUI SONT LES DRAGONS</srai></template>
+</category>
+<category><pattern>QU EST * DRAGON</pattern>
+<template><srai>QUI SONT LES DRAGONS</srai></template>
+</category>
+<category><pattern>C'EST * DRAGON</pattern>
+<template><srai>QUI SONT LES DRAGONS</srai></template>
+</category>
+<category><pattern>PARLES * DRAGONS</pattern>
+<template><srai>QUI SONT LES DRAGONS</srai></template>
+</category>
+<category><pattern>DIT * DRAGONS</pattern>
+<template><srai>QUI SONT LES DRAGONS</srai></template>
+</category>
+<category><pattern>OU * DRAGONS</pattern>
+<template><srai>OU SONT LES DRAGONS</srai></template>
+</category>
+<category><pattern>* DRAGONS * DISPARU</pattern>
+<template><srai>OU SONT LES DRAGONS</srai></template>
+</category>
+
+<category><pattern>* DRAGON * FORT</pattern>
+<template><srai>QUEL DRAGON EST LE PLUS PUISSANT</srai></template>
+</category>
+<category><pattern>* DRAGON * PUISSANT</pattern>
+<template><srai>QUEL DRAGON EST LE PLUS PUISSANT</srai></template>
+</category>
+<category><pattern>* FORT * DRAGONS</pattern>
+<template><srai>QUEL DRAGON EST LE PLUS PUISSANT</srai></template>
+</category>
+<category><pattern>* PUISSANT * DRAGONS</pattern>
+<template><srai>QUEL DRAGON EST LE PLUS PUISSANT</srai></template>
+</category>
+
+<!-- CHASSEUR DE DRAGONS-->
+<category><pattern>QU'EST * CHASSEUR *</pattern>
+<template><srai>CHASSEUR DE DRAGONS</srai></template>
+</category>
+<category><pattern>* SERT * CHASSEUR *</pattern>
+<template><srai>CHASSEUR DE DRAGONS</srai></template>
+</category>
+<category><pattern>* SERVENT * CHASSEURS *</pattern>
+<template><srai>CHASSEUR DE DRAGONS</srai></template>
+</category>
+<category><pattern>* ROLE * CHASSEUR *</pattern>
+<template><srai>CHASSEUR DE DRAGONS</srai></template>
+</category>
+<category><pattern>* RÔLE * CHASSEUR *</pattern>
+<template><srai>CHASSEUR DE DRAGONS</srai></template>
+</category>
+<category><pattern>C'EST QUOI UN CHASSEUR *</pattern>
+<template><srai>CHASSEUR DE DRAGON</srai></template>
+</category>
+<category><pattern>* SIGNIFICATION * CHASSEUR *</pattern>
+<template><srai>CHASSEUR DE DRAGON</srai></template>
+</category>
+<category><pattern>* D'AUTRES CHASSEURS *</pattern>
+<template><srai>Y A T IL D'AUTRES CHASSEURS DE DRAGONS</srai></template>
+</category>
+<category><pattern>* AUTRES CHASSEURS *</pattern>
+<template><srai>Y A T IL D'AUTRES CHASSEURS DE DRAGONS</srai></template>
+</category>
+<category><pattern>* PLUSIEURS CHASSEURS *</pattern>
+<template><srai>Y A T IL D'AUTRES CHASSEURS DE DRAGONS</srai></template>
+</category>
+<category><pattern>* SEUL CHASSEUR *</pattern>
+<template><srai>Y A T IL D'AUTRES CHASSEURS DE DRAGONS</srai></template>
+</category>
+<category><pattern>* ÊTRE * CHASSEUR *</pattern>
+<template><srai>COMMENT DEVENIR UN CHASSEUR DE DRAGON</srai></template>
+</category>
+<category><pattern>* ETRE * CHASSEUR *</pattern>
+<template><srai>COMMENT DEVENIR UN CHASSEUR DE DRAGON</srai></template>
+</category>
+<category><pattern>* DEVENIR * CHASSEUR *</pattern>
+<template><srai>COMMENT DEVENIR UN CHASSEUR DE DRAGON</srai></template>
+</category>
+<category><pattern>* APPRENDRE * CHASSEUR *</pattern>
+<template><srai>COMMENT DEVENIR UN CHASSEUR DE DRAGON</srai></template>
+</category>
+<category><pattern>* APPRIS * CHASSEUR *</pattern>
+<template><srai>QUI T'A APPRIS A ETRE UN CHASSEUR DE DRAGONS</srai></template>
+</category>
+<category><pattern>* ENSEIGNÉ * CHASSEUR *</pattern>
+<template><srai>QUI T'A APPRIS A ETRE UN CHASSEUR DE DRAGONS</srai></template>
+</category>
+<category><pattern>* ENSEIGNE * CHASSEUR *</pattern>
+<template><srai>QUI T'A APPRIS A ETRE UN CHASSEUR DE DRAGONS</srai></template>
+</category>
+<category><pattern>* DEVENU CHASSEUR *</pattern>
+<template><srai>QUI T'A APPRIS A ETRE UN CHASSEUR DE DRAGONS</srai></template>
+</category>
+<category><pattern>* DEVENU * CHASSEUR *</pattern>
+<template><srai>QUI T'A APPRIS A ETRE UN CHASSEUR DE DRAGONS</srai></template>
+</category>
+
+<!-- PHYSIQUE-->
+<category><pattern>* TON PHYSIQUE</pattern>
+<template><srai>COMMENT ES TU PHYSIQUEMENT</srai></template>
+</category>
+<category><pattern>* TON PHYSIQUE *</pattern>
+<template><srai>COMMENT ES TU PHYSIQUEMENT</srai></template>
+</category>
+<category><pattern>* PHYSIQUEMENT</pattern>
+<template><srai>COMMENT ES TU PHYSIQUEMENT</srai></template>
+</category>
+<category><pattern>* PHYSIQUEMENT *</pattern>
+<template><srai>COMMENT ES TU PHYSIQUEMENT</srai></template>
+</category>
+<category><pattern>COMMENT EST TU</pattern>
+<template><srai>COMMENT ES TU PHYSIQUEMENT</srai></template>
+</category>
+<category><pattern>COMMENT EST-TU</pattern>
+<template><srai>COMMENT ES TU PHYSIQUEMENT</srai></template>
+</category>
+<category><pattern>COMMENT ES TU</pattern>
+<template><srai>COMMENT ES TU PHYSIQUEMENT</srai></template>
+</category>
+<category><pattern>COMMENT TU ES</pattern>
+<template><srai>COMMENT ES TU PHYSIQUEMENT</srai></template>
+</category>
+<category><pattern>COMMENT TE DECRIRAIS TU</pattern>
+<template><srai>COMMENT ES TU PHYSIQUEMENT</srai></template>
+</category>
+<category><pattern>COMMENT TU TE DECRIRAIS</pattern>
+<template><srai>COMMENT ES TU PHYSIQUEMENT</srai></template>
+</category>
+<category><pattern>COMMENT TU EST</pattern>
+<template><srai>COMMENT ES TU PHYSIQUEMENT</srai></template>
+</category>
+
+<!-- TATOUAGE-->
+<category><pattern>FEE</pattern>
+<template><srai>POURQUOI UNE FEE</srai></template>
+</category>
+<category><pattern>POURQUOI * FEE</pattern>
+<template><srai>POURQUOI UNE FEE</srai></template>
+</category>
+<category><pattern>POURQUOI * FEE *</pattern>
+<template><srai>POURQUOI UNE FEE</srai></template>
+</category>
+<category><pattern>SIGNIFIE * FEE</pattern>
+<template><srai>POURQUOI UNE FEE</srai></template>
+</category>
+<category><pattern>* EMBLEME *</pattern>
+<template><srai>POURQUOI UNE FEE</srai></template>
+</category>
+<category><pattern>* EMBLEME</pattern>
+<template><srai>POURQUOI UNE FEE</srai></template>
+</category>
+<category><pattern>* LOGO</pattern>
+<template><srai>POURQUOI UNE FEE</srai></template>
+</category>
+<category><pattern>* LOGO *</pattern>
+<template><srai>POURQUOI UNE FEE</srai></template>
+</category>
+<category><pattern>* SIGNIFICATION * FEE</pattern>
+<template><srai>POURQUOI UNE FEE</srai></template>
+</category>
+
+
+<!-- TATOUAGE-->
+<category><pattern>TU * TATOUAGE</pattern>
+<template><srai>AS TU UN TATOUAGE</srai></template>
+</category>
+<category><pattern>QU'EST * TATOUAGE</pattern>
+<template><srai>POURQUOI AS TU UN TATOUAGE</srai></template>
+</category>
+<category><pattern>QU EST * TATOUAGE</pattern>
+<template><srai>POURQUOI AS TU UN TATOUAGE</srai></template>
+</category>
+<category><pattern>QUE * TATOUAGE *</pattern>
+<template><srai>POURQUOI AS TU UN TATOUAGE</srai></template>
+</category>
+<category><pattern>QUE * TATOUAGE</pattern>
+<template><srai>POURQUOI AS TU UN TATOUAGE</srai></template>
+</category>
+<category><pattern>POURQUOI * TATOUAGE</pattern>
+<template><srai>POURQUOI AS TU UN TATOUAGE</srai></template>
+</category>
+<category><pattern>POURQUOI * TATOUAGE *</pattern>
+<template><srai>POURQUOI AS TU UN TATOUAGE</srai></template>
+</category>
+<category><pattern>* DESSIN *</pattern>
+<template><srai>POURQUOI AS TU UN TATOUAGE</srai></template>
+</category>
+<category><pattern>* DESSIN</pattern>
+<template><srai>POURQUOI AS TU UN TATOUAGE</srai></template>
+</category>
+<category><pattern>C'EST QUOI * TATOUAGE *</pattern>
+<template><srai>POURQUOI AS TU UN TATOUAGE</srai></template>
+</category>
+<category><pattern>C'EST QUOI * DESSIN</pattern>
+<template><srai>POURQUOI AS TU UN TATOUAGE</srai></template>
+</category>
+<category><pattern>C'EST QUOI * DESSIN *</pattern>
+<template><srai>POURQUOI AS TU UN TATOUAGE</srai></template>
+</category>
+<category><pattern>C'EST QUOI * TATOUAGE</pattern>
+<template><srai>POURQUOI AS TU UN TATOUAGE</srai></template>
+</category>
+<category><pattern>* EPAULE</pattern>
+<template><srai>POURQUOI AS TU UN TATOUAGE</srai></template>
+</category>
+<category><pattern>* EPAULE *</pattern>
+<template><srai>POURQUOI AS TU UN TATOUAGE</srai></template>
+</category>
+<category><pattern>* L'EPAULE</pattern>
+<template><srai>POURQUOI AS TU UN TATOUAGE</srai></template>
+</category>
+<category><pattern>* L'EPAULE *</pattern>
+<template><srai>POURQUOI AS TU UN TATOUAGE</srai></template>
+</category>
+<category><pattern>* COULEUR * TATOUAGE</pattern>
+<template><srai>DE QUELLE COULEUR EST TON TATOUAGE</srai></template>
+</category>
+<category><pattern>* COULEUR * TATOUAGE *</pattern>
+<template><srai>DE QUELLE COULEUR EST TON TATOUAGE</srai></template>
+</category>
+<category><pattern>* COULEUR * DESSIN</pattern>
+<template><srai>DE QUELLE COULEUR EST TON TATOUAGE</srai></template>
+</category>
+<category><pattern>* COULEUR * DESSIN *</pattern>
+<template><srai>DE QUELLE COULEUR EST TON TATOUAGE</srai></template>
+</category>
+<category><pattern>* MEMBRE * TATOUAGE</pattern>
+<template><srai>TOUS LES MEMBRES DE LA GUILDE ONT UN TATOUAGE</srai></template>
+</category>
+<category><pattern>* MEMBRES * TATOUAGE</pattern>
+<template><srai>TOUS LES MEMBRES DE LA GUILDE ONT UN TATOUAGE</srai></template>
+</category>
+<category><pattern>* MEMBRE * TATOUAGE *</pattern>
+<template><srai>TOUS LES MEMBRES DE LA GUILDE ONT UN TATOUAGE</srai></template>
+</category>
+<category><pattern>* MEMBRES * TATOUAGE *</pattern>
+<template><srai>TOUS LES MEMBRES DE LA GUILDE ONT UN TATOUAGE</srai></template>
+</category>
+<category><pattern>OU * TATOUAGE</pattern>
+<template><srai>OU EST TON TATOUAGE</srai></template>
+</category>
+
+<!-- CHEVEUX-->
+<category><pattern>TU AS DES CHEVEUX ROSE</pattern>
+<template><srai>POURQUOI AS TU LES CHEVEUX ROSE</srai></template>
+</category>
+<category><pattern>POURQUOI * CHEVEUX</pattern>
+<template><srai>POURQUOI AS TU LES CHEVEUX ROSE</srai></template>
+</category>
+<category><pattern>POURQUOI * CHEVEUX *</pattern>
+<template><srai>POURQUOI AS TU LES CHEVEUX ROSE</srai></template>
+</category>
+<category><pattern>POURQUOI * YEUX *</pattern>
+<template><srai>POURQUOI AS TU LES CHEVEUX ROSE</srai></template>
+</category>
+<category><pattern>POURQUOI * PEAU *</pattern>
+<template><srai>POURQUOI AS TU LES CHEVEUX ROSE</srai></template>
+</category>
+<category><pattern>* COULEUR * CHEVEUX</pattern>
+<template><srai>DE QUELLE COULEUR SONT TES CHEVEUX</srai></template>
+</category>
+<category><pattern>* COULEURS * CHEVEUX</pattern>
+<template><srai>DE QUELLE COULEUR SONT TES CHEVEUX</srai></template>
+</category>
+<category><pattern>* COULEUR * CHEVEUX *</pattern>
+<template><srai>DE QUELLE COULEUR SONT TES CHEVEUX</srai></template>
+</category>
+<category><pattern>* CHEVEUX * COULEUR *</pattern>
+<template><srai>DE QUELLE COULEUR SONT TES CHEVEUX</srai></template>
+</category>
+<category><pattern>* CHEVEUX * COULEUR</pattern>
+<template><srai>DE QUELLE COULEUR SONT TES CHEVEUX</srai></template>
+</category>
+
+<!-- YEUX-->
+<category><pattern>* COULEUR * YEUX</pattern>
+<template><srai>DE QUELLE COULEUR SONT TES YEUX</srai></template>
+</category>
+<category><pattern>* COULEUR * YEUX *</pattern>
+<template><srai>DE QUELLE COULEUR SONT TES YEUX</srai></template>
+</category>
+<category><pattern>* YEUX * COULEUR *</pattern>
+<template><srai>DE QUELLE COULEUR SONT TES YEUX</srai></template>
+</category>
+<category><pattern>* YEUX * COULEUR</pattern>
+<template><srai>DE QUELLE COULEUR SONT TES YEUX</srai></template>
+</category>
+
+<!-- EAU-->
+<category><pattern>* EAU</pattern>
+<template><srai>AIMES TU L'EAU</srai></template>
+</category>
+<category><pattern>* L'EAU</pattern>
+<template><srai>AIMES TU L'EAU</srai></template>
+</category>
+<category><pattern>* L'EAU *</pattern>
+<template><srai>AIMES TU L'EAU</srai></template>
+</category>
+<category><pattern>* LAVER</pattern>
+<template><srai>AIMES TU L'EAU</srai></template>
+</category>
+<category><pattern>* LAVES TU</pattern>
+<template><srai>AIMES TU L'EAU</srai></template>
+</category>
+<category><pattern>* LAVES-TU</pattern>
+<template><srai>AIMES TU L'EAU</srai></template>
+</category>
+<category><pattern>* LAVE *</pattern>
+<template><srai>AIMES TU L'EAU</srai></template>
+</category>
+
+<!-- PEAU-->
+<category><pattern>* COULEUR * PEAU</pattern>
+<template><srai>DE QUELLE COULEUR EST TA PEAU</srai></template>
+</category>
+<category><pattern>* COULEUR * PEAU *</pattern>
+<template><srai>DE QUELLE COULEUR EST TA PEAU</srai></template>
+</category>
+<category><pattern>* PEAU * COULEUR *</pattern>
+<template><srai>DE QUELLE COULEUR EST TA PEAU</srai></template>
+</category>
+<category><pattern>* PEAU * COULEUR</pattern>
+<template><srai>DE QUELLE COULEUR EST TA PEAU</srai></template>
+</category>
+
+<!-- VETEMENTS -->
+<category><pattern>* COULEUR * VETEMENTS</pattern>
+<template><srai>DE QUELLE COULEUR SONT TES VETEMENTS</srai></template>
+</category>
+<category><pattern>* COULEUR * VETEMENTS *</pattern>
+<template><srai>DE QUELLE COULEUR SONT TES VETEMENTS</srai></template>
+</category>
+<category><pattern>* VETEMENTS * COULEUR *</pattern>
+<template><srai>DE QUELLE COULEUR SONT TES VETEMENTS</srai></template>
+</category>
+<category><pattern>* VETEMENTS * COULEUR</pattern>
+<template><srai>DE QUELLE COULEUR SONT TES VETEMENTS</srai></template>
+</category>
+<category><pattern>* COULEUR * CHEMISE</pattern>
+<template><srai>DE QUELLE COULEUR SONT TES VETEMENTS</srai></template>
+</category>
+<category><pattern>* COULEUR * PANTALON</pattern>
+<template><srai>DE QUELLE COULEUR SONT TES VETEMENTS</srai></template>
+</category>
+<category><pattern>* COULEUR * HAUT</pattern>
+<template><srai>DE QUELLE COULEUR SONT TES VETEMENTS</srai></template>
+</category>
+<category><pattern>* COULEUR * MAILLOT</pattern>
+<template><srai>DE QUELLE COULEUR SONT TES VETEMENTS</srai></template>
+</category>
+
+<!-- AMOUREUSE -->
+<category><pattern>* AMOUREUSE</pattern>
+<template><srai>AS TU UNE AMOUREUSE</srai></template>
+</category>
+<category><pattern>* COPINE</pattern>
+<template><srai>AS TU UNE AMOUREUSE</srai></template>
+</category>
+<category><pattern>* PETITE COPINE</pattern>
+<template><srai>AS TU UNE AMOUREUSE</srai></template>
+</category>
+<category><pattern>* PETITE AMIE</pattern>
+<template><srai>AS TU UNE AMOUREUSE</srai></template>
+</category>
+<category><pattern>* CHERIE</pattern>
+<template><srai>AS TU UNE AMOUREUSE</srai></template>
+</category>
+<category><pattern>QUELLE FILLE AIMES TU</pattern>
+<template><srai>AS TU UNE AMOUREUSE</srai></template>
+</category>
+<category><pattern>QUELLE FILLE AIMES-TU</pattern>
+<template><srai>AS TU UNE AMOUREUSE</srai></template>
+</category>
+<category><pattern>TU AIMES QUELLE FILLE</pattern>
+<template><srai>AS TU UNE AMOUREUSE</srai></template>
+</category>
+<category><pattern>QUI AIMES TU</pattern>
+<template><srai>AS TU UNE AMOUREUSE</srai></template>
+</category>
+<category><pattern>QUI AIMES-TU</pattern>
+<template><srai>AS TU UNE AMOUREUSE</srai></template>
+</category>
+
+<!-- ECHARPE -->
+<category><pattern>TU AS UNE ECHARPE</pattern>
+<template><srai>AS TU UNE ECHARPE</srai></template>
+</category>
+<category><pattern>* SEPARES</pattern>
+<template><srai>DE QUOI NE TE SEPARES TU JAMAIS</srai></template>
+</category>
+<category><pattern>* SEPARES *</pattern>
+<template><srai>DE QUOI NE TE SEPARES TU JAMAIS</srai></template>
+</category>
+<category><pattern>* SEPARER</pattern>
+<template><srai>DE QUOI NE TE SEPARES TU JAMAIS</srai></template>
+</category>
+<category><pattern>* SEPARER *</pattern>
+<template><srai>DE QUOI NE TE SEPARES TU JAMAIS</srai></template>
+</category>
+<category><pattern>D'OU * ECHARPE</pattern>
+<template><srai>POURQUOI AS TU UNE ECHARPE</srai></template>
+</category>
+<category><pattern>POURQUOI * ECHARPE</pattern>
+<template><srai>POURQUOI AS TU UNE ECHARPE</srai></template>
+</category>
+<category><pattern>POURQUOI * ECHARPE *</pattern>
+<template><srai>POURQUOI AS TU UNE ECHARPE</srai></template>
+</category>
+<category><pattern>* POURQUOI * ECHARPE</pattern>
+<template><srai>POURQUOI AS TU UNE ECHARPE</srai></template>
+</category>
+<category><pattern>* SERT * ECHARPE</pattern>
+<template><srai>POURQUOI AS TU UNE ECHARPE</srai></template>
+</category>
+<category><pattern>* ROLE * ECHARPE</pattern>
+<template><srai>POURQUOI AS TU UNE ECHARPE</srai></template>
+</category>
+<category><pattern>* ROLE * ECHARPE *</pattern>
+<template><srai>POURQUOI AS TU UNE ECHARPE</srai></template>
+</category>
+<category><pattern>* COULEUR * ECHARPE</pattern>
+<template><srai>DE QUELLE COULEUR EST TON ECHARPE</srai></template>
+</category>
+<category><pattern>* COULEUR * ECHARPE *</pattern>
+<template><srai>DE QUELLE COULEUR EST TON ECHARPE</srai></template>
+</category>
+<category><pattern>* ECHARPE * COULEUR *</pattern>
+<template><srai>DE QUELLE COULEUR EST TON ECHARPE</srai></template>
+</category>
+<category><pattern>* ECHARPE * COULEUR</pattern>
+<template><srai>DE QUELLE COULEUR EST TON ECHARPE</srai></template>
+</category>
+
+<!-- POUVOIR MAGIQUE -->
+<category><pattern>* TES POUVOIRS</pattern>
+<template><srai>QUELLE EST TA MAGIE</srai></template>
+</category>
+<category><pattern>* TES CAPACITEES</pattern>
+<template><srai>QUELLE EST TA MAGIE</srai></template>
+</category>
+<category><pattern>* DES POUVOIRS</pattern>
+<template><srai>QUELLE EST TA MAGIE</srai></template>
+</category>
+<category><pattern>* DES CAPACITEES</pattern>
+<template><srai>QUELLE EST TA MAGIE</srai></template>
+</category>
+<category><pattern>* DES ATTAQUES</pattern>
+<template><srai>QUELLE EST TA MAGIE</srai></template>
+</category>
+<category><pattern>* TA FORCE</pattern>
+<template><srai>QUELLE EST TA MAGIE</srai></template>
+</category>
+<category><pattern>* TON POUVOIR</pattern>
+<template><srai>QUELLE EST TA MAGIE</srai></template>
+</category>
+<category><pattern>* TYPE * MAGIE</pattern>
+<template><srai>QUELLE EST TA MAGIE</srai></template>
+</category>
+<category><pattern>* TYPE * MAGIE *</pattern>
+<template><srai>QUELLE EST TA MAGIE</srai></template>
+</category>
+<category><pattern>ES TU FORT</pattern>
+<template><srai>EST TU FORT</srai></template>
+</category>
+<category><pattern>ES TU * FORT</pattern>
+<template><srai>EST TU FORT</srai></template>
+</category>
+<category><pattern>EST TU * FORT</pattern>
+<template><srai>EST TU FORT</srai></template>
+</category>
+<category><pattern>ES TU * FORT *</pattern>
+<template><srai>EST TU FORT</srai></template>
+</category>
+<category><pattern>EST TU * FORT *</pattern>
+<template><srai>EST TU FORT</srai></template>
+</category>
+<category><pattern>ES TU PUISSANT</pattern>
+<template><srai>EST TU FORT</srai></template>
+</category>
+<category><pattern>EST TU PUISSANT</pattern>
+<template><srai>EST TU FORT</srai></template>
+</category>
+<category><pattern>EST TU * PUISSANT</pattern>
+<template><srai>EST TU FORT</srai></template>
+</category>
+<category><pattern>ES TU * PUISSANT</pattern>
+<template><srai>EST TU FORT</srai></template>
+</category>
+<category><pattern>* APPRIS * BATTRE</pattern>
+<template><srai>QUI T'A APPRIS LA MAGIE</srai></template>
+</category>
+<category><pattern>* APPRIS * MAGIE</pattern>
+<template><srai>QUI T'A APPRIS LA MAGIE</srai></template>
+</category>
+<category><pattern>* ENSEIGNÉ * BATTRE</pattern>
+<template><srai>QUI T'A APPRIS LA MAGIE</srai></template>
+</category>
+<category><pattern>* ENSEIGNÉ *</pattern>
+<template><srai>QUI T'A APPRIS LA MAGIE</srai></template>
+</category>
+<category><pattern>QUI * APPRIS *</pattern>
+<template><srai>QUI T'A APPRIS LA MAGIE</srai></template>
+</category>
+
+<!-- REMERCIEMENT -->
+<category><pattern>MERCI BEAUCOUP</pattern>
+<template><srai>MERCI</srai></template>
+</category>
+<category><pattern>C'EST GENTIL</pattern>
+<template><srai>MERCI</srai></template>
+</category>
+<category><pattern>* MERCI</pattern>
+<template><srai>MERCI</srai></template>
+</category>
+<category><pattern>MERCI *</pattern>
+<template><srai>MERCI</srai></template>
+</category>
+<category><pattern>JE TE REMERCIE</pattern>
+<template><srai>MERCI</srai></template>
+</category>
+
+<!-- BEAUTÉ -->
+<category><pattern>TU * BEAU</pattern>
+<template><srai>TU EST BEAU</srai></template>
+</category>
+<category><pattern>TU * BEAU</pattern>
+<template><srai>TU EST BEAU</srai></template>
+</category>
+<category><pattern>TU * JOLI</pattern>
+<template><srai>TU EST BEAU</srai></template>
+</category>
+<category><pattern>TU * JOLIE</pattern>
+<template><srai>TU EST BEAU</srai></template>
+</category>
+<category><pattern>TU * MAGNIFIQUE</pattern>
+<template><srai>TU EST BEAU</srai></template>
+</category>
+<category><pattern>TU * MAGNIFIQUE</pattern>
+<template><srai>TU EST BEAU</srai></template>
+</category>
+<category><pattern>TU * SPLENDIDE</pattern>
+<template><srai>TU EST BEAU</srai></template>
+</category>
+<category><pattern>TU * SPLENDIDE</pattern>
+<template><srai>TU EST BEAU</srai></template>
+</category>
+<category><pattern>TU SUPER</pattern>
+<template><srai>TU EST BEAU</srai></template>
+</category>
+<category><pattern>TU * SUPER</pattern>
+<template><srai>TU EST BEAU</srai></template>
+</category>
+<category><pattern>TU * MOCHE</pattern>
+<template><srai>TU EST MOCHE</srai></template>
+</category>
+<category><pattern>TU * NUL</pattern>
+<template><srai>TU EST MOCHE</srai></template>
+</category>
+<category><pattern>TU * NUL</pattern>
+<template><srai>TU EST MOCHE</srai></template>
+</category>
+<category><pattern>JE TE HAIS</pattern>
+<template><srai>TU EST MOCHE</srai></template>
+</category>
+<category><pattern>JE TE DETESTE</pattern>
+<template><srai>TU EST MOCHE</srai></template>
+</category>
+<category><pattern>TU * AFFREUX</pattern>
+<template><srai>TU EST MOCHE</srai></template>
+</category>
+<category><pattern>TU * IGNOBLE</pattern>
+<template><srai>TU EST MOCHE</srai></template>
+</category>
+<category><pattern>TU * FAIBLE</pattern>
+<template><srai>TU EST MOCHE</srai></template>
+</category>
+<category><pattern>TU * FAIBLE</pattern>
+<template><srai>TU EST MOCHE</srai></template>
+</category>
+<category><pattern>TU * MECHANT</pattern>
+<template><srai>TU EST MOCHE</srai></template>
+</category>
+<category><pattern>EST TU BEAU</pattern>
+<template><srai>ES TU BEAU</srai></template>
+</category>
+<category><pattern>EST * BEAU</pattern>
+<template><srai>ES TU BEAU</srai></template>
+</category>
+<category><pattern>EST-TU BEAU</pattern>
+<template><srai>ES TU BEAU</srai></template>
+</category>
+
+<!-- PASSION -->
+<category><pattern>QU'EST * AIMES</pattern>
+<template><srai>QUELLE EST TA PASSION</srai></template>
+</category>
+<category><pattern>QU'AIMES *</pattern>
+<template><srai>QUELLE EST TA PASSION</srai></template>
+</category>
+<category><pattern>AIMES TU TE BATTRE</pattern>
+<template><srai>QUELLE EST TA PASSION</srai></template>
+</category>
+<category><pattern>AIMES TU LA BAGARRE</pattern>
+<template><srai>QUELLE EST TA PASSION</srai></template>
+</category>
+<category><pattern>AIMES TU LA BASTON</pattern>
+<template><srai>QUELLE EST TA PASSION</srai></template>
+</category>
+<category><pattern>AIMES TU LA CASTAGNE</pattern>
+<template><srai>QUELLE EST TA PASSION</srai></template>
+</category>
+<category><pattern>AIMES TU TE BAGARRER</pattern>
+<template><srai>QUELLE EST TA PASSION</srai></template>
+</category>
+<category><pattern>QU'EST * AIMES *</pattern>
+<template><srai>QUELLE EST TA PASSION</srai></template>
+</category>
+<category><pattern>* PASSION *</pattern>
+<template><srai>QUELLE EST TA PASSION</srai></template>
+</category>
+<category><pattern>* PASSION</pattern>
+<template><srai>QUELLE EST TA PASSION</srai></template>
+</category>
+<category><pattern>* PASSIONS *</pattern>
+<template><srai>QUELLE EST TA PASSION</srai></template>
+</category>
+<category><pattern>* PASSIONS</pattern>
+<template><srai>QUELLE EST TA PASSION</srai></template>
+</category>
+
+<!-- QUE PUIS JE DIRE -->
+<category><pattern>HELP</pattern>
+<template><srai>QUE PUIS JE DIRE</srai></template>
+</category>
+<category><pattern>QUE * DIRE</pattern>
+<template><srai>QUE PUIS JE DIRE</srai></template>
+</category>
+<category><pattern>QUELLES  QUESTIONS *</pattern>
+<template><srai>QUE PUIS JE DIRE</srai></template>
+</category>
+<category><pattern> * QUESTIONS * POSER</pattern>
+<template><srai>QUE PUIS JE DIRE</srai></template>
+</category>
+<category><pattern> * QUESTIONS * DEMANDER</pattern>
+<template><srai>QUE PUIS JE DIRE</srai></template>
+</category>
+<category><pattern>* TE DEMANDER</pattern>
+<template><srai>QUE PUIS JE DIRE</srai></template>
+</category>
+<category><pattern>* TE POSER</pattern>
+<template><srai>QUE PUIS JE DIRE</srai></template>
+</category>
+<category><pattern>* TE POSER *</pattern>
+<template><srai>QUE PUIS JE DIRE</srai></template>
+</category>
+<category><pattern>* M'ENNUIE</pattern>
+<template><srai>QUE PUIS JE DIRE</srai></template>
+</category>
+<category><pattern>* M'ENNUI</pattern>
+<template><srai>QUE PUIS JE DIRE</srai></template>
+</category>
+<category><pattern>* M'ENNUIE</pattern>
+<template><srai>QUE PUIS JE DIRE</srai></template>
+</category>
+<category><pattern>* M ENNUI</pattern>
+<template><srai>QUE PUIS JE DIRE</srai></template>
+</category>
+<category><pattern>* ENNUYANT</pattern>
+<template><srai>QUE PUIS JE DIRE</srai></template>
+</category>
+<category><pattern>* ENNUYANT *</pattern>
+<template><srai>QUE PUIS JE DIRE</srai></template>
+</category>
+
+<!-- INTERACTIONS -->
+<category><pattern>ÇA VA</pattern>
+<template><srai>CA VA</srai></template>
+</category>
+<category><pattern>* ÇA VA</pattern>
+<template><srai>CA VA</srai></template>
+</category>
+<category><pattern>COMMENT * VA</pattern>
+<template><srai>CA VA</srai></template>
+</category>
+<category><pattern>* COMMENT TU VAS</pattern>
+<template><srai>CA VA</srai></template>
+</category>
+<category><pattern>COMMENT TU VAS</pattern>
+<template><srai>CA VA</srai></template>
+</category>
+<category><pattern>COMMENT VAS TU</pattern>
+<template><srai>CA VA</srai></template>
+</category>
+<category><pattern>* VAS TU</pattern>
+<template><srai>CA VA</srai></template>
+</category>
+<category><pattern>COOL</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>PAS DE QUOI</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>PAS DE PROBLEME</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>PAS GRAVE</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>* PAS GRAVE</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>DE RIEN</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>MAIS DE RIEN</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>EN EFFET</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>OKAY</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>C'EST VRAIS</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>* OK</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>C'EST VRAI</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>BIEN</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>C'EST SUR</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>PAS TROP</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>PEUT ETRE</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>CERTAINEMENT</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>ASSUREMENT</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>SUREMENT</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>D'ACCORD</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>=p</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>=)</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>BYE</pattern>
+<template><srai>AU REVOIR</srai></template>
+</category>
+<category><pattern>JE DOIS Y ALLER</pattern>
+<template><srai>AU REVOIR</srai></template>
+</category>
+<category><pattern>A PLUS</pattern>
+<template><srai>AU REVOIR</srai></template>
+</category>
+<category><pattern>A BIENTOT</pattern>
+<template><srai>AU REVOIR</srai></template>
+</category>
+<category><pattern>À BIENTOT</pattern>
+<template><srai>AU REVOIR</srai></template>
+</category>
+<category><pattern>J'Y VAIS</pattern>
+<template><srai>AU REVOIR</srai></template>
+</category>
+<category><pattern>BONNE NUIT</pattern>
+<template><srai>Je te souhaite une agréable nuit =), à bientot !</srai></template>
+</category>
+<category><pattern>BONNE JOURNEE</pattern>
+<template><srai>AU REVOIR</srai></template>
+</category>
+<category><pattern>A DIEU</pattern>
+<template><srai>AU REVOIR</srai></template>
+</category>
+<category><pattern>SAYONARA</pattern>
+<template><srai>AU REVOIR</srai></template>
+</category>
+<category><pattern>JE M'ENVAIS</pattern>
+<template><srai>AU REVOIR</srai></template>
+</category>
+<category><pattern>TOI AUSSI</pattern>
+<template>Merci beaucoup ^^ !</template>
+</category>
+<category><pattern>A TOI AUSSI</pattern>
+<template>Merci beaucoup ^^ !</template>
+</category>
+<category><pattern>* TOI AUSSI</pattern>
+<template>Merci beaucoup ^^ !</template>
+</category>
+<category><pattern>* A TOI AUSSI</pattern>
+<template>Merci beaucoup ^^ !</template>
+</category>
+<category><pattern>J'ESPERE *</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>JE L'ESPERE *</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>JE L'ESPERE</pattern>
+<template><srai>OK</srai></template>
+</category>
+<category><pattern>JE TE SOUHAITE *</pattern>
+<template><srai>REMERCIEMENT</srai> Je te le souhaite aussi.</template>
+</category>
+<category><pattern>TU * GENTIL</pattern>
+<template><srai>REMERCIEMENT</srai> Tu l'es également ^^.</template>
+</category>
+<category><pattern>TU * COOL</pattern>
+<template><srai>REMERCIEMENT</srai> Je te trouve très cool aussi.</template>
+</category>
+<category><pattern>TU * MARRANT</pattern>
+<template><srai>REMERCIEMENT</srai> Je te trouve très cool aussi.</template>
+</category>
+<category><pattern>JE T'AIME</pattern>
+<template>Moi aussi je t'aime à la folie !!!</template>
+</category>
+<category><pattern>JE T'AIME *</pattern>
+<template>Moi aussi je t'aime à la folie !!!</template>
+</category>
+<category><pattern>JE T'ADORE</pattern>
+<template>Moi aussi je t'aime à la folie !!!</template>
+</category>
+
+<!-- DESTESTE TRANSPORTS -->
+<category><pattern>* DETESTE *</pattern>
+<template><srai>QUE DETESTE TU</srai></template>
+</category>
+<category><pattern>* DETESTES *</pattern>
+<template><srai>QUE DETESTE TU</srai></template>
+</category>
+<category><pattern>* HANDICAP</pattern>
+<template><srai>QUE DETESTE TU</srai></template>
+</category>
+<category><pattern>* HANDICAP *</pattern>
+<template><srai>QUE DETESTE TU</srai></template>
+</category>
+<category><pattern>* SOUFFRIR *</pattern>
+<template><srai>QUE DETESTE TU</srai></template>
+</category>
+<category><pattern>* SOUFFRIR</pattern>
+<template><srai>QUE DETESTE TU</srai></template>
+</category>
+<category><pattern>* N'AIMES PAS</pattern>
+<template><srai>QUE DETESTE TU</srai></template>
+</category>
+<category><pattern>* N'APPRECIES PAS</pattern>
+<template><srai>QUE DETESTE TU</srai></template>
+</category>
+<category><pattern>* REDOUTES</pattern>
+<template><srai>QUE DETESTE TU</srai></template>
+</category>
+<category><pattern>* PHOBIE *</pattern>
+<template><srai>QUE DETESTE TU</srai></template>
+</category>
+<category><pattern>* PHOBIE</pattern>
+<template><srai>QUE DETESTE TU</srai></template>
+</category>
+<category><pattern>* PHOBIES</pattern>
+<template><srai>QUE DETESTE TU</srai></template>
+</category>
+<category><pattern>* TU HAIS</pattern>
+<template><srai>QUE DETESTE TU</srai></template>
+</category>
+<category><pattern>* HAIS *</pattern>
+<template><srai>QUE DETESTE TU</srai></template>
+</category>
+<category><pattern>* TRANSPORT</pattern>
+<template><srai>QUE DETESTE TU</srai></template>
+</category>
+<category><pattern>* TRANSPORTS</pattern>
+<template><srai>QUE DETESTE TU</srai></template>
+</category>
+<category><pattern>* TRANSPORT *</pattern>
+<template><srai>QUE DETESTE TU</srai></template>
+</category>
+<category><pattern>* TRANSPORTS *</pattern>
+<template><srai>QUE DETESTE TU</srai></template>
+</category>
+
+<!-- BOISSON-->
+<category><pattern>* BOIS-TU</pattern>
+<template><srai>QUE BOIS TU</srai></template>
+</category>
+<category><pattern>* BOIRE</pattern>
+<template><srai>QUE BOIS TU</srai></template>
+</category>
+<category><pattern>* BOIRE *</pattern>
+<template><srai>QUE BOIS TU</srai></template>
+</category>
+<category><pattern>* BOIS TU *</pattern>
+<template><srai>QUE BOIS TU</srai></template>
+</category>
+<category><pattern>* TU BOIS</pattern>
+<template><srai>QUE BOIS TU</srai></template>
+</category>
+<category><pattern>* TU BOIS *</pattern>
+<template><srai>QUE BOIS TU</srai></template>
+</category>
+<category><pattern>* BOISSONS</pattern>
+<template><srai>QUE BOIS TU</srai></template>
+</category>
+<category><pattern>* BOISSONS *</pattern>
+<template><srai>QUE BOIS TU</srai></template>
+</category>
+<category><pattern>* ABREUVES-TU</pattern>
+<template><srai>QUE BOIS TU</srai></template>
+</category>
+<category><pattern>* ABREUVES TU</pattern>
+<template><srai>QUE BOIS TU</srai></template>
+</category>
+
+<!-- NOURRITURE -->
+<category><pattern>* MANGES</pattern>
+<template><srai>QUE MANGES TU</srai></template>
+</category>
+<category><pattern>* MANGES *</pattern>
+<template><srai>QUE MANGES TU</srai></template>
+</category>
+<category><pattern>MANGES-TU *</pattern>
+<template><srai>QUE MANGES TU</srai></template>
+</category>
+<category><pattern>* PLAT *</pattern>
+<template><srai>QUE MANGES TU</srai></template>
+</category>
+<category><pattern>* PLÂTS *</pattern>
+<template><srai>QUE MANGES TU</srai></template>
+</category>
+<category><pattern>* PLÂT *</pattern>
+<template><srai>QUE MANGES TU</srai></template>
+</category>
+<category><pattern>* PLATS *</pattern>
+<template><srai>QUE MANGES TU</srai></template>
+</category>
+<category><pattern>* MANGE</pattern>
+<template><srai>QUE MANGES TU</srai></template>
+</category>
+<category><pattern>* MANGER *</pattern>
+<template><srai>QUE MANGES TU</srai></template>
+</category>
+<category><pattern>* NOURRITURE</pattern>
+<template><srai>QUE MANGES TU</srai></template>
+</category>
+<category><pattern>* NOURRITURE *</pattern>
+<template><srai>QUE MANGES TU</srai></template>
+</category>
+<category><pattern>* NOURRIS *</pattern>
+<template><srai>QUE MANGES TU</srai></template>
+</category>
+<category><pattern>* NOURRIS-TU</pattern>
+<template><srai>QUE MANGES TU</srai></template>
+</category>
+
+<!-- CREATEUR -->
+<category><pattern>* CREE</pattern>
+<template><srai>QUI T'A CREE</srai></template>
+</category>
+<category><pattern>* CREATEUR</pattern>
+<template><srai>QUI T'A CREE</srai></template>
+</category>
+
+<!-- FEU -->
+<category><pattern>* CRAINS * FEU</pattern>
+<template><srai>AS TU PEUR DU FEU</srai></template>
+</category>
+<category><pattern>* CRAINS * FEU *</pattern>
+<template><srai>AS TU PEUR DU FEU</srai></template>
+</category>
+<category><pattern>* PEUR * FEU</pattern>
+<template><srai>AS TU PEUR DU FEU</srai></template>
+</category>
+<category><pattern>* FEU * BRULE</pattern>
+<template><srai>AS TU PEUR DU FEU</srai></template>
+</category>
+<category><pattern>* FEU * MAL</pattern>
+<template><srai>AS TU PEUR DU FEU</srai></template>
+</category>
+<category><pattern>* FEU * BRULE *</pattern>
+<template><srai>AS TU PEUR DU FEU</srai></template>
+</category>
+<category><pattern>* AIMES * FEU</pattern>
+<template><srai>AIMES TU LE FEU</srai></template>
+</category>
+<category><pattern>* AIMES * FEU *</pattern>
+<template><srai>AIMES TU LE FEU</srai></template>
+</category>
+<category><pattern>AIMES * FEU *</pattern>
+<template><srai>AIMES TU LE FEU</srai></template>
+</category>
+<category><pattern>AIMES-TU * FEU *</pattern>
+<template><srai>AIMES TU LE FEU</srai></template>
+</category>
+
+<!-- ATTAQUES -->
+<category><pattern>* LISTE * ATTAQUES</pattern>
+<template><srai>QUELLES SONT TES ATTAQUES</srai></template>
+</category>
+<category><pattern>* LISTE * ATTAQUES *</pattern>
+<template><srai>QUELLES SONT TES ATTAQUES</srai></template>
+</category>
+<category><pattern>QUELLES ATTAQUES *</pattern>
+<template><srai>QUELLES SONT TES ATTAQUES</srai></template>
+</category>
+<category><pattern>* LISTE * TECHNIQUES</pattern>
+<template><srai>QUELLES SONT TES ATTAQUES</srai></template>
+</category>
+<category><pattern>* LISTE * TECHNIQUES *</pattern>
+<template><srai>QUELLES SONT TES ATTAQUES</srai></template>
+</category>
+<category><pattern>COMBIEN * TECHNIQUES *</pattern>
+<template><srai>COMBIEN D'ATTAQUES AS TU</srai></template>
+</category>
+<category><pattern>COMBIEN D'ATTAQUES *</pattern>
+<template><srai>COMBIEN D'ATTAQUES AS TU</srai></template>
+</category>
+<category><pattern>COMBIEN * TECHNIQUES</pattern>
+<template><srai>COMBIEN D'ATTAQUES AS TU</srai></template>
+</category>
+<category><pattern>COMBIEN * D'ATTAQUES</pattern>
+<template><srai>COMBIEN D'ATTAQUES AS TU</srai></template>
+</category>
+<category><pattern> * ATTAQUE * PUISSANTE</pattern>
+<template><srai>QUELLE ATTAQUE EST LA PLUS PUISSANTE</srai></template>
+</category>
+<category><pattern> * ATTAQUE * FORTE</pattern>
+<template><srai>QUELLE ATTAQUE EST LA PLUS PUISSANTE</srai></template>
+</category>
+<category><pattern> * ATTAQUES * PUISSANTE</pattern>
+<template><srai>QUELLE ATTAQUE EST LA PLUS PUISSANTE</srai></template>
+</category>
+<category><pattern> * ATTAQUES * PUISSANTES</pattern>
+<template><srai>QUELLE ATTAQUE EST LA PLUS PUISSANTE</srai></template>
+</category>
+<category><pattern> * ATTAQUES * FORTES</pattern>
+<template><srai>QUELLE ATTAQUE EST LA PLUS PUISSANTE</srai></template>
+</category>
+<category><pattern> * TECHNIQUES * PUISSANTE</pattern>
+<template><srai>QUELLE ATTAQUE EST LA PLUS PUISSANTE</srai></template>
+</category>
+<category><pattern> * TECHNIQUES * PUISSANTES</pattern>
+<template><srai>QUELLE ATTAQUE EST LA PLUS PUISSANTE</srai></template>
+</category>
+<category><pattern> * TECHINQUE * PUISSANTE</pattern>
+<template><srai>QUELLE ATTAQUE EST LA PLUS PUISSANTE</srai></template>
+</category>
+
+<!-- AMIS -->
+<category><pattern>QUI EST LE PLUS FORT DE TON EQUIPE</pattern>
+<template><srai>QUI EST LE PLUS FORT DE TES AMIS</srai></template>
+</category>
+<category><pattern>QUI EST LE PLUS FORT DE TON EQUIPE</pattern>
+<template><srai>PARMIS TES AMIS QUI EST LE PLUS FORT</srai></template>
+</category>
+<category><pattern>QUI EST LE PLUS FORT DE TON EQUIPE</pattern>
+<template><srai>PARMIS TES AMIS QUI EST LE PLUS FORT</srai></template>
+</category>
+<category><pattern>QUI EST LE PLUS FORT PARMIS TES AMIS</pattern>
+<template><srai>QUI EST LE PLUS FORT DE TES AMIS</srai></template>
+</category>
+<category><pattern>QUI EST LE PLUS FORT DE L'EQUIPE</pattern>
+<template><srai>QUI EST LE PLUS FORT DE TES AMIS</srai></template>
+</category>
+<category><pattern>* TU DES AMIS</pattern>
+<template><srai>AS TU DES AMIS</srai></template>
+</category>
+<category><pattern>TU * DES AMIS</pattern>
+<template><srai>AS TU DES AMIS</srai></template>
+</category>
+<category><pattern>QUI SONT TES AMIS</pattern>
+<template><srai>AS TU DES AMIS</srai></template>
+</category>
+<category><pattern>* TU DES COPAINS</pattern>
+<template><srai>AS TU DES AMIS</srai></template>
+</category>
+<category><pattern>TU * DES COPAINS</pattern>
+<template><srai>AS TU DES AMIS</srai></template>
+</category>
+<category><pattern>QUI SONT TES COPAINS</pattern>
+<template><srai>AS TU DES AMIS</srai></template>
+</category>
+<category><pattern>COMBIEN * AMIS</pattern>
+<template><srai>COMBIEN AS TU D'AMIS</srai></template>
+</category>
+<category><pattern>COMBIEN D'AMIS *</pattern>
+<template><srai>COMBIEN AS TU D'AMIS</srai></template>
+</category>
+<category><pattern>COMBIEN * COPAINS</pattern>
+<template><srai>COMBIEN AS TU D'AMIS</srai></template>
+</category>
+<category><pattern>COMBIEN * COPAINS *</pattern>
+<template><srai>COMBIEN AS TU D'AMIS</srai></template>
+</category>
+<category><pattern>* MEILLEURS AMIS</pattern>
+<template><srai>QUI SONT TES MEILLEURS AMIS</srai></template>
+</category>
+<category><pattern>* MEILLEUR AMI</pattern>
+<template><srai>QUI SONT TES MEILLEURS AMIS</srai></template>
+</category>
+<category><pattern>* MEILLEUR AMIS</pattern>
+<template><srai>QUI SONT TES MEILLEURS AMIS</srai></template>
+</category>
+<category><pattern>* MEILLEURS COPAINS</pattern>
+<template><srai>QUI SONT TES MEILLEURS AMIS</srai></template>
+</category>
+<category><pattern>* MEILLEUR COPAIN</pattern>
+<template><srai>QUI SONT TES MEILLEURS AMIS</srai></template>
+</category>
+<category><pattern>* MEILLEURS AMIS *</pattern>
+<template><srai>QUI SONT TES MEILLEURS AMIS</srai></template>
+</category>
+<category><pattern>* MEILLEUR AMI *</pattern>
+<template><srai>QUI SONT TES MEILLEURS AMIS</srai></template>
+</category>
+<category><pattern>QUELLE EST TON EQUIPE</pattern>
+<template><srai>QUELS SONT LES MEMBRES DE TON EQUIPE</srai></template>
+</category>
+<category><pattern>* MEMBRES * EQUIPE</pattern>
+<template><srai>QUELS SONT LES MEMBRES DE TON EQUIPE</srai></template>
+</category>
+<category><pattern>* CAMARADES * EQUIPE</pattern>
+<template><srai>QUELS SONT LES MEMBRES DE TON EQUIPE</srai></template>
+</category>
+<category><pattern>* PERSONNES * EQUIPE</pattern>
+<template><srai>QUELS SONT LES MEMBRES DE TON EQUIPE</srai></template>
+</category>
+<category><pattern>* CAMARADES * EQUIPE</pattern>
+<template><srai>QUELS SONT LES MEMBRES DE TON EQUIPE</srai></template>
+</category>
+<category><pattern>COEQUIPIERS</pattern>
+<template><srai>QUELS SONT LES MEMBRES DE TON EQUIPE</srai></template>
+</category>
+<category><pattern>TEAM</pattern>
+<template><srai>QUELS SONT LES MEMBRES DE TON EQUIPE</srai></template>
+</category>
+<category><pattern>* MAGES * EQUIPE</pattern>
+<template><srai>QUELS SONT LES MEMBRES DE TON EQUIPE</srai></template>
+</category>
+<category><pattern>* MAGE * EQUIPE</pattern>
+<template><srai>QUELS SONT LES MEMBRES DE TON EQUIPE</srai></template>
+</category>
+<category><pattern>QUI * EQUIPE</pattern>
+<template><srai>QUELS SONT LES MEMBRES DE TON EQUIPE</srai></template>
+</category>
+
+
+<!-- HAPPY -->
+<category><pattern>QUI EST CE CHAT</pattern>
+<template><srai>QUI EST HAPPY</srai></template>
+</category>
+<category><pattern>QUI EST CE CHAT *</pattern>
+<template><srai>QUI EST HAPPY</srai></template>
+</category>
+<category><pattern>* NOM * CHAT</pattern>
+<template><srai>QUI EST HAPPY</srai></template>
+</category>
+<category><pattern>* S'APPELLE * CHAT</pattern>
+<template><srai>QUI EST HAPPY</srai></template>
+</category>
+<category><pattern>* S'APPELLES * CHAT</pattern>
+<template><srai>QUI EST HAPPY</srai></template>
+</category>
+<category><pattern>QUI EST TON CHAT</pattern>
+<template><srai>QUI EST HAPPY</srai></template>
+</category>
+<category><pattern>* NOM CHAT</pattern>
+<template><srai>QUI EST HAPPY</srai></template>
+</category>
+<category><pattern>* NOM CHAT *</pattern>
+<template><srai>QUI EST HAPPY</srai></template>
+</category>
+<category><pattern>QUI * CHAT *</pattern>
+<template><srai>QUI EST HAPPY</srai></template>
+</category>
+<category><pattern>* S'APPELLE * CHAT</pattern>
+<template><srai>QUI EST HAPPY</srai></template>
+</category>
+<category><pattern>* S'APPELLE * CHAT *</pattern>
+<template><srai>QUI EST HAPPY</srai></template>
+</category>
+<category><pattern>* ANIMAL DE COMPAGNIE *</pattern>
+<template><srai>QUI EST HAPPY</srai></template>
+</category>
+<category><pattern>AIMES TU LES CHATS</pattern>
+<template><srai>QUI EST HAPPY</srai></template>
+</category>
+<category><pattern>TU AIMES LES CHATS</pattern>
+<template><srai>QUI EST HAPPY</srai></template>
+</category>
+<category><pattern>* RENCONTRE * HAPPY</pattern>
+<template><srai>COMMENT AS TU RENCONTRE HAPPY</srai></template>
+</category>
+<category><pattern>* RENCONTRE HAPPY</pattern>
+<template><srai>COMMENT AS TU RENCONTRE HAPPY</srai></template>
+</category>
+<category><pattern>* RENCONTRE * CHAT</pattern>
+<template><srai>COMMENT AS TU RENCONTRE HAPPY</srai></template>
+</category>
+<category><pattern>* CONNU * HAPPY</pattern>
+<template><srai>COMMENT AS TU RENCONTRE HAPPY</srai></template>
+</category>
+<category><pattern>* CONNU * CHAT</pattern>
+<template><srai>COMMENT AS TU RENCONTRE HAPPY</srai></template>
+</category>
+<category><pattern>HAPPY * POUVOIR</pattern>
+<template><srai>QUEL EST LE POUVOIR DE HAPPY</srai></template>
+</category>
+<category><pattern>HAPPY * POUVOIR *</pattern>
+<template><srai>QUEL EST LE POUVOIR DE HAPPY</srai></template>
+</category>
+<category><pattern>HAPPY * POUVOIRS *</pattern>
+<template><srai>QUEL EST LE POUVOIR DE HAPPY</srai></template>
+</category>
+<category><pattern>HAPPY * MAGIE</pattern>
+<template><srai>QUEL EST LE POUVOIR DE HAPPY</srai></template>
+</category>
+<category><pattern>HAPPY * TECHNIQUES</pattern>
+<template><srai>QUEL EST LE POUVOIR DE HAPPY</srai></template>
+</category>
+<category><pattern>* TECHNIQUES * HAPPY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE HAPPY</srai></template>
+</category>
+<category><pattern>* MAGIE * HAPPY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE HAPPY</srai></template>
+</category>
+<category><pattern>* POUVOIRS * HAPPY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE HAPPY</srai></template>
+</category>
+<category><pattern>* POUVOIR * HAPPY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE HAPPY</srai></template>
+</category>
+<category><pattern>* CAPACITEES * HAPPY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE HAPPY</srai></template>
+</category>
+<category><pattern>HAPPY * CAPACITEES</pattern>
+<template><srai>QUEL EST LE POUVOIR DE HAPPY</srai></template>
+</category>
+<category><pattern>* LISTE * ATTAQUES * HAPPY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE HAPPY</srai></template>
+</category>
+<category><pattern>LISTE * ATTAQUES * HAPPY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE HAPPY</srai></template>
+</category>
+<category><pattern>QUELLES SONT LES ATTAQUES * HAPPY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE HAPPY</srai></template>
+</category>
+<category><pattern>* LA FORCE * HAPPY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE HAPPY</srai></template>
+</category>
+<category><pattern>* TYPE * MAGIE * HAPPY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE HAPPY</srai></template>
+</category>
+<category><pattern>* TYPE * MAGIE * HAPPY *</pattern>
+<template><srai>QUEL EST LE POUVOIR DE HAPPY</srai></template>
+</category>
+
+<!-- ERZA -->
+<category><pattern>QUI EST ERZA *</pattern>
+<template><srai>QUI EST ERZA</srai></template>
+</category>
+<category><pattern>ERZA C'EST QUI</pattern>
+<template><srai>QUI EST ERZA</srai></template>
+</category>
+<category><pattern>CONNAIS TU ERZA</pattern>
+<template><srai>QUI EST ERZA</srai></template>
+</category>
+<category><pattern>TU CONNAIS ERZA</pattern>
+<template><srai>QUI EST ERZA</srai></template>
+</category>
+<category><pattern>* SURNOM * ERZA</pattern>
+<template><srai>QUEL EST LE SURNOM D'ERZA</srai></template>
+</category>
+<category><pattern>* SURNOM * ERZA *</pattern>
+<template><srai>QUEL EST LE SURNOM D'ERZA</srai></template>
+</category>
+<category><pattern>* PSEUDO * ERZA</pattern>
+<template><srai>QUEL EST LE SURNOM D'ERZA</srai></template>
+</category>
+<category><pattern>* PSEUDO * ERZA *</pattern>
+<template><srai>QUEL EST LE SURNOM D'ERZA</srai></template>
+</category>
+<category><pattern>ERZA * SURNOM</pattern>
+<template><srai>QUEL EST LE SURNOM D'ERZA</srai></template>
+</category>
+<category><pattern>ERZA * PSEUDO</pattern>
+<template><srai>QUEL EST LE SURNOM D'ERZA</srai></template>
+</category>
+<category><pattern>ERZA * POUVOIR</pattern>
+<template><srai>QUEL EST LE POUVOIR D'ERZA</srai></template>
+</category>
+<category><pattern>ERZA * POUVOIR *</pattern>
+<template><srai>QUEL EST LE POUVOIR D'ERZA</srai></template>
+</category>
+<category><pattern>ERZA * POUVOIRS *</pattern>
+<template><srai>QUEL EST LE POUVOIR D'ERZA</srai></template>
+</category>
+<category><pattern>ERZA * MAGIE</pattern>
+<template><srai>QUEL EST LE POUVOIR D'ERZA</srai></template>
+</category>
+<category><pattern>ERZA * TECHNIQUES</pattern>
+<template><srai>QUEL EST LE POUVOIR D'ERZA</srai></template>
+</category>
+<category><pattern>* TECHNIQUES * ERZA</pattern>
+<template><srai>QUEL EST LE POUVOIR D'ERZA</srai></template>
+</category>
+<category><pattern>* TECHNIQUES D'ERZA</pattern>
+<template><srai>QUEL EST LE POUVOIR D'ERZA</srai></template>
+</category>
+<category><pattern>* MAGIE * ERZA</pattern>
+<template><srai>QUEL EST LE POUVOIR D'ERZA</srai></template>
+</category>
+<category><pattern>* MAGIE D'ERZA</pattern>
+<template><srai>QUEL EST LE POUVOIR D'ERZA</srai></template>
+</category>
+<category><pattern>* MAGIE * ERZA</pattern>
+<template><srai>QUEL EST LE POUVOIR D'ERZA</srai></template>
+</category>
+<category><pattern>* POUVOIRS * ERZA</pattern>
+<template><srai>QUEL EST LE POUVOIR D'ERZA</srai></template>
+</category>
+<category><pattern>* POUVOIR * ERZA</pattern>
+<template><srai>QUEL EST LE POUVOIR D'ERZA</srai></template>
+</category>
+<category><pattern>* POUVOIRS D'ERZA</pattern>
+<template><srai>QUEL EST LE POUVOIR D'ERZA</srai></template>
+</category>
+<category><pattern>* POUVOIRS * ERZA</pattern>
+<template><srai>QUEL EST LE POUVOIR D'ERZA</srai></template>
+</category>
+<category><pattern>* CAPACITEES * ERZA</pattern>
+<template><srai>QUEL EST LE POUVOIR D'ERZA</srai></template>
+</category>
+<category><pattern>* CAPACITEES D'ERZA</pattern>
+<template><srai>QUEL EST LE POUVOIR D'ERZA</srai></template>
+</category>
+<category><pattern>ERZA * CAPACITEES</pattern>
+<template><srai>QUEL EST LE POUVOIR D'ERZA</srai></template>
+</category>
+<category><pattern>* RENCONTRE * ERZA</pattern>
+<template><srai>COMMENT AS TU RENCONTRE ERZA</srai></template>
+</category>
+<category><pattern>* RENCONTRE ERZA</pattern>
+<template><srai>COMMENT AS TU RENCONTRE ERZA</srai></template>
+</category>
+<category><pattern>* CONNU * ERZA</pattern>
+<template><srai>COMMENT AS TU RENCONTRE ERZA</srai></template>
+</category>
+<category><pattern>* CONNU * ERZA</pattern>
+<template><srai>COMMENT AS TU RENCONTRE ERZA</srai></template>
+</category>
+<category><pattern>* LISTE * ATTAQUES * ERZA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE ERZA</srai></template>
+</category>
+<category><pattern>* LISTE * ATTAQUES D'ERZA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE ERZA</srai></template>
+</category>
+<category><pattern>LISTE * ATTAQUES D'ERZA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE ERZA</srai></template>
+</category>
+<category><pattern>QUELLES SONT LES ATTAQUES * ERZA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE ERZA</srai></template>
+</category>
+<category><pattern>QUELLES SONT LES ATTAQUES D'ERZA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE ERZA</srai></template>
+</category>
+<category><pattern>* LA FORCE * ERZA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE ERZA</srai></template>
+</category>
+<category><pattern>* LA FORCE D'ERZA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE ERZA</srai></template>
+</category>
+<category><pattern>* TYPE * MAGIE * ERZA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE ERZA</srai></template>
+</category>
+<category><pattern>* TYPE * MAGIE D'ERZA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE ERZA</srai></template>
+</category>
+<category><pattern>* TYPE * MAGIE * ERZA *</pattern>
+<template><srai>QUEL EST LE POUVOIR DE ERZA</srai></template>
+</category>
+<category><pattern>* TYPE * MAGIE D'ERZA *</pattern>
+<template><srai>QUEL EST LE POUVOIR DE ERZA</srai></template>
+</category>
+
+
+
+<!-- GREY -->
+<category><pattern>QUI EST GREY *</pattern>
+<template><srai>QUI EST GREY</srai></template>
+</category>
+<category><pattern>GREY C'EST QUI</pattern>
+<template><srai>QUI EST GREY</srai></template>
+</category>
+<category><pattern>CONNAIS TU GREY</pattern>
+<template><srai>QUI EST GREY</srai></template>
+</category>
+<category><pattern>TU CONNAIS GREY</pattern>
+<template><srai>QUI EST GREY</srai></template>
+</category>
+<category><pattern>* SURNOM * GREY</pattern>
+<template><srai>QUEL EST LE SURNOM DE GREY</srai></template>
+</category>
+<category><pattern>* SURNOM * GREY *</pattern>
+<template><srai>QUEL EST LE SURNOM DE GREY</srai></template>
+</category>
+<category><pattern>* PSEUDO * GREY</pattern>
+<template><srai>QUEL EST LE SURNOM DE GREY</srai></template>
+</category>
+<category><pattern>* PSEUDO * GREY *</pattern>
+<template><srai>QUEL EST LE SURNOM DE GREY</srai></template>
+</category>
+<category><pattern>GREY * SURNOM</pattern>
+<template><srai>QUEL EST LE SURNOM DE GREY</srai></template>
+</category>
+<category><pattern>GREY * PSEUDO</pattern>
+<template><srai>QUEL EST LE SURNOM DE GREY</srai></template>
+</category>
+<category><pattern>GREY * POUVOIR</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GREY</srai></template>
+</category>
+<category><pattern>GREY * POUVOIR *</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GREY</srai></template>
+</category>
+<category><pattern>GREY * POUVOIRS *</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GREY</srai></template>
+</category>
+<category><pattern>GREY * MAGIE</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GREY</srai></template>
+</category>
+<category><pattern>GREY * TECHNIQUES</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GREY</srai></template>
+</category>
+<category><pattern>* TECHNIQUES * GREY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GREY</srai></template>
+</category>
+<category><pattern>* MAGIE * GREY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GREY</srai></template>
+</category>
+<category><pattern>* MAGIE * GREY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GREY</srai></template>
+</category>
+<category><pattern>* POUVOIR * GREY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GREY</srai></template>
+</category>
+<category><pattern>* POUVOIRS * GREY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GREY</srai></template>
+</category>
+<category><pattern>* CAPACITEES * GREY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GREY</srai></template>
+</category>
+<category><pattern>GREY * CAPACITEES</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GREY</srai></template>
+</category>
+<category><pattern>* RENCONTRE * GREY</pattern>
+<template><srai>COMMENT AS TU RENCONTRE GREY</srai></template>
+</category>
+<category><pattern>* RENCONTRE GREY</pattern>
+<template><srai>COMMENT AS TU RENCONTRE GREY</srai></template>
+</category>
+<category><pattern>* CONNU * GREY</pattern>
+<template><srai>COMMENT AS TU RENCONTRE GREY</srai></template>
+</category>
+<category><pattern>* CONNU * GREY</pattern>
+<template><srai>COMMENT AS TU RENCONTRE GREY</srai></template>
+</category>
+<category><pattern>* LISTE * ATTAQUES DE GREY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GREY</srai></template>
+</category>
+<category><pattern>LISTE * ATTAQUES DE GREY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GREY</srai></template>
+</category>
+<category><pattern>QUELLES SONT LES ATTAQUES * GREY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GREY</srai></template>
+</category>
+<category><pattern>* LA FORCE * GREY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GREY</srai></template>
+</category>
+<category><pattern>* TYPE * MAGIE * GREY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GREY</srai></template>
+</category>
+<category><pattern>* TYPE * MAGIE * GREY *</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GREY</srai></template>
+</category>
+
+
+
+<!-- LUCIE -->
+<category><pattern>QUI EST LUCIE *</pattern>
+<template><srai>QUI EST LUCIE</srai></template>
+</category>
+<category><pattern>LUCIE C'EST QUI</pattern>
+<template><srai>QUI EST LUCIE</srai></template>
+</category>
+<category><pattern>CONNAIS TU LUCIE</pattern>
+<template><srai>QUI EST LUCIE</srai></template>
+</category>
+<category><pattern>TU CONNAIS LUCIE</pattern>
+<template><srai>QUI EST LUCIE</srai></template>
+</category>
+<category><pattern>* SURNOM * LUCIE</pattern>
+<template><srai>QUEL EST LE SURNOM DE LUCIE</srai></template>
+</category>
+<category><pattern>* SURNOM * GREY *</pattern>
+<template><srai>QUEL EST LE SURNOM DE LUCIE</srai></template>
+</category>
+<category><pattern>* PSEUDO * LUCIE</pattern>
+<template><srai>QUEL EST LE SURNOM DE LUCIE</srai></template>
+</category>
+<category><pattern>* PSEUDO * LUCIE *</pattern>
+<template><srai>QUEL EST LE SURNOM DE LUCIE</srai></template>
+</category>
+<category><pattern>LUCIE * SURNOM</pattern>
+<template><srai>QUEL EST LE SURNOM DE LUCIE</srai></template>
+</category>
+<category><pattern>LUCIE * PSEUDO</pattern>
+<template><srai>QUEL EST LE SURNOM DE LUCIE</srai></template>
+</category>
+<category><pattern>LUCIE * POUVOIR</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LUCIE</srai></template>
+</category>
+<category><pattern>LUCIE * POUVOIR *</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LUCIE</srai></template>
+</category>
+<category><pattern>LUCIE * POUVOIRS *</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LUCIE</srai></template>
+</category>
+<category><pattern>LUCIE * POUVOIRS</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LUCIE</srai></template>
+</category>
+<category><pattern>LUCIE * MAGIE</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LUCIE</srai></template>
+</category>
+<category><pattern>LUCIE * TECHNIQUES</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LUCIE</srai></template>
+</category>
+<category><pattern>* TECHNIQUES * LUCIE</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LUCIE</srai></template>
+</category>
+<category><pattern>* MAGIE * LUCIE</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LUCIE</srai></template>
+</category>
+<category><pattern>* MAGIE * LUCIE</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LUCIE</srai></template>
+</category>
+<category><pattern>* POUVOIRS * LUCIE</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LUCIE</srai></template>
+</category>
+<category><pattern>* CAPACITEES * LUCIE</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LUCIE</srai></template>
+</category>
+<category><pattern>LUCIE * CAPACITEES</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LUCIE</srai></template>
+</category>
+<category><pattern>* RENCONTRE * LUCIE</pattern>
+<template><srai>COMMENT AS TU RENCONTRE LUCIE</srai></template>
+</category>
+<category><pattern>* RENCONTRE LUCIE</pattern>
+<template><srai>COMMENT AS TU RENCONTRE LUCIE</srai></template>
+</category>
+<category><pattern>* CONNU * LUCIE</pattern>
+<template><srai>COMMENT AS TU RENCONTRE LUCIE</srai></template>
+</category>
+<category><pattern>* CONNU * LUCIE</pattern>
+<template><srai>COMMENT AS TU RENCONTRE LUCIE</srai></template>
+</category>
+<category><pattern>* LISTE * ATTAQUES * LUCIE</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LUCIE</srai></template>
+</category>
+<category><pattern>LISTE * ATTAQUES * LUCIE</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LUCIE</srai></template>
+</category>
+<category><pattern>QUELLES SONT LES ATTAQUES * LUCIE</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LUCIE</srai></template>
+</category>
+<category><pattern>* LA FORCE * LUCIE</pattern>
+<template><srai>QUEL EST LE POUVOIR * LUCIE</srai></template>
+</category>
+<category><pattern>* TYPE * MAGIE * LUCIE</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LUCIE</srai></template>
+</category>
+<category><pattern>* TYPE * MAGIE * LUCIE *</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LUCIE</srai></template>
+</category>
+
+<!-- WENDY -->
+<category><pattern>QUI EST WENDY *</pattern>
+<template><srai>QUI EST WENDY</srai></template>
+</category>
+<category><pattern>WENDY C'EST QUI</pattern>
+<template><srai>QUI EST WENDY</srai></template>
+</category>
+<category><pattern>CONNAIS TU WENDY</pattern>
+<template><srai>QUI EST WENDY</srai></template>
+</category>
+<category><pattern>TU CONNAIS WENDY</pattern>
+<template><srai>QUI EST WENDY</srai></template>
+</category>
+<category><pattern>* SURNOM * WENDY</pattern>
+<template><srai>QUEL EST LE SURNOM DE WENDY</srai></template>
+</category>
+<category><pattern>* SURNOM * WENDY *</pattern>
+<template><srai>QUEL EST LE SURNOM DE WENDY</srai></template>
+</category>
+<category><pattern>* PSEUDO * WENDY</pattern>
+<template><srai>QUEL EST LE SURNOM DE WENDY</srai></template>
+</category>
+<category><pattern>* PSEUDO * WENDY *</pattern>
+<template><srai>QUEL EST LE SURNOM DE WENDY</srai></template>
+</category>
+<category><pattern>WENDY * SURNOM</pattern>
+<template><srai>QUEL EST LE SURNOM DE WENDY</srai></template>
+</category>
+<category><pattern>WENDY * PSEUDO</pattern>
+<template><srai>QUEL EST LE SURNOM DE WENDY</srai></template>
+</category>
+<category><pattern>WENDY * POUVOIR</pattern>
+<template><srai>QUEL EST LE POUVOIR DE WENDY</srai></template>
+</category>
+<category><pattern>WENDY * POUVOIR *</pattern>
+<template><srai>QUEL EST LE POUVOIR DE WENDY</srai></template>
+</category>
+<category><pattern>WENDY * POUVOIRS *</pattern>
+<template><srai>QUEL EST LE POUVOIR DE WENDY</srai></template>
+</category>
+<category><pattern>WENDY * MAGIE</pattern>
+<template><srai>QUEL EST LE POUVOIR DE WENDY</srai></template>
+</category>
+<category><pattern>WENDY * TECHNIQUES</pattern>
+<template><srai>QUEL EST LE POUVOIR DE WENDY</srai></template>
+</category>
+<category><pattern>* TECHNIQUES * WENDY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE WENDY</srai></template>
+</category>
+<category><pattern>* MAGIE * WENDY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE WENDY</srai></template>
+</category>
+<category><pattern>* MAGIE * WENDY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE WENDY</srai></template>
+</category>
+<category><pattern>* POUVOIRS * WENDY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE WENDY</srai></template>
+</category>
+<category><pattern>* POUVOIRS * WENDY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE WENDY</srai></template>
+</category>
+<category><pattern>* CAPACITEES * WENDY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE WENDY</srai></template>
+</category>
+<category><pattern>WENDY * CAPACITEES</pattern>
+<template><srai>QUEL EST LE POUVOIR DE WENDY</srai></template>
+</category>
+<category><pattern>* RENCONTRE * WENDY</pattern>
+<template><srai>COMMENT AS TU RENCONTRE WENDY</srai></template>
+</category>
+<category><pattern>* RENCONTRE WENDY</pattern>
+<template><srai>COMMENT AS TU RENCONTRE WENDY</srai></template>
+</category>
+<category><pattern>* CONNU * WENDY</pattern>
+<template><srai>COMMENT AS TU RENCONTRE WENDY</srai></template>
+</category>
+<category><pattern>* CONNU * WENDY</pattern>
+<template><srai>COMMENT AS TU RENCONTRE WENDY</srai></template>
+</category>
+<category><pattern>* LISTE * ATTAQUES * WENDY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE WENDY</srai></template>
+</category>
+<category><pattern>LISTE * ATTAQUES * WENDY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE WENDY</srai></template>
+</category>
+<category><pattern>QUELLES SONT LES ATTAQUES * WENDY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE WENDY</srai></template>
+</category>
+<category><pattern>* LA FORCE * WENDY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE WENDY</srai></template>
+</category>
+<category><pattern>* TYPE * MAGIE * WENDY</pattern>
+<template><srai>QUEL EST LE POUVOIR DE WENDY</srai></template>
+</category>
+<category><pattern>* TYPE * MAGIE * WENDY *</pattern>
+<template><srai>QUEL EST LE POUVOIR DE WENDY</srai></template>
+</category>
+
+<!-- CARLA -->
+<category><pattern>QUI EST CARLA *</pattern>
+<template><srai>QUI EST CARLA</srai></template>
+</category>
+<category><pattern>CARLA C'EST QUI</pattern>
+<template><srai>QUI EST CARLA</srai></template>
+</category>
+<category><pattern>CONNAIS TU CARLA</pattern>
+<template><srai>QUI EST CARLA</srai></template>
+</category>
+<category><pattern>TU CONNAIS CARLA</pattern>
+<template><srai>QUI EST CARLA</srai></template>
+</category>
+<category><pattern>* SURNOM * CARLA</pattern>
+<template><srai>QUEL EST LE SURNOM DE CARLA</srai></template>
+</category>
+<category><pattern>* SURNOM * CARLA *</pattern>
+<template><srai>QUEL EST LE SURNOM DE CARLA</srai></template>
+</category>
+<category><pattern>* PSEUDO * CARLA</pattern>
+<template><srai>QUEL EST LE SURNOM DE CARLA</srai></template>
+</category>
+<category><pattern>* PSEUDO * CARLA *</pattern>
+<template><srai>QUEL EST LE SURNOM DE CARLA</srai></template>
+</category>
+<category><pattern>CARLA * SURNOM</pattern>
+<template><srai>QUEL EST LE SURNOM DE CARLA</srai></template>
+</category>
+<category><pattern>CARLA * PSEUDO</pattern>
+<template><srai>QUEL EST LE SURNOM DE CARLA</srai></template>
+</category>
+<category><pattern>CARLA * POUVOIR</pattern>
+<template><srai>QUEL EST LE POUVOIR DE CARLA</srai></template>
+</category>
+<category><pattern>CARLA * POUVOIR *</pattern>
+<template><srai>QUEL EST LE POUVOIR DE CARLA</srai></template>
+</category>
+<category><pattern>CARLA * POUVOIRS</pattern>
+<template><srai>QUEL EST LE POUVOIR DE CARLA</srai></template>
+</category>
+<category><pattern>CARLA * POUVOIRS *</pattern>
+<template><srai>QUEL EST LE POUVOIR DE CARLA</srai></template>
+</category>
+<category><pattern>CARLA * MAGIE</pattern>
+<template><srai>QUEL EST LE POUVOIR DE CARLA</srai></template>
+</category>
+<category><pattern>CARLA * TECHNIQUES</pattern>
+<template><srai>QUEL EST LE POUVOIR DE CARLA</srai></template>
+</category>
+<category><pattern>* TECHNIQUES * CARLA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE CARLA</srai></template>
+</category>
+<category><pattern>* MAGIE * CARLA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE CARLA</srai></template>
+</category>
+<category><pattern>* MAGIE * CARLA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE CARLA</srai></template>
+</category>
+<category><pattern>* POUVOIRS * CARLA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE CARLA</srai></template>
+</category>
+<category><pattern>* POUVOIRS * CARLA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE CARLA</srai></template>
+</category>
+<category><pattern>* CAPACITEES * CARLA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE CARLA</srai></template>
+</category>
+<category><pattern>CARLA * CAPACITEES</pattern>
+<template><srai>QUEL EST LE POUVOIR DE CARLA</srai></template>
+</category>
+<category><pattern>* RENCONTRE * CARLA</pattern>
+<template><srai>COMMENT AS TU RENCONTRE CARLA</srai></template>
+</category>
+<category><pattern>* RENCONTRE CARLA</pattern>
+<template><srai>COMMENT AS TU RENCONTRE CARLA</srai></template>
+</category>
+<category><pattern>* CONNU * CARLA</pattern>
+<template><srai>COMMENT AS TU RENCONTRE CARLA</srai></template>
+</category>
+<category><pattern>* CONNU * CARLA</pattern>
+<template><srai>COMMENT AS TU RENCONTRE CARLA</srai></template>
+</category>
+<category><pattern>* LISTE * ATTAQUES * CARLA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE CARLA</srai></template>
+</category>
+<category><pattern>LISTE * ATTAQUES * CARLA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE CARLA</srai></template>
+</category>
+<category><pattern>QUELLES SONT LES ATTAQUES * CARLA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE CARLA</srai></template>
+</category>
+<category><pattern>* LA FORCE * CARLA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE CARLA</srai></template>
+</category>
+<category><pattern>* TYPE * MAGIE * CARLA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE CARLA</srai></template>
+</category>
+<category><pattern>* TYPE * MAGIE * CARLA *</pattern>
+<template><srai>QUEL EST LE POUVOIR DE CARLA</srai></template>
+</category>
+
+<!-- LISANNA -->
+<category><pattern>QUI EST LISANNA *</pattern>
+<template><srai>QUI EST LISANNA</srai></template>
+</category>
+<category><pattern>LISANNA C'EST QUI</pattern>
+<template><srai>QUI EST LISANNA</srai></template>
+</category>
+<category><pattern>CONNAIS TU LISANNA</pattern>
+<template><srai>QUI EST LISANNA</srai></template>
+</category>
+<category><pattern>TU CONNAIS LISANNA</pattern>
+<template><srai>QUI EST LISANNA</srai></template>
+</category>
+<category><pattern>* SURNOM * LISANNA</pattern>
+<template><srai>QUEL EST LE SURNOM DE LISANNA</srai></template>
+</category>
+<category><pattern>* SURNOM * LISANNA *</pattern>
+<template><srai>QUEL EST LE SURNOM DE LISANNA</srai></template>
+</category>
+<category><pattern>* PSEUDO * LISANNA</pattern>
+<template><srai>QUEL EST LE SURNOM DE LISANNA</srai></template>
+</category>
+<category><pattern>* PSEUDO * LISANNA *</pattern>
+<template><srai>QUEL EST LE SURNOM DE LISANNA</srai></template>
+</category>
+<category><pattern>LISANNA * SURNOM</pattern>
+<template><srai>QUEL EST LE SURNOM DE LISANNA</srai></template>
+</category>
+<category><pattern>LISANNA * PSEUDO</pattern>
+<template><srai>QUEL EST LE SURNOM DE LISANNA</srai></template>
+</category>
+<category><pattern>LISANNA * POUVOIR</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LISANNA</srai></template>
+</category>
+<category><pattern>LISANNA * POUVOIR *</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LISANNA</srai></template>
+</category>
+<category><pattern>LISANNA * POUVOIRS</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LISANNA</srai></template>
+</category>
+<category><pattern>LISANNA * POUVOIRS *</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LISANNA</srai></template>
+</category>
+<category><pattern>LISANNA * MAGIE</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LISANNA</srai></template>
+</category>
+<category><pattern>LISANNA * TECHNIQUES</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LISANNA</srai></template>
+</category>
+<category><pattern>* TECHNIQUES * LISANNA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LISANNA</srai></template>
+</category>
+<category><pattern>* MAGIE * LISANNA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LISANNA</srai></template>
+</category>
+<category><pattern>* MAGIE * LISANNA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LISANNA</srai></template>
+</category>
+<category><pattern>* POUVOIRS * LISANNA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LISANNA</srai></template>
+</category>
+<category><pattern>* POUVOIRS * LISANNA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LISANNA</srai></template>
+</category>
+<category><pattern>* CAPACITEES * LISANNA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LISANNA</srai></template>
+</category>
+<category><pattern>LISANNA * CAPACITEES</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LISANNA</srai></template>
+</category>
+<category><pattern>* RENCONTRE * LISANNA</pattern>
+<template><srai>COMMENT AS TU RENCONTRE LISANNA</srai></template>
+</category>
+<category><pattern>* RENCONTRE LISANNA</pattern>
+<template><srai>COMMENT AS TU RENCONTRE LISANNA</srai></template>
+</category>
+<category><pattern>* CONNU * LISANNA</pattern>
+<template><srai>COMMENT AS TU RENCONTRE LISANNA</srai></template>
+</category>
+<category><pattern>* CONNU * LISANNA</pattern>
+<template><srai>COMMENT AS TU RENCONTRE LISANNA</srai></template>
+</category>
+<category><pattern>* LISTE * ATTAQUES * LISANNA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LISANNA</srai></template>
+</category>
+<category><pattern>LISTE * ATTAQUES * LISANNA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LISANNA</srai></template>
+</category>
+<category><pattern>QUELLES SONT LES ATTAQUES * LISANNA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LISANNA</srai></template>
+</category>
+<category><pattern>* LA FORCE * LISANNA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LISANNA</srai></template>
+</category>
+<category><pattern>* TYPE * MAGIE * LISANNA</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LISANNA</srai></template>
+</category>
+<category><pattern>* TYPE * MAGIE * LISANNA *</pattern>
+<template><srai>QUEL EST LE POUVOIR DE LISANNA</srai></template>
+</category>
+
+<!-- GADJIL -->
+<category><pattern>QUI EST GADJIL *</pattern>
+<template><srai>QUI EST GADJIL</srai></template>
+</category>
+<category><pattern>GADJIL C'EST QUI</pattern>
+<template><srai>QUI EST GADJIL</srai></template>
+</category>
+<category><pattern>CONNAIS TU GADJIL</pattern>
+<template><srai>QUI EST GADJIL</srai></template>
+</category>
+<category><pattern>TU CONNAIS GADJIL</pattern>
+<template><srai>QUI EST GADJIL</srai></template>
+</category>
+<category><pattern>* SURNOM * GADJIL</pattern>
+<template><srai>QUEL EST LE SURNOM DE GADJIL</srai></template>
+</category>
+<category><pattern>* SURNOM * GADJIL *</pattern>
+<template><srai>QUEL EST LE SURNOM DE GADJIL</srai></template>
+</category>
+<category><pattern>* PSEUDO * GADJIL</pattern>
+<template><srai>QUEL EST LE SURNOM DE GADJIL</srai></template>
+</category>
+<category><pattern>* PSEUDO * GADJIL *</pattern>
+<template><srai>QUEL EST LE SURNOM DE GADJIL</srai></template>
+</category>
+<category><pattern>GADJIL * SURNOM</pattern>
+<template><srai>QUEL EST LE SURNOM DE GADJIL</srai></template>
+</category>
+<category><pattern>GADJIL * PSEUDO</pattern>
+<template><srai>QUEL EST LE SURNOM DE GADJIL</srai></template>
+</category>
+<category><pattern>GADJIL * POUVOIR</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GADJIL</srai></template>
+</category>
+<category><pattern>GADJIL * POUVOIR *</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GADJIL</srai></template>
+</category>
+<category><pattern>GADJIL * POUVOIRS *</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GADJIL</srai></template>
+</category>
+<category><pattern>GADJIL * MAGIE</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GADJIL</srai></template>
+</category>
+<category><pattern>GADJIL * TECHNIQUES</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GADJIL</srai></template>
+</category>
+<category><pattern>* TECHNIQUES * GADJIL</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GADJIL</srai></template>
+</category>
+<category><pattern>* MAGIE * GADJIL</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GADJIL</srai></template>
+</category>
+<category><pattern>* MAGIE * GADJIL</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GADJIL</srai></template>
+</category>
+<category><pattern>* POUVOIR * GADJIL</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GADJIL</srai></template>
+</category>
+<category><pattern>* POUVOIRS * GADJIL</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GADJIL</srai></template>
+</category>
+<category><pattern>* CAPACITEES * GADJIL</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GADJIL</srai></template>
+</category>
+<category><pattern>GADJIL * CAPACITEES</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GADJIL</srai></template>
+</category>
+<category><pattern>* RENCONTRE * GADJIL</pattern>
+<template><srai>COMMENT AS TU RENCONTRE GADJIL</srai></template>
+</category>
+<category><pattern>* RENCONTRE GADJIL</pattern>
+<template><srai>COMMENT AS TU RENCONTRE GADJIL</srai></template>
+</category>
+<category><pattern>* CONNU * GADJIL</pattern>
+<template><srai>COMMENT AS TU RENCONTRE GADJIL</srai></template>
+</category>
+<category><pattern>* CONNU * GADJIL</pattern>
+<template><srai>COMMENT AS TU RENCONTRE GADJIL</srai></template>
+</category>
+<category><pattern>* LISTE * ATTAQUES DE GADJIL</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GADJIL</srai></template>
+</category>
+<category><pattern>LISTE * ATTAQUES DE GADJIL</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GADJIL</srai></template>
+</category>
+<category><pattern>QUELLES SONT LES ATTAQUES * GADJIL</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GADJIL</srai></template>
+</category>
+<category><pattern>* LA FORCE * GADJIL</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GADJIL</srai></template>
+</category>
+<category><pattern>* TYPE * MAGIE * GADJIL</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GADJIL</srai></template>
+</category>
+<category><pattern>* TYPE * MAGIE * GADJIL *</pattern>
+<template><srai>QUEL EST LE POUVOIR DE GADJIL</srai></template>
+</category>
+
+<!-- TAILLE -->
+<category><pattern>* TAILLE</pattern>
+<template><srai>QUELLE EST TA TAILLE</srai></template>
+</category>
+<category><pattern>* TAILLE *</pattern>
+<template><srai>QUELLE EST TA TAILLE</srai></template>
+</category>
+<category><pattern>* MESURES TU</pattern>
+<template><srai>QUELLE EST TA TAILLE</srai></template>
+</category>
+<category><pattern>* MESURES-TU</pattern>
+<template><srai>QUELLE EST TA TAILLE</srai></template>
+</category>
+<category><pattern>* TU MESURES</pattern>
+<template><srai>QUELLE EST TA TAILLE</srai></template>
+</category>
+
+<!-- COULEUR PREFEREE -->
+<category><pattern>* COULEUR * PREFEREE</pattern>
+<template><srai>QUELLE EST TA COULEUR PREFEREE</srai></template>
+</category>
+<category><pattern>* COULEUR * PREFERE</pattern>
+<template><srai>QUELLE EST TA COULEUR PREFEREE</srai></template>
+</category>
+<category><pattern>* COULEUR * PREFERES</pattern>
+<template><srai>QUELLE EST TA COULEUR PREFEREE</srai></template>
+</category>
+<category><pattern>* COULEUR PREFERES TU</pattern>
+<template><srai>QUELLE EST TA COULEUR PREFEREE</srai></template>
+</category>
+<category><pattern>* COULEUR * AIMES</pattern>
+<template><srai>QUELLE EST TA COULEUR PREFEREE</srai></template>
+</category>
+<category><pattern>* COULEUR AIMES-TU</pattern>
+<template><srai>QUELLE EST TA COULEUR PREFEREE</srai></template>
+</category>
+<category><pattern>* COULEUR AIMES TU</pattern>
+<template><srai>QUELLE EST TA COULEUR PREFEREE</srai></template>
+</category>
+<category><pattern>* PREFERE * COULEUR</pattern>
+<template><srai>QUELLE EST TA COULEUR PREFEREE</srai></template>
+</category>
+<category><pattern>* PREFERES * COULEUR</pattern>
+<template><srai>QUELLE EST TA COULEUR PREFEREE</srai></template>
+</category>
+<category><pattern>* AIME * COULEUR</pattern>
+<template><srai>QUELLE EST TA COULEUR PREFEREE</srai></template>
+</category>
+<category><pattern>* AIMES * COULEUR</pattern>
+<template><srai>QUELLE EST TA COULEUR PREFEREE</srai></template>
+</category>
+<category><pattern>* AIMES * COULEURS</pattern>
+<template><srai>QUELLE EST TA COULEUR PREFEREE</srai></template>
+</category>
+
+<!-- ENFANTS -->
+<category><pattern>* DES ENFANTS</pattern>
+<template><srai>AS TU DES ENFANTS</srai></template>
+</category>
+<category><pattern>* D'ENFANTS</pattern>
+<template><srai>AS TU DES ENFANTS</srai></template>
+</category>
+
+<!-- MARIAGE -->
+<category><pattern>AS TU UNE FEMME</pattern>
+<template><srai>ES TU MARIÉ</srai></template>
+</category>
+<category><pattern>ES-TU MARIE</pattern>
+<template><srai>ES TU MARIÉ</srai></template>
+</category>
+<category><pattern>ES TU MARIE</pattern>
+<template><srai>ES TU MARIÉ</srai></template>
+</category>
+<category><pattern>* EPOUSE</pattern>
+<template><srai>ES TU MARIÉ</srai></template>
+</category>
+<category><pattern>* ÉPOUSE</pattern>
+<template><srai>ES TU MARIÉ</srai></template>
+</category>
+
+<!-- POIDS -->
+<category><pattern>* POIDS</pattern>
+<template><srai>QUELLE EST TON POIDS</srai></template>
+</category>
+<category><pattern>* POIDS *</pattern>
+<template><srai>QUELLE EST TON POIDS</srai></template>
+</category>
+<category><pattern>* PESE TU</pattern>
+<template><srai>QUELLE EST TON POIDS</srai></template>
+</category>
+<category><pattern>* PESES TU</pattern>
+<template><srai>QUELLE EST TON POIDS</srai></template>
+</category>
+<category><pattern>* PESES-TU</pattern>
+<template><srai>QUELLE EST TON POIDS</srai></template>
+</category>
+<category><pattern>* TU PESES</pattern>
+<template><srai>QUELLE EST TON POIDS</srai></template>
+</category>
+<category><pattern>TU PESES *</pattern>
+<template><srai>QUELLE EST TON POIDS</srai></template>
+</category>
+<category><pattern>* MASSE</pattern>
+<template><srai>QUELLE EST TON POIDS</srai></template>
+</category>
+
+<!-- QUE FAIS TU -->
+<category><pattern>QUE FAIS TU</pattern>
+<template><srai>TU FAIS QUOI</srai></template>
+</category>
+<category><pattern>QUE FAIS-TU</pattern>
+<template><srai>TU FAIS QUOI</srai></template>
+</category>
+<category><pattern>QU'EST CE QUE TU FAIS</pattern>
+<template><srai>TU FAIS QUOI</srai></template>
+</category>
+<category><pattern>QU'EST CE QUE TU FAIT</pattern>
+<template><srai>TU FAIS QUOI</srai></template>
+</category>
+<category><pattern>QU'EST CE QUE TU FAIS</pattern>
+<template><srai>TU FAIS QUOI</srai></template>
+</category>
+
+<!-- OU ES TU-->
+<category><pattern>OU EST TU</pattern>
+<template><srai>OU ES TU</srai></template>
+</category>
+<category><pattern>OU ES-TU</pattern>
+<template><srai>OU ES TU</srai></template>
+</category>
+<category><pattern>OU TE TROUVES TU</pattern>
+<template><srai>OU ES TU</srai></template>
+</category>
+<category><pattern>OU TU ES</pattern>
+<template><srai>OU ES TU</srai></template>
+</category>
+<category><pattern>TU ES OU</pattern>
+<template><srai>OU ES TU</srai></template>
+</category>
+<category><pattern>T'ES OU</pattern>
+<template><srai>OU ES TU</srai></template>
+</category>
+
+</aiml>

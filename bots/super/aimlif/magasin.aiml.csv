@@ -1,0 +1,1 @@
+0,MAGASIN *,*,*,<set name="indexMagasin"> <star/> </set>#Newline#Newline      <condition name="indexMagasin">#Newline	<li value="A">  Vêtement pour FEMME </li>#Newline	<li value="B"> Vêtement pour HOMME </li>#Newline	<li value="C"> Ce magasin est vide </li>#Newline	<li> Ce magasin n'éxiste pas ! </li>#Newline      </condition>,magasin.aiml

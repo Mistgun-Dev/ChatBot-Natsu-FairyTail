@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+  <category>
+    <pattern> capitale de la * </pattern>
+    
+    <template><think><set name="pays"> <star/> </set></think>
+    <condition name="pays">
+      <li> Ce pays est soit mal ortographié, soit il n'éxiste pas ... Veillez a respecter les majuscules ! </li>
+      
+    </condition>
+    </template>  
+  </category> 
+</aiml>

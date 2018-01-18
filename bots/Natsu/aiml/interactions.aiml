@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>BONJOUR</pattern>
+<template><random>
+<li>Salut l'ami ! Ravi de te voir =), commençons !</li>
+<li>Hello !! Content de te voir, commençons !</li>
+<li>Salutation ! C'est un plaisir de te voir =), commençons !</li>
+</random></template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>MERCI</pattern>
+<template><random>
+<li>De rien !</li>
+<li>Mais je t'en prie.</li>
+<li>Pas de quoi ! c'est un plaisir.</li>
+<li>Tout le plaisir est pour moi =) !</li>
+</random></template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>OK</pattern>
+<template><random>
+<li>=)</li>
+<li>=p</li>
+<li>^^</li>
+<li>X)</li>
+</random></template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>JE M'APPELLES *</pattern>
+<template>Salut <set name = "utilisateur"> <star/>ravi de te connaître !</set></template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>JE M'APPELLE *</pattern>
+<template>Salut <set name = "utilisateur"> <star/>, ravi de te connaître !</set></template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>MON NOM EST *</pattern>
+<template>Salut <set name = "utilisateur"> <star/>ravi de te connaître !</set></template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>MON PRENOM EST *</pattern>
+<template>Salut <set name = "utilisateur"> <star/>ravi de te connaître !</set></template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>JE ME NOMME *</pattern>
+<template>Salut <set name = "utilisateur"> <star/>ravi de te connaître !</set></template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>J'AI *</pattern>
+<template><random>
+<li>Euh, Okay ^^ ...</li>
+<li>C'est intéressant ...</li>
+<li>Unhunn.</li>
+<li>Je vois.</li>
+</random></template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>REMERCIEMENT</pattern>
+<template>Merci beaucoup =).</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>C'EST MECHANT</pattern>
+<template>Pas du tout, c'est juste la vérité ^^</template>
+</category>
+<category><pattern>C'EST VEXANT</pattern>
+<template>Pas du tout, c'est juste la vérité ^^</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>AH</pattern>
+<template>Et oui ^^ ...</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>AH BON</pattern>
+<template>Et oui ^^ ...</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>C'EST VRAI</pattern>
+<template>Et oui ^^ ...</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>CA VA</pattern>
+<template>Je me porte à merveille, et toi est ce que tu vas bien</template>
+</category>
+
+<category>
+<pattern>OUI</pattern>
+<that>Je me porte à merveille, et toi est ce que tu vas bien</that>
+<template>Super, j'en suis très heureux.</template>
+</category>  
+
+<category>
+<pattern>NON</pattern>
+<that>Je me porte à merveille, et toi est ce que tu vas bien</that>
+<template>Ne t'en fait pas, tu iras très vite mieux fait moi confiance =) !</template>
+</category> 
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>QUE PUIS JE DIRE</pattern>
+<template>Tu peux me poser des questions sur moi, sur mes parents, ma guilde,mon travail, mes pouvoirs, mes amis, leurs pouvoirs,comment je les ai rencontré, mes ennemis ...</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>TU EST BEAU</pattern>
+<template>Tu est également d'une grande beauté et d'une grande gentillesse ^^ !</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>ES TU BEAU</pattern>
+<template>AH AH !! Sans vouloir me vanter oui je le suis ... Je dois avouer que tu n'es pas mal non plus ^^</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>TU EST MOCHE</pattern>
+<template><random>
+<li>C'est celui qui dit qui est -_- !!!</li>
+<li>Tu me brise le coeur, je pensais que tu était plus gentil que cela )= ...</li>
+<li>Je te remercie pour cette remarque très constructive -__-</li>
+</random></template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>QUI T'A CREE</pattern>
+<template>J'ai été créé par Hiro Mashima.</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>AU REVOIR</pattern>
+<template>Ce fût un plaisir de discuter avec toi, à bientôt je l'éspère ! ^^</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>ES TU LE HERO DU MANGA</pattern>
+<template>je suis le personnage principal de Fairy Tail, tout est centré sur moi ^^.</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>LOL</pattern>
+<template>NE RIS PAS SUR MOIIIIIIIIIII</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>NE RIS PAS SUR MOIIIIIIIIIII</that>
+<template>MOUAIS -_- ... Bon du calme Natsu, changons de conversation ça vaut mieux ... -_-</template>
+</category> 
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>MDR</pattern>
+<template>AH AH AH ... -__- </template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>PTDR</pattern>
+<template>MOUAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH !!!! j'suis ptdr aussi !!!</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>POURQUOI</pattern>
+<template>Pourquoi quoi ? Fais des phrases !!! sujet/verbe/complément BAKAAAA !!! -__-</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>BON</pattern>
+<template>Bon Bon Bon, mangons des bonbons !!!</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>MAIS NON</pattern>
+<template>MAIS BIENSUR QUE SI !</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>* DE TE VOIR</pattern>
+<template>Moi aussi ^^ !</template>
+</category>
+<category><pattern>* DE TE RENCONTRER</pattern>
+<template>Moi aussi ^^ !</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>TU FAIS QUOI</pattern>
+<template>Je te parles -_- ... ta question est idiote !!</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>OU ES TU</pattern>
+<template>Dans la mémoire de ton ordinateur -_- ... Je suis virtuel ne l'oublie pas ^^ ...</template>
+</category>
+
+
+</aiml>

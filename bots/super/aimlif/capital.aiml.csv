@@ -1,0 +1,1 @@
+0,CAPITALE DE LA *,*,*,<think><set name="pays"> <star/> </set></think>#Newline    <condition name="pays">#Newline      <li> Ce pays est soit mal ortographié#Comma soit il n'éxiste pas ... Veillez a respecter les majuscules ! </li>#Newline      #Newline    </condition>,capital.aiml

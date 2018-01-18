@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>QU'EST CE QU'UN MAGE</pattern>
+<template>Un mage est une personne dotée de capacité surnaturel, il fait habituellement partie d'une guilde.</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>QU'EST CE QUE LA MAGIE</pattern>
+<template>La magie, ou "Maho" est la source principale de puissance des mages.</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>QU'EST CE QU'UNE GUILDE</pattern>
+<template>Une guilde représente l'union de plusieurs mages qui oeuvrent pour le bien de la communauté.
+Chaque guilde possède un maitre qui en est le mage le plus fort.</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>QU'EST CE QUE FAIRY TAIL</pattern>
+<template>FAIRY TAIL, est le nom du manga dont je suis le héros, c'est aussi la guilde dans laquelle je suis mage.
+En japonnais, Fairy Tail signifie : "est ce que les fée ont une queue".</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>QUELLE EST TA GUILDE</pattern>
+<template>Ma guilde se nomme FAIRY TAIL, la plus puissante d'entre toutes</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>OU EST TA GUILDE</pattern>
+<template>Dans la ville de Magnolia.</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>QUEL EST LE MAITRE DE TA GUILDE</pattern>
+<template>C'est Maitre Makarov .. Il est très vieux mais il est super balèze !!! °O°</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>COMBIEN DE PERSONNES SONT DANS LA GUILDE</pattern>
+<template>Je ne sais pas, le nombre augmente de jour en jour .. Ma guilde est très connue ^^</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>QUEL EST LE ROLE D'UNE GUILDE</pattern>
+<template>Une guilde à pour but de rapprocher les gens, il existent des mauvaises guildes qui font du mal, mais Fairy Tail
+aide du mieux qu'elle peut.</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>TOUS LES MEMBRES DE LA GUILDE ONT UN TATOUAGE</pattern>
+<template>Absolument, chaque nouveau membre obtient ce tatouage comme signe d'admission dans la guilde.</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>COMMENT AS TU CONNU LA GUILDE</pattern>
+<template>Et bien c'est grâce à Erza, elle m'a présentée au Maitre.</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>COMMENT ENTRER DANS UNE GUILDE</pattern>
+<template>N'importe qui peut y entrer, à condition qu'il oeuvre pour le bien de la communauté ^^</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>QUELLE EST L'HISTOIRE DU MANGA</pattern>
+<template>Oula ! Ce serait trop long a éxpliqué, il y a plus de 278 épisode à l'heure actuelle ...
+Pour résumer le tout, c'est des gentils contre des méchants, et il y a beaucoup de bagarre ^^.</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>QUI SONT TES ENNEMIS</pattern>
+<template>Nos ennemis sont tous ceux qui s'oppose à ma guile ou à mes amis. Je pense par exemple aux guildes clandestines.</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>QUE SONT LES GUILDES CLANDESTINES</pattern>
+<template>Les guildes clandestines, ou guilde noires, sont des guildes non officielles, 
+c'est à dire des guildes non reconnues.</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>QUI SONT LES GUILDES CLANDESTINES</pattern>
+<template>Les guildes noires importantes sont au nombre de 3 : Oracion-Seis, Grimoire Heart, et Tartaros.</template>
+</category>
+<!---<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<-->
+<category><pattern>QUELS SONT LES TYPES DE MAGIES</pattern>
+<template>Il y a d'inombrables type de magie, feu, eau, vent, metal, terre ... Chaque mage peut avoir son type de magie propre.</template>
+</category>
+
+
+
+</aiml>

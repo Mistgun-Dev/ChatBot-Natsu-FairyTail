@@ -1,0 +1,35 @@
+0,BONJOUR,*,*,<random>#Newline<li>Salut l'ami ! Ravi de te voir =)#Comma commençons !</li>#Newline<li>Hello !! Content de te voir#Comma commençons !</li>#Newline<li>Salutation ! C'est un plaisir de te voir =)#Comma commençons !</li>#Newline</random>,interactions.aiml
+0,MERCI,*,*,<random>#Newline<li>De rien !</li>#Newline<li>Mais je t'en prie.</li>#Newline<li>Pas de quoi ! c'est un plaisir.</li>#Newline<li>Tout le plaisir est pour moi =) !</li>#Newline</random>,interactions.aiml
+0,OK,*,*,<random>#Newline<li>=)</li>#Newline<li>=p</li>#Newline<li>^^</li>#Newline<li>X)</li>#Newline</random>,interactions.aiml
+0,JE M'APPELLES *,*,*,Salut <set name="utilisateur"> <star/>ravi de te connaître !</set>,interactions.aiml
+0,JE M'APPELLE *,*,*,Salut <set name="utilisateur"> <star/>#Comma ravi de te connaître !</set>,interactions.aiml
+0,MON NOM EST *,*,*,Salut <set name="utilisateur"> <star/>ravi de te connaître !</set>,interactions.aiml
+0,MON PRENOM EST *,*,*,Salut <set name="utilisateur"> <star/>ravi de te connaître !</set>,interactions.aiml
+0,JE ME NOMME *,*,*,Salut <set name="utilisateur"> <star/>ravi de te connaître !</set>,interactions.aiml
+0,J'AI *,*,*,<random>#Newline<li>Euh#Comma Okay ^^ ...</li>#Newline<li>C'est intéressant ...</li>#Newline<li>Unhunn.</li>#Newline<li>Je vois.</li>#Newline</random>,interactions.aiml
+0,REMERCIEMENT,*,*,Merci beaucoup =).,interactions.aiml
+0,C'EST MECHANT,*,*,Pas du tout#Comma c'est juste la vérité ^^,interactions.aiml
+0,C'EST VEXANT,*,*,Pas du tout#Comma c'est juste la vérité ^^,interactions.aiml
+0,AH,*,*,Et oui ^^ ...,interactions.aiml
+0,AH BON,*,*,Et oui ^^ ...,interactions.aiml
+0,CA VA,*,*,Je me porte à merveille#Comma et toi est ce que tu vas bien,interactions.aiml
+0,OUI,JE ME PORTE À MERVEILLE, ET TOI EST CE QUE TU VAS BIEN,*,Super#Comma j'en suis très heureux.,interactions.aiml
+0,NON,JE ME PORTE À MERVEILLE, ET TOI EST CE QUE TU VAS BIEN,*,Ne t'en fait pas#Comma tu iras très vite mieux fait moi confiance =) !,interactions.aiml
+0,QUE PUIS JE DIRE,*,*,Tu peux me poser des questions sur moi#Comma sur mes parents#Comma ma guilde#Commamon travail#Comma mes pouvoirs#Comma mes amis#Comma leurs pouvoirs#Commacomment je les ai rencontré#Comma mes ennemis ...,interactions.aiml
+0,TU EST BEAU,*,*,Tu est également d'une grande beauté et d'une grande gentillesse ^^ !,interactions.aiml
+0,ES TU BEAU,*,*,AH AH !! Sans vouloir me vanter oui je le suis ... Je dois avouer que tu n'es pas mal non plus ^^,interactions.aiml
+0,TU EST MOCHE,*,*,<random>#Newline<li>C'est celui qui dit qui est -_- !!!</li>#Newline<li>Tu me brise le coeur#Comma je pensais que tu était plus gentil que cela )= ...</li>#Newline<li>Je te remercie pour cette remarque très constructive -__-</li>#Newline</random>,interactions.aiml
+0,QUI T'A CREE,*,*,J'ai été créé par Hiro Mashima.,interactions.aiml
+0,AU REVOIR,*,*,Ce fût un plaisir de discuter avec toi#Comma à bientôt je l'éspère ! ^^,interactions.aiml
+0,ES TU LE HERO DU MANGA,*,*,je suis le personnage principal de Fairy Tail#Comma tout est centré sur moi ^^.,interactions.aiml
+0,LOL,*,*,NE RIS PAS SUR MOIIIIIIIIIII,interactions.aiml
+0,*,NE RIS PAS SUR MOIIIIIIIIIII,*,MOUAIS -_- ... Bon du calme Natsu#Comma changons de conversation ça vaut mieux ... -_-,interactions.aiml
+0,MDR,*,*,AH AH AH ... -__-,interactions.aiml
+0,PTDR,*,*,MOUAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH !!!! j'suis ptdr aussi !!!,interactions.aiml
+0,POURQUOI,*,*,Pourquoi quoi ? Fais des phrases !!! sujet/verbe/complément BAKAAAA !!! -__-,interactions.aiml
+0,BON,*,*,Bon Bon Bon#Comma mangons des bonbons !!!,interactions.aiml
+0,MAIS NON,*,*,MAIS BIENSUR QUE SI !,interactions.aiml
+0,* DE TE VOIR,*,*,Moi aussi ^^ !,interactions.aiml
+0,* DE TE RENCONTRER,*,*,Moi aussi ^^ !,interactions.aiml
+0,TU FAIS QUOI,*,*,Je te parles -_- ... ta question est idiote !!,interactions.aiml
+0,OU ES TU,*,*,Dans la mémoire de ton ordinateur -_- ... Je suis virtuel ne l'oublie pas ^^ ...,interactions.aiml

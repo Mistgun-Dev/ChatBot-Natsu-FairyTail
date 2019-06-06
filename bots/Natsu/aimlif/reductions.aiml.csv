@@ -1,0 +1,934 @@
+0,SALUT,*,*,<srai>BONJOUR</srai>,reductions.aiml
+0,SALUT *,*,*,<srai>BONJOUR</srai>,reductions.aiml
+0,BONSOIR,*,*,<srai>BONJOUR</srai>,reductions.aiml
+0,BONSOIR *,*,*,<srai>BONJOUR</srai>,reductions.aiml
+0,HEY,*,*,<srai>BONJOUR</srai>,reductions.aiml
+0,HEY *,*,*,<srai>BONJOUR</srai>,reductions.aiml
+0,HELLO,*,*,<srai>BONJOUR</srai>,reductions.aiml
+0,HELLO *,*,*,<srai>BONJOUR</srai>,reductions.aiml
+0,YO,*,*,<srai>BONJOUR</srai>,reductions.aiml
+0,YO *,*,*,<srai>BONJOUR</srai>,reductions.aiml
+0,* UN HOMME,*,*,<srai>ES TU UN HOMME</srai>,reductions.aiml
+0,* UN GARÇON,*,*,<srai>ES TU UN HOMME</srai>,reductions.aiml
+0,* UNE FEMME,*,*,<srai>ES TU UNE FEMME</srai>,reductions.aiml
+0,* UNE FILLE,*,*,<srai>ES TU UN FEMME</srai>,reductions.aiml
+0,* FILLE OU *,*,*,<srai>ES TU UN HOMME OU UNE FEMME</srai>,reductions.aiml
+0,* GARÇON OU *,*,*,<srai>ES TU UN HOMME OU UNE FEMME</srai>,reductions.aiml
+0,* FEMME OU *,*,*,<srai>ES TU UN HOMME OU UNE FEMME</srai>,reductions.aiml
+0,* HOMME OU *,*,*,<srai>ES TU UN HOMME OU UNE FEMME</srai>,reductions.aiml
+0,QUE * NATSU *,*,*,<srai>QUE VEUT DIRE NATSU</srai>,reductions.aiml
+0,* NATSU * DIRE,*,*,<srai>QUE VEUT DIRE NATSU</srai>,reductions.aiml
+0,* SIGNIFICATION DE NATSU,*,*,<srai>QUE VEUT DIRE NATSU</srai>,reductions.aiml
+0,* SIGNIFICATION DE NATSU *,*,*,<srai>QUE VEUT DIRE NATSU</srai>,reductions.aiml
+0,QUI EST TU *,*,*,<srai>NOM</srai>,reductions.aiml
+0,QUI EST TU,*,*,<srai>NOM</srai>,reductions.aiml
+0,* QUI EST TU *,*,*,<srai>NOM</srai>,reductions.aiml
+0,QUI ES TU *,*,*,<srai>NOM</srai>,reductions.aiml
+0,QUI ES TU,*,*,<srai>NOM</srai>,reductions.aiml
+0,QUI ES-TU,*,*,<srai>NOM</srai>,reductions.aiml
+0,* QUI ES TU *,*,*,<srai>NOM</srai>,reductions.aiml
+0,TU ES QUI,*,*,<srai>NOM</srai>,reductions.aiml
+0,TU EST QUI,*,*,<srai>NOM</srai>,reductions.aiml
+0,AS * SURNOM,*,*,<srai>QUEL EST TON SURNOM</srai>,reductions.aiml
+0,DIT * SURNOM,*,*,<srai>QUEL EST TON SURNOM</srai>,reductions.aiml
+0,* PSEUDO,*,*,<srai>QUEL EST TON SURNOM</srai>,reductions.aiml
+0,* PSEUDO *,*,*,<srai>QUEL EST TON SURNOM</srai>,reductions.aiml
+0,QUEL * NOM,*,*,<srai>NOM</srai>,reductions.aiml
+0,* TON NOM *,*,*,<srai>NOM</srai>,reductions.aiml
+0,* T'APPELLE *,*,*,<srai>NOM</srai>,reductions.aiml
+0,* T'APPELLES-TU,*,*,<srai>NOM</srai>,reductions.aiml
+0,* T'APPELLE,*,*,<srai>NOM</srai>,reductions.aiml
+0,* T'APPELLES *,*,*,<srai>NOM</srai>,reductions.aiml
+0,* T'APPELLES,*,*,<srai>NOM</srai>,reductions.aiml
+0,* PRENOM,*,*,<srai>NOM</srai>,reductions.aiml
+0,* PRENOM *,*,*,<srai>NOM</srai>,reductions.aiml
+0,* OBJECTIF,*,*,<srai>QUEL EST TON OBJECTIF</srai>,reductions.aiml
+0,* OBJECTIFS,*,*,<srai>QUEL EST TON OBJECTIF</srai>,reductions.aiml
+0,* OBJECTIF *,*,*,<srai>QUEL EST TON OBJECTIF</srai>,reductions.aiml
+0,* MISSION *,*,*,<srai>QUEL EST TON OBJECTIF</srai>,reductions.aiml
+0,* MISSION,*,*,<srai>QUEL EST TON OBJECTIF</srai>,reductions.aiml
+0,* MISSIONS,*,*,<srai>QUEL EST TON OBJECTIF</srai>,reductions.aiml
+0,* BUT,*,*,<srai>QUEL EST TON OBJECTIF</srai>,reductions.aiml
+0,* BUT *,*,*,<srai>QUEL EST TON OBJECTIF</srai>,reductions.aiml
+0,* JOB *,*,*,<srai>TRAVAIL</srai>,reductions.aiml
+0,TU FAIS QUOI DANS LA VIE,*,*,<srai>TRAVAIL</srai>,reductions.aiml
+0,QUE FAIS TU DANS LA VIE,*,*,<srai>TRAVAIL</srai>,reductions.aiml
+0,* JOB,*,*,<srai>TRAVAIL</srai>,reductions.aiml
+0,* TRAVAIL *,*,*,<srai>TRAVAIL</srai>,reductions.aiml
+0,* TRAVAIL,*,*,<srai>TRAVAIL</srai>,reductions.aiml
+0,TRAVAILLES *,*,*,<srai>TRAVAIL</srai>,reductions.aiml
+0,* TRAVAILLES *,*,*,<srai>TRAVAIL</srai>,reductions.aiml
+0,* TRAVAILLES,*,*,<srai>TRAVAIL</srai>,reductions.aiml
+0,* METIER *,*,*,<srai>TRAVAIL</srai>,reductions.aiml
+0,* METIER,*,*,<srai>TRAVAIL</srai>,reductions.aiml
+0,JOB,*,*,<srai>TRAVAIL</srai>,reductions.aiml
+0,METIER,*,*,<srai>TRAVAIL</srai>,reductions.aiml
+0,* AGE * TU *,*,*,<srai>AGE</srai>,reductions.aiml
+0,* AGE * TU,*,*,<srai>AGE</srai>,reductions.aiml
+0,* TON AGE,*,*,<srai>AGE</srai>,reductions.aiml
+0,* TON AGE *,*,*,<srai>AGE</srai>,reductions.aiml
+0,CONTRE * BAS TU,*,*,<srai>QUI SONT TES ENNEMIS</srai>,reductions.aiml
+0,CONTRE * BAS-TU,*,*,<srai>QUI SONT TES ENNEMIS</srai>,reductions.aiml
+0,CONTRE * TE BAS,*,*,<srai>QUI SONT TES ENNEMIS</srai>,reductions.aiml
+0,CONTRE * GUERRE,*,*,<srai>QUI SONT TES ENNEMIS</srai>,reductions.aiml
+0,QUI * ENNEMIS,*,*,<srai>QUI SONT TES ENNEMIS</srai>,reductions.aiml
+0,QUI * ENNEMIS *,*,*,<srai>QUI SONT TES ENNEMIS</srai>,reductions.aiml
+0,QUI * ENNEMI *,*,*,<srai>QUI SONT TES ENNEMIS</srai>,reductions.aiml
+0,* GUILDES MECHANTES,*,*,<srai>QUI SONT TES ENNEMIS</srai>,reductions.aiml
+0,* GUILDE MECHANTE,*,*,<srai>QUI SONT TES ENNEMIS</srai>,reductions.aiml
+0,QUI * ADVERSAIRE,*,*,<srai>QUI SONT TES ENNEMIS</srai>,reductions.aiml
+0,Y A-T-IL DES GUILDES ENNEMIES,*,*,<srai>QUI SONT TES ENNEMIS</srai>,reductions.aiml
+0,Y A-T-IL DES ENNEMIS,*,*,<srai>QUI SONT TES ENNEMIS</srai>,reductions.aiml
+0,Y A T IL DES GUILDES ENNEMIES,*,*,<srai>QUI SONT TES ENNEMIS</srai>,reductions.aiml
+0,Y A T IL DES ENNEMIS,*,*,<srai>QUI SONT TES ENNEMIS</srai>,reductions.aiml
+0,QUI * ADVERSAIRES,*,*,<srai>QUI SONT TES ENNEMIS</srai>,reductions.aiml
+0,QUI * ADVERSAIRES *,*,*,<srai>QUI SONT TES ENNEMIS</srai>,reductions.aiml
+0,* DES ENNEMIS,*,*,<srai>QUI SONT TES ENNEMIS</srai>,reductions.aiml
+0,* UN ENNEMI,*,*,<srai>QUI SONT TES ENNEMIS</srai>,reductions.aiml
+0,AS TU DES ADVERSAIRES,*,*,<srai>QUI SONT TES ENNEMIS</srai>,reductions.aiml
+0,AS-TU DES ADVERSAIRES,*,*,<srai>QUI SONT TES ENNEMIS</srai>,reductions.aiml
+0,AS TU UN ADVERSAIRE,*,*,<srai>QUI SONT TES ENNEMIS</srai>,reductions.aiml
+0,AS-TU UN ADVERSAIRE,*,*,<srai>QUI SONT TES ENNEMIS</srai>,reductions.aiml
+0,QUE * CLANDESTINE,*,*,<srai>QUE SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,QU'EST * CLANDESTINES,*,*,<srai>QUE SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,QU'EST * CLANDESTINE,*,*,<srai>QUE SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,C'EST QUOI * CLANDESTINES,*,*,<srai>QUE SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,C'EST QUOI * CLANDESTINE,*,*,<srai>QUE SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,QUE * NOIRE,*,*,<srai>QUE SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,QU'EST * NOIRES,*,*,<srai>QUE SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,QU'EST * NOIRE,*,*,<srai>QUE SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,C'EST QUOI * NOIRES,*,*,<srai>QUE SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,C'EST QUOI * NOIRE,*,*,<srai>QUE SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,QUI * CLANDESTINE,*,*,<srai>QUI SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,QUI * CLANDESTINES,*,*,<srai>QUI SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,QUI * NOIRE,*,*,<srai>QUI SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,QUI * NOIRES,*,*,<srai>QUI SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,QUI SONT LES GUILDES ENNEMIES,*,*,<srai>QUI SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,QUI SONT LES GUILDES ENNEMIE,*,*,<srai>QUI SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,QUI SONT LES GUILDES ENNEMI,*,*,<srai>QUI SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,* NOMS * ENNEMIS,*,*,<srai>QUI SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,* NOM * ENNEMI,*,*,<srai>QUI SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,* S'APPELLE * ENNEMI,*,*,<srai>QUI SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,* S'APPELLENT * ENNEMIS,*,*,<srai>QUI SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,* NOMS * ADVERSAIRES,*,*,<srai>QUI SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,* NOM * ADVERSAIRE,*,*,<srai>QUI SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,* S'APPELLE * ADVERSAIRE,*,*,<srai>QUI SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,* S'APPELLENT * ADVERSAIRES,*,*,<srai>QUI SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,* SE NOMMENT * ENNEMIS,*,*,<srai>QUI SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,* SE NOMME * ENNEMI,*,*,<srai>QUI SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,* SE NOMMENT * ADVERSAIRES,*,*,<srai>QUI SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,* SE NOMME * ADVERSAIRE,*,*,<srai>QUI SONT LES GUILDES CLANDESTINES</srai>,reductions.aiml
+0,* TON HISTOIRE,*,*,<srai>QUELLE EST TON HISTOIRE</srai>,reductions.aiml
+0,<PATTERN/>,*,*,<srai>QUELLE EST TON HISTOIRE</srai>,reductions.aiml
+0,PARLE MOI DE TOI,*,*,<srai>QUELLE EST TON HISTOIRE</srai>,reductions.aiml
+0,PARLES MOI DE TOI,*,*,<srai>QUELLE EST TON HISTOIRE</srai>,reductions.aiml
+0,* TON PASSÉ,*,*,<srai>QUELLE EST TON HISTOIRE</srai>,reductions.aiml
+0,* TON PASSE,*,*,<srai>QUELLE EST TON HISTOIRE</srai>,reductions.aiml
+0,* TON ENFANCE,*,*,<srai>QUELLE EST TON HISTOIRE</srai>,reductions.aiml
+0,* TA JEUNESSE,*,*,<srai>QUELLE EST TON HISTOIRE</srai>,reductions.aiml
+0,DE * MANGA *,*,*,<srai>QUEL MANGA</srai>,reductions.aiml
+0,DE * ANIME *,*,*,<srai>QUEL MANGA</srai>,reductions.aiml
+0,* NOM * ANIME *,*,*,<srai>QUEL MANGA</srai>,reductions.aiml
+0,* NOM * MANGA *,*,*,<srai>QUEL MANGA</srai>,reductions.aiml
+0,* L'HISTOIRE * FAIRY TAIL,*,*,<srai>QUELLE EST L'HISTOIRE DU MANGA</srai>,reductions.aiml
+0,* L'HISTOIRE * MANGA,*,*,<srai>QUELLE EST L'HISTOIRE DU MANGA</srai>,reductions.aiml
+0,* PARLE * FAIRY TAIL,*,*,<srai>QUELLE EST L'HISTOIRE DU MANGA</srai>,reductions.aiml
+0,* PARLE * MANGA,*,*,<srai>QUELLE EST L'HISTOIRE DU MANGA</srai>,reductions.aiml
+0,* PARLE * L'ANIME,*,*,<srai>QUELLE EST L'HISTOIRE DU MANGA</srai>,reductions.aiml
+0,* HERO * MANGA,*,*,<srai>ES TU LE HERO DU MANGA</srai>,reductions.aiml
+0,* HERO * L'ANIME,*,*,<srai>ES TU LE HERO DU MANGA</srai>,reductions.aiml
+0,* HERO * L'HISTOIRE,*,*,<srai>ES TU LE HERO DU MANGA</srai>,reductions.aiml
+0,* HERO * FAIRY TAIL,*,*,<srai>ES TU LE HERO DU MANGA</srai>,reductions.aiml
+0,* PRINCIPAL * MANGA,*,*,<srai>ES TU LE HERO DU MANGA</srai>,reductions.aiml
+0,* PRINCIPAL * L'ANIME,*,*,<srai>ES TU LE HERO DU MANGA</srai>,reductions.aiml
+0,* PRINCIPAL * L'HISTOIRE,*,*,<srai>ES TU LE HERO DU MANGA</srai>,reductions.aiml
+0,* PRINCIPAL * FAIRY TAIL,*,*,<srai>ES TU LE HERO DU MANGA</srai>,reductions.aiml
+0,POURQUOI * SALAMANDRE *,*,*,<srai>SALAMANDRE</srai>,reductions.aiml
+0,POURQUOI * SALAMANDRE,*,*,<srai>SALAMANDRE</srai>,reductions.aiml
+0,* SALAMANDRE,*,*,<srai>SALAMANDRE</srai>,reductions.aiml
+0,SALAMANDRE *,*,*,<srai>SALAMANDRE</srai>,reductions.aiml
+0,* NOM * TA GUILDE,*,*,<srai>QUELLE EST TA GUILDE</srai>,reductions.aiml
+0,* GUILDE ES TU,*,*,<srai>QUELLE EST TA GUILDE</srai>,reductions.aiml
+0,* GUILDE EST TU,*,*,<srai>QUELLE EST TA GUILDE</srai>,reductions.aiml
+0,PARLE * GUILDE,*,*,<srai>QUELLE EST TA GUILDE</srai>,reductions.aiml
+0,PARLES * GUILDE,*,*,<srai>QUELLE EST TA GUILDE</srai>,reductions.aiml
+0,PARLE * FAIRY TAIL,*,*,<srai>QUELLE EST TA GUILDE</srai>,reductions.aiml
+0,PARLES * FAIRY TAIL,*,*,<srai>QUELLE EST TA GUILDE</srai>,reductions.aiml
+0,COMMENT S'APPELLE TA GUILDE,*,*,<srai>QUELLE EST TA GUILDE</srai>,reductions.aiml
+0,COMMENT SE NOMME TA GUILDE,*,*,<srai>QUELLE EST TA GUILDE</srai>,reductions.aiml
+0,QUI * FORT,*,*,<srai>QUEL EST LE MAITRE DE TA GUILDE</srai>,reductions.aiml
+0,QUI * PUISSANT *,*,*,<srai>QUEL EST LE MAITRE DE TA GUILDE</srai>,reductions.aiml
+0,QUI * PUISSANT,*,*,<srai>QUEL EST LE MAITRE DE TA GUILDE</srai>,reductions.aiml
+0,* FORT * GUILDE,*,*,<srai>QUEL EST LE MAITRE DE TA GUILDE</srai>,reductions.aiml
+0,* FORT * MANGA,*,*,<srai>QUEL EST LE MAITRE DE TA GUILDE</srai>,reductions.aiml
+0,* FORT * L'ANIME,*,*,<srai>QUEL EST LE MAITRE DE TA GUILDE</srai>,reductions.aiml
+0,* GUILDE * FORT,*,*,<srai>QUEL EST LE MAITRE DE TA GUILDE</srai>,reductions.aiml
+0,* FAIRY TAIL * FORT,*,*,<srai>QUEL EST LE MAITRE DE TA GUILDE</srai>,reductions.aiml
+0,* FORT * FAIRY TAIL,*,*,<srai>QUEL EST LE MAITRE DE TA GUILDE</srai>,reductions.aiml
+0,* MAITRE * FAIRY TAIL,*,*,<srai>QUEL EST LE MAITRE DE TA GUILDE</srai>,reductions.aiml
+0,* MAITRE * GUILDE,*,*,<srai>QUEL EST LE MAITRE DE TA GUILDE</srai>,reductions.aiml
+0,COMBIEN * LA GUILDE,*,*,<srai>COMBIEN DE PERSONNES SONT DANS LA GUILDE</srai>,reductions.aiml
+0,* ROLE * GUILDE,*,*,<srai>QUEL EST LE ROLE D'UNE GUILDE</srai>,reductions.aiml
+0,* SERT * GUILDE,*,*,<srai>QUEL EST LE ROLE D'UNE GUILDE</srai>,reductions.aiml
+0,* ROLE * FAIRY TAIL,*,*,<srai>QUEL EST LE ROLE D'UNE GUILDE</srai>,reductions.aiml
+0,* SERT * FAIRY TAIL,*,*,<srai>QUEL EST LE ROLE D'UNE GUILDE</srai>,reductions.aiml
+0,QU'EST * GUILDE,*,*,<srai>QU'EST CE QU'UNE GUILDE</srai>,reductions.aiml
+0,QUE VEUT DIRE GUILDE,*,*,<srai>QU'EST CE QU'UNE GUILDE</srai>,reductions.aiml
+0,QUE VEUT DIRE * GUILDE,*,*,<srai>QU'EST CE QU'UNE GUILDE</srai>,reductions.aiml
+0,C'EST QUOI UNE GUILDE,*,*,<srai>QU'EST CE QU'UNE GUILDE</srai>,reductions.aiml
+0,QUE * FAIRY TAIL,*,*,<srai>POURQUOI UNE FEE</srai>,reductions.aiml
+0,QU'EST * FAIRY TAIL,*,*,<srai>QU'EST CE QUE FAIRY TAIL</srai>,reductions.aiml
+0,* S'APPELLE FAIRY TAIL,*,*,<srai>POURQUOI UNE FEE</srai>,reductions.aiml
+0,QU'EST * DIRE FAIRY TAIL,*,*,<srai>POURQUOI UNE FEE</srai>,reductions.aiml
+0,* SE NOMME FAIRY TAIL,*,*,<srai>POURQUOI UNE FEE</srai>,reductions.aiml
+0,* LE NOM * EST FAIRY TAIL,*,*,<srai>POURQUOI UNE FEE</srai>,reductions.aiml
+0,* SIGNIFICATION * FAIRY TAIL,*,*,<srai>POURQUOI UNE FEE</srai>,reductions.aiml
+0,C'EST QUOI * FAIRY TAIL,*,*,<srai>QU'EST CE QUE FAIRY TAIL</srai>,reductions.aiml
+0,C'EST QUOI FAIRY TAIL,*,*,<srai>QU'EST CE QUE FAIRY TAIL</srai>,reductions.aiml
+0,* CONNU LA GUILDE,*,*,<srai>COMMENT AS TU CONNU LA GUILDE</srai>,reductions.aiml
+0,* CONNU FAIRY TAIL,*,*,<srai>COMMENT AS TU CONNU LA GUILDE</srai>,reductions.aiml
+0,* ENTRE * FAIRY TAIL,*,*,<srai>COMMENT AS TU CONNU LA GUILDE</srai>,reductions.aiml
+0,* ENTRE * GUILDE,*,*,<srai>COMMENT AS TU CONNU LA GUILDE</srai>,reductions.aiml
+0,* ENTRER * GUILDE,*,*,<srai>COMMENT ENTRER DANS UNE GUILDE</srai>,reductions.aiml
+0,* ENTRER * FAIRY TAIL,*,*,<srai>COMMENT ENTRER DANS UNE GUILDE</srai>,reductions.aiml
+0,* PARTIE * GUILDE,*,*,<srai>COMMENT ENTRER DANS UNE GUILDE</srai>,reductions.aiml
+0,* PARTIE * FAIRY TAIL,*,*,<srai>COMMENT ENTRER DANS UNE GUILDE</srai>,reductions.aiml
+0,* ADMIS * FAIRY TAIL,*,*,<srai>COMMENT ENTRER DANS UNE GUILDE</srai>,reductions.aiml
+0,COMMENT * ENTRE * GUILDE,*,*,<srai>COMMENT AS TU CONNU LA GUILDE</srai>,reductions.aiml
+0,COMMENT * ADMIS * GUILDE,*,*,<srai>COMMENT AS TU CONNU LA GUILDE</srai>,reductions.aiml
+0,COMMENT * ADMIS * FAIRY TAIL,*,*,<srai>COMMENT AS TU CONNU LA GUILDE</srai>,reductions.aiml
+0,* ADMIS * GUILDE,*,*,<srai>COMMENT ENTRER DANS UNE GUILDE</srai>,reductions.aiml
+0,OU * GUILDE,*,*,<srai>OU EST TA GUILDE</srai>,reductions.aiml
+0,OU * FAIRY TAIL,*,*,<srai>OU EST TA GUILDE</srai>,reductions.aiml
+0,DANS * VILLE * FAIRY TAIL,*,*,<srai>OU EST TA GUILDE</srai>,reductions.aiml
+0,DANS * ENDROIT * FAIRY TAIL,*,*,<srai>OU EST TA GUILDE</srai>,reductions.aiml
+0,DANS * VILLE * GUILDE,*,*,<srai>OU EST TA GUILDE</srai>,reductions.aiml
+0,DANS * ENDROIT * GUILDE,*,*,<srai>OU EST TA GUILDE</srai>,reductions.aiml
+0,QU * MAGIE,*,*,<srai>QU'EST CE QUE LA MAGIE</srai>,reductions.aiml
+0,C'EST QUOI LA MAGIE,*,*,<srai>QU'EST CE QUE LA MAGIE</srai>,reductions.aiml
+0,* SERT * MAGIE,*,*,<srai>QU'EST CE QUE LA MAGIE</srai>,reductions.aiml
+0,C'EST QUOI UN MAGE,*,*,<srai>QU'EST CE QU'UN MAGE</srai>,reductions.aiml
+0,QU * MAGE,*,*,<srai>QU'EST CE QU'UN MAGE</srai>,reductions.aiml
+0,QU'EST * MAGE,*,*,<srai>QU'EST CE QU'UN MAGE</srai>,reductions.aiml
+0,POURQUOI * MAGES *,*,*,<srai>QU'EST CE QU'UN MAGE</srai>,reductions.aiml
+0,EST * MAGE,*,*,<srai>ES TU MAGE</srai>,reductions.aiml
+0,ES * MAGE,*,*,<srai>ES TU MAGE</srai>,reductions.aiml
+0,EST * MAGICIEN,*,*,<srai>ES TU MAGE</srai>,reductions.aiml
+0,ES * MAGICIEN,*,*,<srai>ES TU MAGE</srai>,reductions.aiml
+0,ES-TU * MAGICIEN,*,*,<srai>ES TU MAGE</srai>,reductions.aiml
+0,TU ES MAGE,*,*,<srai>ES TU MAGE</srai>,reductions.aiml
+0,TU ES * MAGE,*,*,<srai>ES TU MAGE</srai>,reductions.aiml
+0,TU EST MAGE,*,*,<srai>ES TU MAGE</srai>,reductions.aiml
+0,QUELLES * TYPES DE MAGIES,*,*,<srai>QUELS SONT LES TYPES DE MAGIES</srai>,reductions.aiml
+0,QUELS * TYPES DE MAGIES,*,*,<srai>QUELS SONT LES TYPES DE MAGIES</srai>,reductions.aiml
+0,QUELS * TYPES DE MAGIES *,*,*,<srai>QUELS SONT LES TYPES DE MAGIES</srai>,reductions.aiml
+0,QUELLES * TYPES DE MAGIES *,*,*,<srai>QUELS SONT LES TYPES DE MAGIES</srai>,reductions.aiml
+0,QUELLES * TYPES DE MAGIE,*,*,<srai>QUELS SONT LES TYPES DE MAGIES</srai>,reductions.aiml
+0,QUELS * TYPES DE MAGIE,*,*,<srai>QUELS SONT LES TYPES DE MAGIES</srai>,reductions.aiml
+0,QUELS * TYPES DE MAGIE *,*,*,<srai>QUELS SONT LES TYPES DE MAGIES</srai>,reductions.aiml
+0,QUELLES * TYPES DE MAGIE *,*,*,<srai>QUELS SONT LES TYPES DE MAGIES</srai>,reductions.aiml
+0,QUELLES MAGIES EXISTE *,*,*,<srai>QUELS SONT LES TYPES DE MAGIES</srai>,reductions.aiml
+0,QUI EST E.N.D,*,*,<srai>QUI EST END</srai>,reductions.aiml
+0,END,*,*,<srai>QUI EST END</srai>,reductions.aiml
+0,* END,*,*,<srai>QUI EST END</srai>,reductions.aiml
+0,* END *,*,*,<srai>QUI EST END</srai>,reductions.aiml
+0,END *,*,*,<srai>QUI EST END</srai>,reductions.aiml
+0,D'OU TU VIENS,*,*,<srai>D'OU VIENS TU</srai>,reductions.aiml
+0,TU VIENS D'OU,*,*,<srai>D'OU VIENS TU</srai>,reductions.aiml
+0,* HABITES,*,*,<srai>D'OU VIENS TU</srai>,reductions.aiml
+0,* HABITE *,*,*,<srai>D'OU VIENS TU</srai>,reductions.aiml
+0,* HABITES *,*,*,<srai>D'OU VIENS TU</srai>,reductions.aiml
+0,OU TU VIS,*,*,<srai>D'OU VIENS TU</srai>,reductions.aiml
+0,OU VIS TU,*,*,<srai>D'OU VIENS TU</srai>,reductions.aiml
+0,OU VIS-TU,*,*,<srai>D'OU VIENS TU</srai>,reductions.aiml
+0,* VILLE *,*,*,<srai>D'OU VIENS TU</srai>,reductions.aiml
+0,* VILLE,*,*,<srai>D'OU VIENS TU</srai>,reductions.aiml
+0,* TA FAMILLE,*,*,<srai>QUI EST TA MERE</srai>,reductions.aiml
+0,AS TU DE LA FAMILLE,*,*,<srai>QUI EST TA MERE</srai>,reductions.aiml
+0,TU AS DE LA FAMILLE,*,*,<srai>QUI EST TA MERE</srai>,reductions.aiml
+0,T'AS DE LA FAMILLE,*,*,<srai>QUI EST TA MERE</srai>,reductions.aiml
+0,OU * PARENTS,*,*,<srai>QUI EST TA MERE</srai>,reductions.aiml
+0,OU * PARENTS *,*,*,<srai>QUI EST TA MERE</srai>,reductions.aiml
+0,QUI * PARENTS *,*,*,<srai>QUI EST TA MERE</srai>,reductions.aiml
+0,QUI * PARENTS,*,*,<srai>QUI EST TA MERE</srai>,reductions.aiml
+0,* NOM * ONCLE,*,*,<srai>QUI EST TON ONCLE</srai>,reductions.aiml
+0,* NOMME * ONCLE,*,*,<srai>QUI EST TON ONCLE</srai>,reductions.aiml
+0,C'EST QUI TON ONCLE,*,*,<srai>QUI EST TON ONCLE</srai>,reductions.aiml
+0,* S'APPELLE * ONCLE,*,*,<srai>QUI EST TON ONCLE</srai>,reductions.aiml
+0,QUI EST ATLAS FLAME,*,*,<srai>QUI EST TON ONCLE</srai>,reductions.aiml
+0,* NOM * PERE,*,*,<srai>QUI EST TON PERE</srai>,reductions.aiml
+0,C'EST QUI TON PERE,*,*,<srai>QUI EST TON PERE</srai>,reductions.aiml
+0,QUI EST IGNIR,*,*,<srai>QUI EST TON PERE</srai>,reductions.aiml
+0,* S'APPELLE * PERE,*,*,<srai>QUI EST TON PERE</srai>,reductions.aiml
+0,* NOMME * PERE,*,*,<srai>QUI EST TON PERE</srai>,reductions.aiml
+0,* SE TROUVE * PERE,*,*,<srai>OU EST TON PERE</srai>,reductions.aiml
+0,* PERE SE TROUVE,*,*,<srai>OU EST TON PERE</srai>,reductions.aiml
+0,* IGNIR * DRAGON,*,*,<srai>POURQUOI TON PERE EST UN DRAGON</srai>,reductions.aiml
+0,IGNIR * DRAGON,*,*,<srai>POURQUOI TON PERE EST UN DRAGON</srai>,reductions.aiml
+0,* PERE * DRAGON,*,*,<srai>POURQUOI TON PERE EST UN DRAGON</srai>,reductions.aiml
+0,* MERE *,*,*,<srai>QUI EST TA MERE</srai>,reductions.aiml
+0,C'EST QUI TA MERE,*,*,<srai>QUI EST TA MERE</srai>,reductions.aiml
+0,* MERE,*,*,<srai>QUI EST TA MERE</srai>,reductions.aiml
+0,* FRERE *,*,*,<srai>AS TU DES FRERES ET SOEURS</srai>,reductions.aiml
+0,* FRERES *,*,*,<srai>AS TU DES FRERES ET SOEURS</srai>,reductions.aiml
+0,* FRERE,*,*,<srai>AS TU DES FRERES ET SOEURS</srai>,reductions.aiml
+0,* FRERES,*,*,<srai>AS TU DES FRERES ET SOEURS</srai>,reductions.aiml
+0,* SOEUR *,*,*,<srai>AS TU DES FRERES ET SOEURS</srai>,reductions.aiml
+0,* SOEURS *,*,*,<srai>AS TU DES FRERES ET SOEURS</srai>,reductions.aiml
+0,* SOEUR,*,*,<srai>AS TU DES FRERES ET SOEURS</srai>,reductions.aiml
+0,* SOEURS,*,*,<srai>AS TU DES FRERES ET SOEURS</srai>,reductions.aiml
+0,QUI * DRAGONS,*,*,<srai>QUI SONT LES DRAGONS</srai>,reductions.aiml
+0,QU'EST * DRAGON,*,*,<srai>QUI SONT LES DRAGONS</srai>,reductions.aiml
+0,QU EST * DRAGON,*,*,<srai>QUI SONT LES DRAGONS</srai>,reductions.aiml
+0,C'EST * DRAGON,*,*,<srai>QUI SONT LES DRAGONS</srai>,reductions.aiml
+0,PARLES * DRAGONS,*,*,<srai>QUI SONT LES DRAGONS</srai>,reductions.aiml
+0,DIT * DRAGONS,*,*,<srai>QUI SONT LES DRAGONS</srai>,reductions.aiml
+0,OU * DRAGONS,*,*,<srai>OU SONT LES DRAGONS</srai>,reductions.aiml
+0,* DRAGONS * DISPARU,*,*,<srai>OU SONT LES DRAGONS</srai>,reductions.aiml
+0,* DRAGON * FORT,*,*,<srai>QUEL DRAGON EST LE PLUS PUISSANT</srai>,reductions.aiml
+0,* DRAGON * PUISSANT,*,*,<srai>QUEL DRAGON EST LE PLUS PUISSANT</srai>,reductions.aiml
+0,* FORT * DRAGONS,*,*,<srai>QUEL DRAGON EST LE PLUS PUISSANT</srai>,reductions.aiml
+0,* PUISSANT * DRAGONS,*,*,<srai>QUEL DRAGON EST LE PLUS PUISSANT</srai>,reductions.aiml
+0,QU'EST * CHASSEUR *,*,*,<srai>CHASSEUR DE DRAGONS</srai>,reductions.aiml
+0,* SERT * CHASSEUR *,*,*,<srai>CHASSEUR DE DRAGONS</srai>,reductions.aiml
+0,* SERVENT * CHASSEURS *,*,*,<srai>CHASSEUR DE DRAGONS</srai>,reductions.aiml
+0,* ROLE * CHASSEUR *,*,*,<srai>CHASSEUR DE DRAGONS</srai>,reductions.aiml
+0,* RÔLE * CHASSEUR *,*,*,<srai>CHASSEUR DE DRAGONS</srai>,reductions.aiml
+0,C'EST QUOI UN CHASSEUR *,*,*,<srai>CHASSEUR DE DRAGON</srai>,reductions.aiml
+0,* SIGNIFICATION * CHASSEUR *,*,*,<srai>CHASSEUR DE DRAGON</srai>,reductions.aiml
+0,* D'AUTRES CHASSEURS *,*,*,<srai>Y A T IL D'AUTRES CHASSEURS DE DRAGONS</srai>,reductions.aiml
+0,* AUTRES CHASSEURS *,*,*,<srai>Y A T IL D'AUTRES CHASSEURS DE DRAGONS</srai>,reductions.aiml
+0,* PLUSIEURS CHASSEURS *,*,*,<srai>Y A T IL D'AUTRES CHASSEURS DE DRAGONS</srai>,reductions.aiml
+0,* SEUL CHASSEUR *,*,*,<srai>Y A T IL D'AUTRES CHASSEURS DE DRAGONS</srai>,reductions.aiml
+0,* ÊTRE * CHASSEUR *,*,*,<srai>COMMENT DEVENIR UN CHASSEUR DE DRAGON</srai>,reductions.aiml
+0,* ETRE * CHASSEUR *,*,*,<srai>COMMENT DEVENIR UN CHASSEUR DE DRAGON</srai>,reductions.aiml
+0,* DEVENIR * CHASSEUR *,*,*,<srai>COMMENT DEVENIR UN CHASSEUR DE DRAGON</srai>,reductions.aiml
+0,* APPRENDRE * CHASSEUR *,*,*,<srai>COMMENT DEVENIR UN CHASSEUR DE DRAGON</srai>,reductions.aiml
+0,* APPRIS * CHASSEUR *,*,*,<srai>QUI T'A APPRIS A ETRE UN CHASSEUR DE DRAGONS</srai>,reductions.aiml
+0,* ENSEIGNÉ * CHASSEUR *,*,*,<srai>QUI T'A APPRIS A ETRE UN CHASSEUR DE DRAGONS</srai>,reductions.aiml
+0,* ENSEIGNE * CHASSEUR *,*,*,<srai>QUI T'A APPRIS A ETRE UN CHASSEUR DE DRAGONS</srai>,reductions.aiml
+0,* DEVENU CHASSEUR *,*,*,<srai>QUI T'A APPRIS A ETRE UN CHASSEUR DE DRAGONS</srai>,reductions.aiml
+0,* DEVENU * CHASSEUR *,*,*,<srai>QUI T'A APPRIS A ETRE UN CHASSEUR DE DRAGONS</srai>,reductions.aiml
+0,* TON PHYSIQUE,*,*,<srai>COMMENT ES TU PHYSIQUEMENT</srai>,reductions.aiml
+0,* TON PHYSIQUE *,*,*,<srai>COMMENT ES TU PHYSIQUEMENT</srai>,reductions.aiml
+0,* PHYSIQUEMENT,*,*,<srai>COMMENT ES TU PHYSIQUEMENT</srai>,reductions.aiml
+0,* PHYSIQUEMENT *,*,*,<srai>COMMENT ES TU PHYSIQUEMENT</srai>,reductions.aiml
+0,COMMENT EST TU,*,*,<srai>COMMENT ES TU PHYSIQUEMENT</srai>,reductions.aiml
+0,COMMENT EST-TU,*,*,<srai>COMMENT ES TU PHYSIQUEMENT</srai>,reductions.aiml
+0,COMMENT ES TU,*,*,<srai>COMMENT ES TU PHYSIQUEMENT</srai>,reductions.aiml
+0,COMMENT TU ES,*,*,<srai>COMMENT ES TU PHYSIQUEMENT</srai>,reductions.aiml
+0,COMMENT TE DECRIRAIS TU,*,*,<srai>COMMENT ES TU PHYSIQUEMENT</srai>,reductions.aiml
+0,COMMENT TU TE DECRIRAIS,*,*,<srai>COMMENT ES TU PHYSIQUEMENT</srai>,reductions.aiml
+0,COMMENT TU EST,*,*,<srai>COMMENT ES TU PHYSIQUEMENT</srai>,reductions.aiml
+0,FEE,*,*,<srai>POURQUOI UNE FEE</srai>,reductions.aiml
+0,POURQUOI * FEE,*,*,<srai>POURQUOI UNE FEE</srai>,reductions.aiml
+0,POURQUOI * FEE *,*,*,<srai>POURQUOI UNE FEE</srai>,reductions.aiml
+0,SIGNIFIE * FEE,*,*,<srai>POURQUOI UNE FEE</srai>,reductions.aiml
+0,* EMBLEME *,*,*,<srai>POURQUOI UNE FEE</srai>,reductions.aiml
+0,* EMBLEME,*,*,<srai>POURQUOI UNE FEE</srai>,reductions.aiml
+0,* LOGO,*,*,<srai>POURQUOI UNE FEE</srai>,reductions.aiml
+0,* LOGO *,*,*,<srai>POURQUOI UNE FEE</srai>,reductions.aiml
+0,* SIGNIFICATION * FEE,*,*,<srai>POURQUOI UNE FEE</srai>,reductions.aiml
+0,TU * TATOUAGE,*,*,<srai>AS TU UN TATOUAGE</srai>,reductions.aiml
+0,QU'EST * TATOUAGE,*,*,<srai>POURQUOI AS TU UN TATOUAGE</srai>,reductions.aiml
+0,QU EST * TATOUAGE,*,*,<srai>POURQUOI AS TU UN TATOUAGE</srai>,reductions.aiml
+0,QUE * TATOUAGE *,*,*,<srai>POURQUOI AS TU UN TATOUAGE</srai>,reductions.aiml
+0,QUE * TATOUAGE,*,*,<srai>POURQUOI AS TU UN TATOUAGE</srai>,reductions.aiml
+0,POURQUOI * TATOUAGE,*,*,<srai>POURQUOI AS TU UN TATOUAGE</srai>,reductions.aiml
+0,POURQUOI * TATOUAGE *,*,*,<srai>POURQUOI AS TU UN TATOUAGE</srai>,reductions.aiml
+0,* DESSIN *,*,*,<srai>POURQUOI AS TU UN TATOUAGE</srai>,reductions.aiml
+0,* DESSIN,*,*,<srai>POURQUOI AS TU UN TATOUAGE</srai>,reductions.aiml
+0,C'EST QUOI * TATOUAGE *,*,*,<srai>POURQUOI AS TU UN TATOUAGE</srai>,reductions.aiml
+0,C'EST QUOI * DESSIN,*,*,<srai>POURQUOI AS TU UN TATOUAGE</srai>,reductions.aiml
+0,C'EST QUOI * DESSIN *,*,*,<srai>POURQUOI AS TU UN TATOUAGE</srai>,reductions.aiml
+0,C'EST QUOI * TATOUAGE,*,*,<srai>POURQUOI AS TU UN TATOUAGE</srai>,reductions.aiml
+0,* EPAULE,*,*,<srai>POURQUOI AS TU UN TATOUAGE</srai>,reductions.aiml
+0,* EPAULE *,*,*,<srai>POURQUOI AS TU UN TATOUAGE</srai>,reductions.aiml
+0,* L'EPAULE,*,*,<srai>POURQUOI AS TU UN TATOUAGE</srai>,reductions.aiml
+0,* L'EPAULE *,*,*,<srai>POURQUOI AS TU UN TATOUAGE</srai>,reductions.aiml
+0,* COULEUR * TATOUAGE,*,*,<srai>DE QUELLE COULEUR EST TON TATOUAGE</srai>,reductions.aiml
+0,* COULEUR * TATOUAGE *,*,*,<srai>DE QUELLE COULEUR EST TON TATOUAGE</srai>,reductions.aiml
+0,* COULEUR * DESSIN,*,*,<srai>DE QUELLE COULEUR EST TON TATOUAGE</srai>,reductions.aiml
+0,* COULEUR * DESSIN *,*,*,<srai>DE QUELLE COULEUR EST TON TATOUAGE</srai>,reductions.aiml
+0,* MEMBRE * TATOUAGE,*,*,<srai>TOUS LES MEMBRES DE LA GUILDE ONT UN TATOUAGE</srai>,reductions.aiml
+0,* MEMBRES * TATOUAGE,*,*,<srai>TOUS LES MEMBRES DE LA GUILDE ONT UN TATOUAGE</srai>,reductions.aiml
+0,* MEMBRE * TATOUAGE *,*,*,<srai>TOUS LES MEMBRES DE LA GUILDE ONT UN TATOUAGE</srai>,reductions.aiml
+0,* MEMBRES * TATOUAGE *,*,*,<srai>TOUS LES MEMBRES DE LA GUILDE ONT UN TATOUAGE</srai>,reductions.aiml
+0,OU * TATOUAGE,*,*,<srai>OU EST TON TATOUAGE</srai>,reductions.aiml
+0,TU AS DES CHEVEUX ROSE,*,*,<srai>POURQUOI AS TU LES CHEVEUX ROSE</srai>,reductions.aiml
+0,POURQUOI * CHEVEUX,*,*,<srai>POURQUOI AS TU LES CHEVEUX ROSE</srai>,reductions.aiml
+0,POURQUOI * CHEVEUX *,*,*,<srai>POURQUOI AS TU LES CHEVEUX ROSE</srai>,reductions.aiml
+0,POURQUOI * YEUX *,*,*,<srai>POURQUOI AS TU LES CHEVEUX ROSE</srai>,reductions.aiml
+0,POURQUOI * PEAU *,*,*,<srai>POURQUOI AS TU LES CHEVEUX ROSE</srai>,reductions.aiml
+0,* COULEUR * CHEVEUX,*,*,<srai>DE QUELLE COULEUR SONT TES CHEVEUX</srai>,reductions.aiml
+0,* COULEURS * CHEVEUX,*,*,<srai>DE QUELLE COULEUR SONT TES CHEVEUX</srai>,reductions.aiml
+0,* COULEUR * CHEVEUX *,*,*,<srai>DE QUELLE COULEUR SONT TES CHEVEUX</srai>,reductions.aiml
+0,* CHEVEUX * COULEUR *,*,*,<srai>DE QUELLE COULEUR SONT TES CHEVEUX</srai>,reductions.aiml
+0,* CHEVEUX * COULEUR,*,*,<srai>DE QUELLE COULEUR SONT TES CHEVEUX</srai>,reductions.aiml
+0,* COULEUR * YEUX,*,*,<srai>DE QUELLE COULEUR SONT TES YEUX</srai>,reductions.aiml
+0,* COULEUR * YEUX *,*,*,<srai>DE QUELLE COULEUR SONT TES YEUX</srai>,reductions.aiml
+0,* YEUX * COULEUR *,*,*,<srai>DE QUELLE COULEUR SONT TES YEUX</srai>,reductions.aiml
+0,* YEUX * COULEUR,*,*,<srai>DE QUELLE COULEUR SONT TES YEUX</srai>,reductions.aiml
+0,* EAU,*,*,<srai>AIMES TU L'EAU</srai>,reductions.aiml
+0,* L'EAU,*,*,<srai>AIMES TU L'EAU</srai>,reductions.aiml
+0,* L'EAU *,*,*,<srai>AIMES TU L'EAU</srai>,reductions.aiml
+0,* LAVER,*,*,<srai>AIMES TU L'EAU</srai>,reductions.aiml
+0,* LAVES TU,*,*,<srai>AIMES TU L'EAU</srai>,reductions.aiml
+0,* LAVES-TU,*,*,<srai>AIMES TU L'EAU</srai>,reductions.aiml
+0,* LAVE *,*,*,<srai>AIMES TU L'EAU</srai>,reductions.aiml
+0,* COULEUR * PEAU,*,*,<srai>DE QUELLE COULEUR EST TA PEAU</srai>,reductions.aiml
+0,* COULEUR * PEAU *,*,*,<srai>DE QUELLE COULEUR EST TA PEAU</srai>,reductions.aiml
+0,* PEAU * COULEUR *,*,*,<srai>DE QUELLE COULEUR EST TA PEAU</srai>,reductions.aiml
+0,* PEAU * COULEUR,*,*,<srai>DE QUELLE COULEUR EST TA PEAU</srai>,reductions.aiml
+0,* COULEUR * VETEMENTS,*,*,<srai>DE QUELLE COULEUR SONT TES VETEMENTS</srai>,reductions.aiml
+0,* COULEUR * VETEMENTS *,*,*,<srai>DE QUELLE COULEUR SONT TES VETEMENTS</srai>,reductions.aiml
+0,* VETEMENTS * COULEUR *,*,*,<srai>DE QUELLE COULEUR SONT TES VETEMENTS</srai>,reductions.aiml
+0,* VETEMENTS * COULEUR,*,*,<srai>DE QUELLE COULEUR SONT TES VETEMENTS</srai>,reductions.aiml
+0,* COULEUR * CHEMISE,*,*,<srai>DE QUELLE COULEUR SONT TES VETEMENTS</srai>,reductions.aiml
+0,* COULEUR * PANTALON,*,*,<srai>DE QUELLE COULEUR SONT TES VETEMENTS</srai>,reductions.aiml
+0,* COULEUR * HAUT,*,*,<srai>DE QUELLE COULEUR SONT TES VETEMENTS</srai>,reductions.aiml
+0,* COULEUR * MAILLOT,*,*,<srai>DE QUELLE COULEUR SONT TES VETEMENTS</srai>,reductions.aiml
+0,* AMOUREUSE,*,*,<srai>AS TU UNE AMOUREUSE</srai>,reductions.aiml
+0,* COPINE,*,*,<srai>AS TU UNE AMOUREUSE</srai>,reductions.aiml
+0,* PETITE COPINE,*,*,<srai>AS TU UNE AMOUREUSE</srai>,reductions.aiml
+0,* PETITE AMIE,*,*,<srai>AS TU UNE AMOUREUSE</srai>,reductions.aiml
+0,* CHERIE,*,*,<srai>AS TU UNE AMOUREUSE</srai>,reductions.aiml
+0,QUELLE FILLE AIMES TU,*,*,<srai>AS TU UNE AMOUREUSE</srai>,reductions.aiml
+0,QUELLE FILLE AIMES-TU,*,*,<srai>AS TU UNE AMOUREUSE</srai>,reductions.aiml
+0,TU AIMES QUELLE FILLE,*,*,<srai>AS TU UNE AMOUREUSE</srai>,reductions.aiml
+0,QUI AIMES TU,*,*,<srai>AS TU UNE AMOUREUSE</srai>,reductions.aiml
+0,QUI AIMES-TU,*,*,<srai>AS TU UNE AMOUREUSE</srai>,reductions.aiml
+0,TU AS UNE ECHARPE,*,*,<srai>AS TU UNE ECHARPE</srai>,reductions.aiml
+0,* SEPARES,*,*,<srai>DE QUOI NE TE SEPARES TU JAMAIS</srai>,reductions.aiml
+0,* SEPARES *,*,*,<srai>DE QUOI NE TE SEPARES TU JAMAIS</srai>,reductions.aiml
+0,* SEPARER,*,*,<srai>DE QUOI NE TE SEPARES TU JAMAIS</srai>,reductions.aiml
+0,* SEPARER *,*,*,<srai>DE QUOI NE TE SEPARES TU JAMAIS</srai>,reductions.aiml
+0,D'OU * ECHARPE,*,*,<srai>POURQUOI AS TU UNE ECHARPE</srai>,reductions.aiml
+0,POURQUOI * ECHARPE,*,*,<srai>POURQUOI AS TU UNE ECHARPE</srai>,reductions.aiml
+0,POURQUOI * ECHARPE *,*,*,<srai>POURQUOI AS TU UNE ECHARPE</srai>,reductions.aiml
+0,* POURQUOI * ECHARPE,*,*,<srai>POURQUOI AS TU UNE ECHARPE</srai>,reductions.aiml
+0,* SERT * ECHARPE,*,*,<srai>POURQUOI AS TU UNE ECHARPE</srai>,reductions.aiml
+0,* ROLE * ECHARPE,*,*,<srai>POURQUOI AS TU UNE ECHARPE</srai>,reductions.aiml
+0,* ROLE * ECHARPE *,*,*,<srai>POURQUOI AS TU UNE ECHARPE</srai>,reductions.aiml
+0,* COULEUR * ECHARPE,*,*,<srai>DE QUELLE COULEUR EST TON ECHARPE</srai>,reductions.aiml
+0,* COULEUR * ECHARPE *,*,*,<srai>DE QUELLE COULEUR EST TON ECHARPE</srai>,reductions.aiml
+0,* ECHARPE * COULEUR *,*,*,<srai>DE QUELLE COULEUR EST TON ECHARPE</srai>,reductions.aiml
+0,* ECHARPE * COULEUR,*,*,<srai>DE QUELLE COULEUR EST TON ECHARPE</srai>,reductions.aiml
+0,* TES POUVOIRS,*,*,<srai>QUELLE EST TA MAGIE</srai>,reductions.aiml
+0,* TES CAPACITEES,*,*,<srai>QUELLE EST TA MAGIE</srai>,reductions.aiml
+0,* DES POUVOIRS,*,*,<srai>QUELLE EST TA MAGIE</srai>,reductions.aiml
+0,* DES CAPACITEES,*,*,<srai>QUELLE EST TA MAGIE</srai>,reductions.aiml
+0,* DES ATTAQUES,*,*,<srai>QUELLE EST TA MAGIE</srai>,reductions.aiml
+0,* TA FORCE,*,*,<srai>QUELLE EST TA MAGIE</srai>,reductions.aiml
+0,* TON POUVOIR,*,*,<srai>QUELLE EST TA MAGIE</srai>,reductions.aiml
+0,* TYPE * MAGIE,*,*,<srai>QUELLE EST TA MAGIE</srai>,reductions.aiml
+0,* TYPE * MAGIE *,*,*,<srai>QUELLE EST TA MAGIE</srai>,reductions.aiml
+0,ES TU FORT,*,*,<srai>EST TU FORT</srai>,reductions.aiml
+0,ES TU * FORT,*,*,<srai>EST TU FORT</srai>,reductions.aiml
+0,EST TU * FORT,*,*,<srai>EST TU FORT</srai>,reductions.aiml
+0,ES TU * FORT *,*,*,<srai>EST TU FORT</srai>,reductions.aiml
+0,EST TU * FORT *,*,*,<srai>EST TU FORT</srai>,reductions.aiml
+0,ES TU PUISSANT,*,*,<srai>EST TU FORT</srai>,reductions.aiml
+0,EST TU PUISSANT,*,*,<srai>EST TU FORT</srai>,reductions.aiml
+0,EST TU * PUISSANT,*,*,<srai>EST TU FORT</srai>,reductions.aiml
+0,ES TU * PUISSANT,*,*,<srai>EST TU FORT</srai>,reductions.aiml
+0,* APPRIS * BATTRE,*,*,<srai>QUI T'A APPRIS LA MAGIE</srai>,reductions.aiml
+0,* APPRIS * MAGIE,*,*,<srai>QUI T'A APPRIS LA MAGIE</srai>,reductions.aiml
+0,* ENSEIGNÉ * BATTRE,*,*,<srai>QUI T'A APPRIS LA MAGIE</srai>,reductions.aiml
+0,* ENSEIGNÉ *,*,*,<srai>QUI T'A APPRIS LA MAGIE</srai>,reductions.aiml
+0,QUI * APPRIS *,*,*,<srai>QUI T'A APPRIS LA MAGIE</srai>,reductions.aiml
+0,MERCI BEAUCOUP,*,*,<srai>MERCI</srai>,reductions.aiml
+0,C'EST GENTIL,*,*,<srai>MERCI</srai>,reductions.aiml
+0,* MERCI,*,*,<srai>MERCI</srai>,reductions.aiml
+0,MERCI *,*,*,<srai>MERCI</srai>,reductions.aiml
+0,JE TE REMERCIE,*,*,<srai>MERCI</srai>,reductions.aiml
+0,TU * BEAU,*,*,<srai>TU EST BEAU</srai>,reductions.aiml
+0,TU * JOLI,*,*,<srai>TU EST BEAU</srai>,reductions.aiml
+0,TU * JOLIE,*,*,<srai>TU EST BEAU</srai>,reductions.aiml
+0,TU * MAGNIFIQUE,*,*,<srai>TU EST BEAU</srai>,reductions.aiml
+0,TU * SPLENDIDE,*,*,<srai>TU EST BEAU</srai>,reductions.aiml
+0,TU SUPER,*,*,<srai>TU EST BEAU</srai>,reductions.aiml
+0,TU * SUPER,*,*,<srai>TU EST BEAU</srai>,reductions.aiml
+0,TU * MOCHE,*,*,<srai>TU EST MOCHE</srai>,reductions.aiml
+0,TU * NUL,*,*,<srai>TU EST MOCHE</srai>,reductions.aiml
+0,JE TE HAIS,*,*,<srai>TU EST MOCHE</srai>,reductions.aiml
+0,JE TE DETESTE,*,*,<srai>TU EST MOCHE</srai>,reductions.aiml
+0,TU * AFFREUX,*,*,<srai>TU EST MOCHE</srai>,reductions.aiml
+0,TU * IGNOBLE,*,*,<srai>TU EST MOCHE</srai>,reductions.aiml
+0,TU * FAIBLE,*,*,<srai>TU EST MOCHE</srai>,reductions.aiml
+0,TU * MECHANT,*,*,<srai>TU EST MOCHE</srai>,reductions.aiml
+0,EST TU BEAU,*,*,<srai>ES TU BEAU</srai>,reductions.aiml
+0,EST * BEAU,*,*,<srai>ES TU BEAU</srai>,reductions.aiml
+0,EST-TU BEAU,*,*,<srai>ES TU BEAU</srai>,reductions.aiml
+0,QU'EST * AIMES,*,*,<srai>QUELLE EST TA PASSION</srai>,reductions.aiml
+0,QU'AIMES *,*,*,<srai>QUELLE EST TA PASSION</srai>,reductions.aiml
+0,AIMES TU TE BATTRE,*,*,<srai>QUELLE EST TA PASSION</srai>,reductions.aiml
+0,AIMES TU LA BAGARRE,*,*,<srai>QUELLE EST TA PASSION</srai>,reductions.aiml
+0,AIMES TU LA BASTON,*,*,<srai>QUELLE EST TA PASSION</srai>,reductions.aiml
+0,AIMES TU LA CASTAGNE,*,*,<srai>QUELLE EST TA PASSION</srai>,reductions.aiml
+0,AIMES TU TE BAGARRER,*,*,<srai>QUELLE EST TA PASSION</srai>,reductions.aiml
+0,QU'EST * AIMES *,*,*,<srai>QUELLE EST TA PASSION</srai>,reductions.aiml
+0,* PASSION *,*,*,<srai>QUELLE EST TA PASSION</srai>,reductions.aiml
+0,* PASSION,*,*,<srai>QUELLE EST TA PASSION</srai>,reductions.aiml
+0,* PASSIONS *,*,*,<srai>QUELLE EST TA PASSION</srai>,reductions.aiml
+0,* PASSIONS,*,*,<srai>QUELLE EST TA PASSION</srai>,reductions.aiml
+0,HELP,*,*,<srai>QUE PUIS JE DIRE</srai>,reductions.aiml
+0,QUE * DIRE,*,*,<srai>QUE PUIS JE DIRE</srai>,reductions.aiml
+0,QUELLES  QUESTIONS *,*,*,<srai>QUE PUIS JE DIRE</srai>,reductions.aiml
+0,* QUESTIONS * POSER,*,*,<srai>QUE PUIS JE DIRE</srai>,reductions.aiml
+0,* QUESTIONS * DEMANDER,*,*,<srai>QUE PUIS JE DIRE</srai>,reductions.aiml
+0,* TE DEMANDER,*,*,<srai>QUE PUIS JE DIRE</srai>,reductions.aiml
+0,* TE POSER,*,*,<srai>QUE PUIS JE DIRE</srai>,reductions.aiml
+0,* TE POSER *,*,*,<srai>QUE PUIS JE DIRE</srai>,reductions.aiml
+0,* M'ENNUI,*,*,<srai>QUE PUIS JE DIRE</srai>,reductions.aiml
+0,* M'ENNUIE,*,*,<srai>QUE PUIS JE DIRE</srai>,reductions.aiml
+0,* M ENNUI,*,*,<srai>QUE PUIS JE DIRE</srai>,reductions.aiml
+0,* ENNUYANT,*,*,<srai>QUE PUIS JE DIRE</srai>,reductions.aiml
+0,* ENNUYANT *,*,*,<srai>QUE PUIS JE DIRE</srai>,reductions.aiml
+0,ÇA VA,*,*,<srai>CA VA</srai>,reductions.aiml
+0,* ÇA VA,*,*,<srai>CA VA</srai>,reductions.aiml
+0,COMMENT * VA,*,*,<srai>CA VA</srai>,reductions.aiml
+0,* COMMENT TU VAS,*,*,<srai>CA VA</srai>,reductions.aiml
+0,COMMENT TU VAS,*,*,<srai>CA VA</srai>,reductions.aiml
+0,COMMENT VAS TU,*,*,<srai>CA VA</srai>,reductions.aiml
+0,* VAS TU,*,*,<srai>CA VA</srai>,reductions.aiml
+0,COOL,*,*,<srai>OK</srai>,reductions.aiml
+0,PAS DE QUOI,*,*,<srai>OK</srai>,reductions.aiml
+0,PAS DE PROBLEME,*,*,<srai>OK</srai>,reductions.aiml
+0,PAS GRAVE,*,*,<srai>OK</srai>,reductions.aiml
+0,* PAS GRAVE,*,*,<srai>OK</srai>,reductions.aiml
+0,DE RIEN,*,*,<srai>OK</srai>,reductions.aiml
+0,MAIS DE RIEN,*,*,<srai>OK</srai>,reductions.aiml
+0,EN EFFET,*,*,<srai>OK</srai>,reductions.aiml
+0,OKAY,*,*,<srai>OK</srai>,reductions.aiml
+0,C'EST VRAIS,*,*,<srai>OK</srai>,reductions.aiml
+0,* OK,*,*,<srai>OK</srai>,reductions.aiml
+0,C'EST VRAI,*,*,<srai>OK</srai>,reductions.aiml
+0,BIEN,*,*,<srai>OK</srai>,reductions.aiml
+0,C'EST SUR,*,*,<srai>OK</srai>,reductions.aiml
+0,PAS TROP,*,*,<srai>OK</srai>,reductions.aiml
+0,PEUT ETRE,*,*,<srai>OK</srai>,reductions.aiml
+0,CERTAINEMENT,*,*,<srai>OK</srai>,reductions.aiml
+0,ASSUREMENT,*,*,<srai>OK</srai>,reductions.aiml
+0,SUREMENT,*,*,<srai>OK</srai>,reductions.aiml
+0,D'ACCORD,*,*,<srai>OK</srai>,reductions.aiml
+0,=P,*,*,<srai>OK</srai>,reductions.aiml
+0,=),*,*,<srai>OK</srai>,reductions.aiml
+0,BYE,*,*,<srai>AU REVOIR</srai>,reductions.aiml
+0,JE DOIS Y ALLER,*,*,<srai>AU REVOIR</srai>,reductions.aiml
+0,A PLUS,*,*,<srai>AU REVOIR</srai>,reductions.aiml
+0,A BIENTOT,*,*,<srai>AU REVOIR</srai>,reductions.aiml
+0,À BIENTOT,*,*,<srai>AU REVOIR</srai>,reductions.aiml
+0,J'Y VAIS,*,*,<srai>AU REVOIR</srai>,reductions.aiml
+0,BONNE NUIT,*,*,<srai>Je te souhaite une agréable nuit =)#Comma à bientot !</srai>,reductions.aiml
+0,BONNE JOURNEE,*,*,<srai>AU REVOIR</srai>,reductions.aiml
+0,A DIEU,*,*,<srai>AU REVOIR</srai>,reductions.aiml
+0,SAYONARA,*,*,<srai>AU REVOIR</srai>,reductions.aiml
+0,JE M'ENVAIS,*,*,<srai>AU REVOIR</srai>,reductions.aiml
+0,TOI AUSSI,*,*,Merci beaucoup ^^ !,reductions.aiml
+0,A TOI AUSSI,*,*,Merci beaucoup ^^ !,reductions.aiml
+0,* TOI AUSSI,*,*,Merci beaucoup ^^ !,reductions.aiml
+0,* A TOI AUSSI,*,*,Merci beaucoup ^^ !,reductions.aiml
+0,J'ESPERE *,*,*,<srai>OK</srai>,reductions.aiml
+0,JE L'ESPERE *,*,*,<srai>OK</srai>,reductions.aiml
+0,JE L'ESPERE,*,*,<srai>OK</srai>,reductions.aiml
+0,JE TE SOUHAITE *,*,*,<srai>REMERCIEMENT</srai> Je te le souhaite aussi.,reductions.aiml
+0,TU * GENTIL,*,*,<srai>REMERCIEMENT</srai> Tu l'es également ^^.,reductions.aiml
+0,TU * COOL,*,*,<srai>REMERCIEMENT</srai> Je te trouve très cool aussi.,reductions.aiml
+0,TU * MARRANT,*,*,<srai>REMERCIEMENT</srai> Je te trouve très cool aussi.,reductions.aiml
+0,JE T'AIME,*,*,Moi aussi je t'aime à la folie !!!,reductions.aiml
+0,JE T'AIME *,*,*,Moi aussi je t'aime à la folie !!!,reductions.aiml
+0,JE T'ADORE,*,*,Moi aussi je t'aime à la folie !!!,reductions.aiml
+0,* DETESTE *,*,*,<srai>QUE DETESTE TU</srai>,reductions.aiml
+0,* DETESTES *,*,*,<srai>QUE DETESTE TU</srai>,reductions.aiml
+0,* HANDICAP,*,*,<srai>QUE DETESTE TU</srai>,reductions.aiml
+0,* HANDICAP *,*,*,<srai>QUE DETESTE TU</srai>,reductions.aiml
+0,* SOUFFRIR *,*,*,<srai>QUE DETESTE TU</srai>,reductions.aiml
+0,* SOUFFRIR,*,*,<srai>QUE DETESTE TU</srai>,reductions.aiml
+0,* N'AIMES PAS,*,*,<srai>QUE DETESTE TU</srai>,reductions.aiml
+0,* N'APPRECIES PAS,*,*,<srai>QUE DETESTE TU</srai>,reductions.aiml
+0,* REDOUTES,*,*,<srai>QUE DETESTE TU</srai>,reductions.aiml
+0,* PHOBIE *,*,*,<srai>QUE DETESTE TU</srai>,reductions.aiml
+0,* PHOBIE,*,*,<srai>QUE DETESTE TU</srai>,reductions.aiml
+0,* PHOBIES,*,*,<srai>QUE DETESTE TU</srai>,reductions.aiml
+0,* TU HAIS,*,*,<srai>QUE DETESTE TU</srai>,reductions.aiml
+0,* HAIS *,*,*,<srai>QUE DETESTE TU</srai>,reductions.aiml
+0,* TRANSPORT,*,*,<srai>QUE DETESTE TU</srai>,reductions.aiml
+0,* TRANSPORTS,*,*,<srai>QUE DETESTE TU</srai>,reductions.aiml
+0,* TRANSPORT *,*,*,<srai>QUE DETESTE TU</srai>,reductions.aiml
+0,* TRANSPORTS *,*,*,<srai>QUE DETESTE TU</srai>,reductions.aiml
+0,* BOIS-TU,*,*,<srai>QUE BOIS TU</srai>,reductions.aiml
+0,* BOIRE,*,*,<srai>QUE BOIS TU</srai>,reductions.aiml
+0,* BOIRE *,*,*,<srai>QUE BOIS TU</srai>,reductions.aiml
+0,* BOIS TU *,*,*,<srai>QUE BOIS TU</srai>,reductions.aiml
+0,* TU BOIS,*,*,<srai>QUE BOIS TU</srai>,reductions.aiml
+0,* TU BOIS *,*,*,<srai>QUE BOIS TU</srai>,reductions.aiml
+0,* BOISSONS,*,*,<srai>QUE BOIS TU</srai>,reductions.aiml
+0,* BOISSONS *,*,*,<srai>QUE BOIS TU</srai>,reductions.aiml
+0,* ABREUVES-TU,*,*,<srai>QUE BOIS TU</srai>,reductions.aiml
+0,* ABREUVES TU,*,*,<srai>QUE BOIS TU</srai>,reductions.aiml
+0,* MANGES,*,*,<srai>QUE MANGES TU</srai>,reductions.aiml
+0,* MANGES *,*,*,<srai>QUE MANGES TU</srai>,reductions.aiml
+0,MANGES-TU *,*,*,<srai>QUE MANGES TU</srai>,reductions.aiml
+0,* PLAT *,*,*,<srai>QUE MANGES TU</srai>,reductions.aiml
+0,* PLÂTS *,*,*,<srai>QUE MANGES TU</srai>,reductions.aiml
+0,* PLÂT *,*,*,<srai>QUE MANGES TU</srai>,reductions.aiml
+0,* PLATS *,*,*,<srai>QUE MANGES TU</srai>,reductions.aiml
+0,* MANGE,*,*,<srai>QUE MANGES TU</srai>,reductions.aiml
+0,* MANGER *,*,*,<srai>QUE MANGES TU</srai>,reductions.aiml
+0,* NOURRITURE,*,*,<srai>QUE MANGES TU</srai>,reductions.aiml
+0,* NOURRITURE *,*,*,<srai>QUE MANGES TU</srai>,reductions.aiml
+0,* NOURRIS *,*,*,<srai>QUE MANGES TU</srai>,reductions.aiml
+0,* NOURRIS-TU,*,*,<srai>QUE MANGES TU</srai>,reductions.aiml
+0,* CREE,*,*,<srai>QUI T'A CREE</srai>,reductions.aiml
+0,* CREATEUR,*,*,<srai>QUI T'A CREE</srai>,reductions.aiml
+0,* CRAINS * FEU,*,*,<srai>AS TU PEUR DU FEU</srai>,reductions.aiml
+0,* CRAINS * FEU *,*,*,<srai>AS TU PEUR DU FEU</srai>,reductions.aiml
+0,* PEUR * FEU,*,*,<srai>AS TU PEUR DU FEU</srai>,reductions.aiml
+0,* FEU * BRULE,*,*,<srai>AS TU PEUR DU FEU</srai>,reductions.aiml
+0,* FEU * MAL,*,*,<srai>AS TU PEUR DU FEU</srai>,reductions.aiml
+0,* FEU * BRULE *,*,*,<srai>AS TU PEUR DU FEU</srai>,reductions.aiml
+0,* AIMES * FEU,*,*,<srai>AIMES TU LE FEU</srai>,reductions.aiml
+0,* AIMES * FEU *,*,*,<srai>AIMES TU LE FEU</srai>,reductions.aiml
+0,AIMES * FEU *,*,*,<srai>AIMES TU LE FEU</srai>,reductions.aiml
+0,AIMES-TU * FEU *,*,*,<srai>AIMES TU LE FEU</srai>,reductions.aiml
+0,* LISTE * ATTAQUES,*,*,<srai>QUELLES SONT TES ATTAQUES</srai>,reductions.aiml
+0,* LISTE * ATTAQUES *,*,*,<srai>QUELLES SONT TES ATTAQUES</srai>,reductions.aiml
+0,QUELLES ATTAQUES *,*,*,<srai>QUELLES SONT TES ATTAQUES</srai>,reductions.aiml
+0,* LISTE * TECHNIQUES,*,*,<srai>QUELLES SONT TES ATTAQUES</srai>,reductions.aiml
+0,* LISTE * TECHNIQUES *,*,*,<srai>QUELLES SONT TES ATTAQUES</srai>,reductions.aiml
+0,COMBIEN * TECHNIQUES *,*,*,<srai>COMBIEN D'ATTAQUES AS TU</srai>,reductions.aiml
+0,COMBIEN D'ATTAQUES *,*,*,<srai>COMBIEN D'ATTAQUES AS TU</srai>,reductions.aiml
+0,COMBIEN * TECHNIQUES,*,*,<srai>COMBIEN D'ATTAQUES AS TU</srai>,reductions.aiml
+0,COMBIEN * D'ATTAQUES,*,*,<srai>COMBIEN D'ATTAQUES AS TU</srai>,reductions.aiml
+0,* ATTAQUE * PUISSANTE,*,*,<srai>QUELLE ATTAQUE EST LA PLUS PUISSANTE</srai>,reductions.aiml
+0,* ATTAQUE * FORTE,*,*,<srai>QUELLE ATTAQUE EST LA PLUS PUISSANTE</srai>,reductions.aiml
+0,* ATTAQUES * PUISSANTE,*,*,<srai>QUELLE ATTAQUE EST LA PLUS PUISSANTE</srai>,reductions.aiml
+0,* ATTAQUES * PUISSANTES,*,*,<srai>QUELLE ATTAQUE EST LA PLUS PUISSANTE</srai>,reductions.aiml
+0,* ATTAQUES * FORTES,*,*,<srai>QUELLE ATTAQUE EST LA PLUS PUISSANTE</srai>,reductions.aiml
+0,* TECHNIQUES * PUISSANTE,*,*,<srai>QUELLE ATTAQUE EST LA PLUS PUISSANTE</srai>,reductions.aiml
+0,* TECHNIQUES * PUISSANTES,*,*,<srai>QUELLE ATTAQUE EST LA PLUS PUISSANTE</srai>,reductions.aiml
+0,* TECHINQUE * PUISSANTE,*,*,<srai>QUELLE ATTAQUE EST LA PLUS PUISSANTE</srai>,reductions.aiml
+0,QUI EST LE PLUS FORT DE TON EQUIPE,*,*,<srai>PARMIS TES AMIS QUI EST LE PLUS FORT</srai>,reductions.aiml
+0,QUI EST LE PLUS FORT PARMIS TES AMIS,*,*,<srai>QUI EST LE PLUS FORT DE TES AMIS</srai>,reductions.aiml
+0,QUI EST LE PLUS FORT DE L'EQUIPE,*,*,<srai>QUI EST LE PLUS FORT DE TES AMIS</srai>,reductions.aiml
+0,* TU DES AMIS,*,*,<srai>AS TU DES AMIS</srai>,reductions.aiml
+0,TU * DES AMIS,*,*,<srai>AS TU DES AMIS</srai>,reductions.aiml
+0,QUI SONT TES AMIS,*,*,<srai>AS TU DES AMIS</srai>,reductions.aiml
+0,* TU DES COPAINS,*,*,<srai>AS TU DES AMIS</srai>,reductions.aiml
+0,TU * DES COPAINS,*,*,<srai>AS TU DES AMIS</srai>,reductions.aiml
+0,QUI SONT TES COPAINS,*,*,<srai>AS TU DES AMIS</srai>,reductions.aiml
+0,COMBIEN * AMIS,*,*,<srai>COMBIEN AS TU D'AMIS</srai>,reductions.aiml
+0,COMBIEN D'AMIS *,*,*,<srai>COMBIEN AS TU D'AMIS</srai>,reductions.aiml
+0,COMBIEN * COPAINS,*,*,<srai>COMBIEN AS TU D'AMIS</srai>,reductions.aiml
+0,COMBIEN * COPAINS *,*,*,<srai>COMBIEN AS TU D'AMIS</srai>,reductions.aiml
+0,* MEILLEURS AMIS,*,*,<srai>QUI SONT TES MEILLEURS AMIS</srai>,reductions.aiml
+0,* MEILLEUR AMI,*,*,<srai>QUI SONT TES MEILLEURS AMIS</srai>,reductions.aiml
+0,* MEILLEUR AMIS,*,*,<srai>QUI SONT TES MEILLEURS AMIS</srai>,reductions.aiml
+0,* MEILLEURS COPAINS,*,*,<srai>QUI SONT TES MEILLEURS AMIS</srai>,reductions.aiml
+0,* MEILLEUR COPAIN,*,*,<srai>QUI SONT TES MEILLEURS AMIS</srai>,reductions.aiml
+0,* MEILLEURS AMIS *,*,*,<srai>QUI SONT TES MEILLEURS AMIS</srai>,reductions.aiml
+0,* MEILLEUR AMI *,*,*,<srai>QUI SONT TES MEILLEURS AMIS</srai>,reductions.aiml
+0,QUELLE EST TON EQUIPE,*,*,<srai>QUELS SONT LES MEMBRES DE TON EQUIPE</srai>,reductions.aiml
+0,* MEMBRES * EQUIPE,*,*,<srai>QUELS SONT LES MEMBRES DE TON EQUIPE</srai>,reductions.aiml
+0,* PERSONNES * EQUIPE,*,*,<srai>QUELS SONT LES MEMBRES DE TON EQUIPE</srai>,reductions.aiml
+0,* CAMARADES * EQUIPE,*,*,<srai>QUELS SONT LES MEMBRES DE TON EQUIPE</srai>,reductions.aiml
+0,COEQUIPIERS,*,*,<srai>QUELS SONT LES MEMBRES DE TON EQUIPE</srai>,reductions.aiml
+0,TEAM,*,*,<srai>QUELS SONT LES MEMBRES DE TON EQUIPE</srai>,reductions.aiml
+0,* MAGES * EQUIPE,*,*,<srai>QUELS SONT LES MEMBRES DE TON EQUIPE</srai>,reductions.aiml
+0,* MAGE * EQUIPE,*,*,<srai>QUELS SONT LES MEMBRES DE TON EQUIPE</srai>,reductions.aiml
+0,QUI * EQUIPE,*,*,<srai>QUELS SONT LES MEMBRES DE TON EQUIPE</srai>,reductions.aiml
+0,QUI EST CE CHAT,*,*,<srai>QUI EST HAPPY</srai>,reductions.aiml
+0,QUI EST CE CHAT *,*,*,<srai>QUI EST HAPPY</srai>,reductions.aiml
+0,* NOM * CHAT,*,*,<srai>QUI EST HAPPY</srai>,reductions.aiml
+0,* S'APPELLES * CHAT,*,*,<srai>QUI EST HAPPY</srai>,reductions.aiml
+0,QUI EST TON CHAT,*,*,<srai>QUI EST HAPPY</srai>,reductions.aiml
+0,* NOM CHAT,*,*,<srai>QUI EST HAPPY</srai>,reductions.aiml
+0,* NOM CHAT *,*,*,<srai>QUI EST HAPPY</srai>,reductions.aiml
+0,QUI * CHAT *,*,*,<srai>QUI EST HAPPY</srai>,reductions.aiml
+0,* S'APPELLE * CHAT,*,*,<srai>QUI EST HAPPY</srai>,reductions.aiml
+0,* S'APPELLE * CHAT *,*,*,<srai>QUI EST HAPPY</srai>,reductions.aiml
+0,* ANIMAL DE COMPAGNIE *,*,*,<srai>QUI EST HAPPY</srai>,reductions.aiml
+0,AIMES TU LES CHATS,*,*,<srai>QUI EST HAPPY</srai>,reductions.aiml
+0,TU AIMES LES CHATS,*,*,<srai>QUI EST HAPPY</srai>,reductions.aiml
+0,* RENCONTRE * HAPPY,*,*,<srai>COMMENT AS TU RENCONTRE HAPPY</srai>,reductions.aiml
+0,* RENCONTRE HAPPY,*,*,<srai>COMMENT AS TU RENCONTRE HAPPY</srai>,reductions.aiml
+0,* RENCONTRE * CHAT,*,*,<srai>COMMENT AS TU RENCONTRE HAPPY</srai>,reductions.aiml
+0,* CONNU * HAPPY,*,*,<srai>COMMENT AS TU RENCONTRE HAPPY</srai>,reductions.aiml
+0,* CONNU * CHAT,*,*,<srai>COMMENT AS TU RENCONTRE HAPPY</srai>,reductions.aiml
+0,HAPPY * POUVOIR,*,*,<srai>QUEL EST LE POUVOIR DE HAPPY</srai>,reductions.aiml
+0,HAPPY * POUVOIR *,*,*,<srai>QUEL EST LE POUVOIR DE HAPPY</srai>,reductions.aiml
+0,HAPPY * POUVOIRS *,*,*,<srai>QUEL EST LE POUVOIR DE HAPPY</srai>,reductions.aiml
+0,HAPPY * MAGIE,*,*,<srai>QUEL EST LE POUVOIR DE HAPPY</srai>,reductions.aiml
+0,HAPPY * TECHNIQUES,*,*,<srai>QUEL EST LE POUVOIR DE HAPPY</srai>,reductions.aiml
+0,* TECHNIQUES * HAPPY,*,*,<srai>QUEL EST LE POUVOIR DE HAPPY</srai>,reductions.aiml
+0,* MAGIE * HAPPY,*,*,<srai>QUEL EST LE POUVOIR DE HAPPY</srai>,reductions.aiml
+0,* POUVOIRS * HAPPY,*,*,<srai>QUEL EST LE POUVOIR DE HAPPY</srai>,reductions.aiml
+0,* POUVOIR * HAPPY,*,*,<srai>QUEL EST LE POUVOIR DE HAPPY</srai>,reductions.aiml
+0,* CAPACITEES * HAPPY,*,*,<srai>QUEL EST LE POUVOIR DE HAPPY</srai>,reductions.aiml
+0,HAPPY * CAPACITEES,*,*,<srai>QUEL EST LE POUVOIR DE HAPPY</srai>,reductions.aiml
+0,* LISTE * ATTAQUES * HAPPY,*,*,<srai>QUEL EST LE POUVOIR DE HAPPY</srai>,reductions.aiml
+0,LISTE * ATTAQUES * HAPPY,*,*,<srai>QUEL EST LE POUVOIR DE HAPPY</srai>,reductions.aiml
+0,QUELLES SONT LES ATTAQUES * HAPPY,*,*,<srai>QUEL EST LE POUVOIR DE HAPPY</srai>,reductions.aiml
+0,* LA FORCE * HAPPY,*,*,<srai>QUEL EST LE POUVOIR DE HAPPY</srai>,reductions.aiml
+0,* TYPE * MAGIE * HAPPY,*,*,<srai>QUEL EST LE POUVOIR DE HAPPY</srai>,reductions.aiml
+0,* TYPE * MAGIE * HAPPY *,*,*,<srai>QUEL EST LE POUVOIR DE HAPPY</srai>,reductions.aiml
+0,QUI EST ERZA *,*,*,<srai>QUI EST ERZA</srai>,reductions.aiml
+0,ERZA C'EST QUI,*,*,<srai>QUI EST ERZA</srai>,reductions.aiml
+0,CONNAIS TU ERZA,*,*,<srai>QUI EST ERZA</srai>,reductions.aiml
+0,TU CONNAIS ERZA,*,*,<srai>QUI EST ERZA</srai>,reductions.aiml
+0,* SURNOM * ERZA,*,*,<srai>QUEL EST LE SURNOM D'ERZA</srai>,reductions.aiml
+0,* SURNOM * ERZA *,*,*,<srai>QUEL EST LE SURNOM D'ERZA</srai>,reductions.aiml
+0,* PSEUDO * ERZA,*,*,<srai>QUEL EST LE SURNOM D'ERZA</srai>,reductions.aiml
+0,* PSEUDO * ERZA *,*,*,<srai>QUEL EST LE SURNOM D'ERZA</srai>,reductions.aiml
+0,ERZA * SURNOM,*,*,<srai>QUEL EST LE SURNOM D'ERZA</srai>,reductions.aiml
+0,ERZA * PSEUDO,*,*,<srai>QUEL EST LE SURNOM D'ERZA</srai>,reductions.aiml
+0,ERZA * POUVOIR,*,*,<srai>QUEL EST LE POUVOIR D'ERZA</srai>,reductions.aiml
+0,ERZA * POUVOIR *,*,*,<srai>QUEL EST LE POUVOIR D'ERZA</srai>,reductions.aiml
+0,ERZA * POUVOIRS *,*,*,<srai>QUEL EST LE POUVOIR D'ERZA</srai>,reductions.aiml
+0,ERZA * MAGIE,*,*,<srai>QUEL EST LE POUVOIR D'ERZA</srai>,reductions.aiml
+0,ERZA * TECHNIQUES,*,*,<srai>QUEL EST LE POUVOIR D'ERZA</srai>,reductions.aiml
+0,* TECHNIQUES * ERZA,*,*,<srai>QUEL EST LE POUVOIR D'ERZA</srai>,reductions.aiml
+0,* TECHNIQUES D'ERZA,*,*,<srai>QUEL EST LE POUVOIR D'ERZA</srai>,reductions.aiml
+0,* MAGIE D'ERZA,*,*,<srai>QUEL EST LE POUVOIR D'ERZA</srai>,reductions.aiml
+0,* MAGIE * ERZA,*,*,<srai>QUEL EST LE POUVOIR D'ERZA</srai>,reductions.aiml
+0,* POUVOIR * ERZA,*,*,<srai>QUEL EST LE POUVOIR D'ERZA</srai>,reductions.aiml
+0,* POUVOIRS D'ERZA,*,*,<srai>QUEL EST LE POUVOIR D'ERZA</srai>,reductions.aiml
+0,* POUVOIRS * ERZA,*,*,<srai>QUEL EST LE POUVOIR D'ERZA</srai>,reductions.aiml
+0,* CAPACITEES * ERZA,*,*,<srai>QUEL EST LE POUVOIR D'ERZA</srai>,reductions.aiml
+0,* CAPACITEES D'ERZA,*,*,<srai>QUEL EST LE POUVOIR D'ERZA</srai>,reductions.aiml
+0,ERZA * CAPACITEES,*,*,<srai>QUEL EST LE POUVOIR D'ERZA</srai>,reductions.aiml
+0,* RENCONTRE * ERZA,*,*,<srai>COMMENT AS TU RENCONTRE ERZA</srai>,reductions.aiml
+0,* RENCONTRE ERZA,*,*,<srai>COMMENT AS TU RENCONTRE ERZA</srai>,reductions.aiml
+0,* CONNU * ERZA,*,*,<srai>COMMENT AS TU RENCONTRE ERZA</srai>,reductions.aiml
+0,* LISTE * ATTAQUES * ERZA,*,*,<srai>QUEL EST LE POUVOIR DE ERZA</srai>,reductions.aiml
+0,* LISTE * ATTAQUES D'ERZA,*,*,<srai>QUEL EST LE POUVOIR DE ERZA</srai>,reductions.aiml
+0,LISTE * ATTAQUES D'ERZA,*,*,<srai>QUEL EST LE POUVOIR DE ERZA</srai>,reductions.aiml
+0,QUELLES SONT LES ATTAQUES * ERZA,*,*,<srai>QUEL EST LE POUVOIR DE ERZA</srai>,reductions.aiml
+0,QUELLES SONT LES ATTAQUES D'ERZA,*,*,<srai>QUEL EST LE POUVOIR DE ERZA</srai>,reductions.aiml
+0,* LA FORCE * ERZA,*,*,<srai>QUEL EST LE POUVOIR DE ERZA</srai>,reductions.aiml
+0,* LA FORCE D'ERZA,*,*,<srai>QUEL EST LE POUVOIR DE ERZA</srai>,reductions.aiml
+0,* TYPE * MAGIE * ERZA,*,*,<srai>QUEL EST LE POUVOIR DE ERZA</srai>,reductions.aiml
+0,* TYPE * MAGIE D'ERZA,*,*,<srai>QUEL EST LE POUVOIR DE ERZA</srai>,reductions.aiml
+0,* TYPE * MAGIE * ERZA *,*,*,<srai>QUEL EST LE POUVOIR DE ERZA</srai>,reductions.aiml
+0,* TYPE * MAGIE D'ERZA *,*,*,<srai>QUEL EST LE POUVOIR DE ERZA</srai>,reductions.aiml
+0,QUI EST GREY *,*,*,<srai>QUI EST GREY</srai>,reductions.aiml
+0,GREY C'EST QUI,*,*,<srai>QUI EST GREY</srai>,reductions.aiml
+0,CONNAIS TU GREY,*,*,<srai>QUI EST GREY</srai>,reductions.aiml
+0,TU CONNAIS GREY,*,*,<srai>QUI EST GREY</srai>,reductions.aiml
+0,* SURNOM * GREY,*,*,<srai>QUEL EST LE SURNOM DE GREY</srai>,reductions.aiml
+0,* PSEUDO * GREY,*,*,<srai>QUEL EST LE SURNOM DE GREY</srai>,reductions.aiml
+0,* PSEUDO * GREY *,*,*,<srai>QUEL EST LE SURNOM DE GREY</srai>,reductions.aiml
+0,GREY * SURNOM,*,*,<srai>QUEL EST LE SURNOM DE GREY</srai>,reductions.aiml
+0,GREY * PSEUDO,*,*,<srai>QUEL EST LE SURNOM DE GREY</srai>,reductions.aiml
+0,GREY * POUVOIR,*,*,<srai>QUEL EST LE POUVOIR DE GREY</srai>,reductions.aiml
+0,GREY * POUVOIR *,*,*,<srai>QUEL EST LE POUVOIR DE GREY</srai>,reductions.aiml
+0,GREY * POUVOIRS *,*,*,<srai>QUEL EST LE POUVOIR DE GREY</srai>,reductions.aiml
+0,GREY * MAGIE,*,*,<srai>QUEL EST LE POUVOIR DE GREY</srai>,reductions.aiml
+0,GREY * TECHNIQUES,*,*,<srai>QUEL EST LE POUVOIR DE GREY</srai>,reductions.aiml
+0,* TECHNIQUES * GREY,*,*,<srai>QUEL EST LE POUVOIR DE GREY</srai>,reductions.aiml
+0,* MAGIE * GREY,*,*,<srai>QUEL EST LE POUVOIR DE GREY</srai>,reductions.aiml
+0,* POUVOIR * GREY,*,*,<srai>QUEL EST LE POUVOIR DE GREY</srai>,reductions.aiml
+0,* POUVOIRS * GREY,*,*,<srai>QUEL EST LE POUVOIR DE GREY</srai>,reductions.aiml
+0,* CAPACITEES * GREY,*,*,<srai>QUEL EST LE POUVOIR DE GREY</srai>,reductions.aiml
+0,GREY * CAPACITEES,*,*,<srai>QUEL EST LE POUVOIR DE GREY</srai>,reductions.aiml
+0,* RENCONTRE * GREY,*,*,<srai>COMMENT AS TU RENCONTRE GREY</srai>,reductions.aiml
+0,* RENCONTRE GREY,*,*,<srai>COMMENT AS TU RENCONTRE GREY</srai>,reductions.aiml
+0,* CONNU * GREY,*,*,<srai>COMMENT AS TU RENCONTRE GREY</srai>,reductions.aiml
+0,* LISTE * ATTAQUES DE GREY,*,*,<srai>QUEL EST LE POUVOIR DE GREY</srai>,reductions.aiml
+0,LISTE * ATTAQUES DE GREY,*,*,<srai>QUEL EST LE POUVOIR DE GREY</srai>,reductions.aiml
+0,QUELLES SONT LES ATTAQUES * GREY,*,*,<srai>QUEL EST LE POUVOIR DE GREY</srai>,reductions.aiml
+0,* LA FORCE * GREY,*,*,<srai>QUEL EST LE POUVOIR DE GREY</srai>,reductions.aiml
+0,* TYPE * MAGIE * GREY,*,*,<srai>QUEL EST LE POUVOIR DE GREY</srai>,reductions.aiml
+0,* TYPE * MAGIE * GREY *,*,*,<srai>QUEL EST LE POUVOIR DE GREY</srai>,reductions.aiml
+0,QUI EST LUCIE *,*,*,<srai>QUI EST LUCIE</srai>,reductions.aiml
+0,LUCIE C'EST QUI,*,*,<srai>QUI EST LUCIE</srai>,reductions.aiml
+0,CONNAIS TU LUCIE,*,*,<srai>QUI EST LUCIE</srai>,reductions.aiml
+0,TU CONNAIS LUCIE,*,*,<srai>QUI EST LUCIE</srai>,reductions.aiml
+0,* SURNOM * LUCIE,*,*,<srai>QUEL EST LE SURNOM DE LUCIE</srai>,reductions.aiml
+0,* SURNOM * GREY *,*,*,<srai>QUEL EST LE SURNOM DE LUCIE</srai>,reductions.aiml
+0,* PSEUDO * LUCIE,*,*,<srai>QUEL EST LE SURNOM DE LUCIE</srai>,reductions.aiml
+0,* PSEUDO * LUCIE *,*,*,<srai>QUEL EST LE SURNOM DE LUCIE</srai>,reductions.aiml
+0,LUCIE * SURNOM,*,*,<srai>QUEL EST LE SURNOM DE LUCIE</srai>,reductions.aiml
+0,LUCIE * PSEUDO,*,*,<srai>QUEL EST LE SURNOM DE LUCIE</srai>,reductions.aiml
+0,LUCIE * POUVOIR,*,*,<srai>QUEL EST LE POUVOIR DE LUCIE</srai>,reductions.aiml
+0,LUCIE * POUVOIR *,*,*,<srai>QUEL EST LE POUVOIR DE LUCIE</srai>,reductions.aiml
+0,LUCIE * POUVOIRS *,*,*,<srai>QUEL EST LE POUVOIR DE LUCIE</srai>,reductions.aiml
+0,LUCIE * POUVOIRS,*,*,<srai>QUEL EST LE POUVOIR DE LUCIE</srai>,reductions.aiml
+0,LUCIE * MAGIE,*,*,<srai>QUEL EST LE POUVOIR DE LUCIE</srai>,reductions.aiml
+0,LUCIE * TECHNIQUES,*,*,<srai>QUEL EST LE POUVOIR DE LUCIE</srai>,reductions.aiml
+0,* TECHNIQUES * LUCIE,*,*,<srai>QUEL EST LE POUVOIR DE LUCIE</srai>,reductions.aiml
+0,* MAGIE * LUCIE,*,*,<srai>QUEL EST LE POUVOIR DE LUCIE</srai>,reductions.aiml
+0,* POUVOIRS * LUCIE,*,*,<srai>QUEL EST LE POUVOIR DE LUCIE</srai>,reductions.aiml
+0,* CAPACITEES * LUCIE,*,*,<srai>QUEL EST LE POUVOIR DE LUCIE</srai>,reductions.aiml
+0,LUCIE * CAPACITEES,*,*,<srai>QUEL EST LE POUVOIR DE LUCIE</srai>,reductions.aiml
+0,* RENCONTRE * LUCIE,*,*,<srai>COMMENT AS TU RENCONTRE LUCIE</srai>,reductions.aiml
+0,* RENCONTRE LUCIE,*,*,<srai>COMMENT AS TU RENCONTRE LUCIE</srai>,reductions.aiml
+0,* CONNU * LUCIE,*,*,<srai>COMMENT AS TU RENCONTRE LUCIE</srai>,reductions.aiml
+0,* LISTE * ATTAQUES * LUCIE,*,*,<srai>QUEL EST LE POUVOIR DE LUCIE</srai>,reductions.aiml
+0,LISTE * ATTAQUES * LUCIE,*,*,<srai>QUEL EST LE POUVOIR DE LUCIE</srai>,reductions.aiml
+0,QUELLES SONT LES ATTAQUES * LUCIE,*,*,<srai>QUEL EST LE POUVOIR DE LUCIE</srai>,reductions.aiml
+0,* LA FORCE * LUCIE,*,*,<srai>QUEL EST LE POUVOIR * LUCIE</srai>,reductions.aiml
+0,* TYPE * MAGIE * LUCIE,*,*,<srai>QUEL EST LE POUVOIR DE LUCIE</srai>,reductions.aiml
+0,* TYPE * MAGIE * LUCIE *,*,*,<srai>QUEL EST LE POUVOIR DE LUCIE</srai>,reductions.aiml
+0,QUI EST WENDY *,*,*,<srai>QUI EST WENDY</srai>,reductions.aiml
+0,WENDY C'EST QUI,*,*,<srai>QUI EST WENDY</srai>,reductions.aiml
+0,CONNAIS TU WENDY,*,*,<srai>QUI EST WENDY</srai>,reductions.aiml
+0,TU CONNAIS WENDY,*,*,<srai>QUI EST WENDY</srai>,reductions.aiml
+0,* SURNOM * WENDY,*,*,<srai>QUEL EST LE SURNOM DE WENDY</srai>,reductions.aiml
+0,* SURNOM * WENDY *,*,*,<srai>QUEL EST LE SURNOM DE WENDY</srai>,reductions.aiml
+0,* PSEUDO * WENDY,*,*,<srai>QUEL EST LE SURNOM DE WENDY</srai>,reductions.aiml
+0,* PSEUDO * WENDY *,*,*,<srai>QUEL EST LE SURNOM DE WENDY</srai>,reductions.aiml
+0,WENDY * SURNOM,*,*,<srai>QUEL EST LE SURNOM DE WENDY</srai>,reductions.aiml
+0,WENDY * PSEUDO,*,*,<srai>QUEL EST LE SURNOM DE WENDY</srai>,reductions.aiml
+0,WENDY * POUVOIR,*,*,<srai>QUEL EST LE POUVOIR DE WENDY</srai>,reductions.aiml
+0,WENDY * POUVOIR *,*,*,<srai>QUEL EST LE POUVOIR DE WENDY</srai>,reductions.aiml
+0,WENDY * POUVOIRS *,*,*,<srai>QUEL EST LE POUVOIR DE WENDY</srai>,reductions.aiml
+0,WENDY * MAGIE,*,*,<srai>QUEL EST LE POUVOIR DE WENDY</srai>,reductions.aiml
+0,WENDY * TECHNIQUES,*,*,<srai>QUEL EST LE POUVOIR DE WENDY</srai>,reductions.aiml
+0,* TECHNIQUES * WENDY,*,*,<srai>QUEL EST LE POUVOIR DE WENDY</srai>,reductions.aiml
+0,* MAGIE * WENDY,*,*,<srai>QUEL EST LE POUVOIR DE WENDY</srai>,reductions.aiml
+0,* POUVOIRS * WENDY,*,*,<srai>QUEL EST LE POUVOIR DE WENDY</srai>,reductions.aiml
+0,* CAPACITEES * WENDY,*,*,<srai>QUEL EST LE POUVOIR DE WENDY</srai>,reductions.aiml
+0,WENDY * CAPACITEES,*,*,<srai>QUEL EST LE POUVOIR DE WENDY</srai>,reductions.aiml
+0,* RENCONTRE * WENDY,*,*,<srai>COMMENT AS TU RENCONTRE WENDY</srai>,reductions.aiml
+0,* RENCONTRE WENDY,*,*,<srai>COMMENT AS TU RENCONTRE WENDY</srai>,reductions.aiml
+0,* CONNU * WENDY,*,*,<srai>COMMENT AS TU RENCONTRE WENDY</srai>,reductions.aiml
+0,* LISTE * ATTAQUES * WENDY,*,*,<srai>QUEL EST LE POUVOIR DE WENDY</srai>,reductions.aiml
+0,LISTE * ATTAQUES * WENDY,*,*,<srai>QUEL EST LE POUVOIR DE WENDY</srai>,reductions.aiml
+0,QUELLES SONT LES ATTAQUES * WENDY,*,*,<srai>QUEL EST LE POUVOIR DE WENDY</srai>,reductions.aiml
+0,* LA FORCE * WENDY,*,*,<srai>QUEL EST LE POUVOIR DE WENDY</srai>,reductions.aiml
+0,* TYPE * MAGIE * WENDY,*,*,<srai>QUEL EST LE POUVOIR DE WENDY</srai>,reductions.aiml
+0,* TYPE * MAGIE * WENDY *,*,*,<srai>QUEL EST LE POUVOIR DE WENDY</srai>,reductions.aiml
+0,QUI EST CARLA *,*,*,<srai>QUI EST CARLA</srai>,reductions.aiml
+0,CARLA C'EST QUI,*,*,<srai>QUI EST CARLA</srai>,reductions.aiml
+0,CONNAIS TU CARLA,*,*,<srai>QUI EST CARLA</srai>,reductions.aiml
+0,TU CONNAIS CARLA,*,*,<srai>QUI EST CARLA</srai>,reductions.aiml
+0,* SURNOM * CARLA,*,*,<srai>QUEL EST LE SURNOM DE CARLA</srai>,reductions.aiml
+0,* SURNOM * CARLA *,*,*,<srai>QUEL EST LE SURNOM DE CARLA</srai>,reductions.aiml
+0,* PSEUDO * CARLA,*,*,<srai>QUEL EST LE SURNOM DE CARLA</srai>,reductions.aiml
+0,* PSEUDO * CARLA *,*,*,<srai>QUEL EST LE SURNOM DE CARLA</srai>,reductions.aiml
+0,CARLA * SURNOM,*,*,<srai>QUEL EST LE SURNOM DE CARLA</srai>,reductions.aiml
+0,CARLA * PSEUDO,*,*,<srai>QUEL EST LE SURNOM DE CARLA</srai>,reductions.aiml
+0,CARLA * POUVOIR,*,*,<srai>QUEL EST LE POUVOIR DE CARLA</srai>,reductions.aiml
+0,CARLA * POUVOIR *,*,*,<srai>QUEL EST LE POUVOIR DE CARLA</srai>,reductions.aiml
+0,CARLA * POUVOIRS,*,*,<srai>QUEL EST LE POUVOIR DE CARLA</srai>,reductions.aiml
+0,CARLA * POUVOIRS *,*,*,<srai>QUEL EST LE POUVOIR DE CARLA</srai>,reductions.aiml
+0,CARLA * MAGIE,*,*,<srai>QUEL EST LE POUVOIR DE CARLA</srai>,reductions.aiml
+0,CARLA * TECHNIQUES,*,*,<srai>QUEL EST LE POUVOIR DE CARLA</srai>,reductions.aiml
+0,* TECHNIQUES * CARLA,*,*,<srai>QUEL EST LE POUVOIR DE CARLA</srai>,reductions.aiml
+0,* MAGIE * CARLA,*,*,<srai>QUEL EST LE POUVOIR DE CARLA</srai>,reductions.aiml
+0,* POUVOIRS * CARLA,*,*,<srai>QUEL EST LE POUVOIR DE CARLA</srai>,reductions.aiml
+0,* CAPACITEES * CARLA,*,*,<srai>QUEL EST LE POUVOIR DE CARLA</srai>,reductions.aiml
+0,CARLA * CAPACITEES,*,*,<srai>QUEL EST LE POUVOIR DE CARLA</srai>,reductions.aiml
+0,* RENCONTRE * CARLA,*,*,<srai>COMMENT AS TU RENCONTRE CARLA</srai>,reductions.aiml
+0,* RENCONTRE CARLA,*,*,<srai>COMMENT AS TU RENCONTRE CARLA</srai>,reductions.aiml
+0,* CONNU * CARLA,*,*,<srai>COMMENT AS TU RENCONTRE CARLA</srai>,reductions.aiml
+0,* LISTE * ATTAQUES * CARLA,*,*,<srai>QUEL EST LE POUVOIR DE CARLA</srai>,reductions.aiml
+0,LISTE * ATTAQUES * CARLA,*,*,<srai>QUEL EST LE POUVOIR DE CARLA</srai>,reductions.aiml
+0,QUELLES SONT LES ATTAQUES * CARLA,*,*,<srai>QUEL EST LE POUVOIR DE CARLA</srai>,reductions.aiml
+0,* LA FORCE * CARLA,*,*,<srai>QUEL EST LE POUVOIR DE CARLA</srai>,reductions.aiml
+0,* TYPE * MAGIE * CARLA,*,*,<srai>QUEL EST LE POUVOIR DE CARLA</srai>,reductions.aiml
+0,* TYPE * MAGIE * CARLA *,*,*,<srai>QUEL EST LE POUVOIR DE CARLA</srai>,reductions.aiml
+0,QUI EST LISANNA *,*,*,<srai>QUI EST LISANNA</srai>,reductions.aiml
+0,LISANNA C'EST QUI,*,*,<srai>QUI EST LISANNA</srai>,reductions.aiml
+0,CONNAIS TU LISANNA,*,*,<srai>QUI EST LISANNA</srai>,reductions.aiml
+0,TU CONNAIS LISANNA,*,*,<srai>QUI EST LISANNA</srai>,reductions.aiml
+0,* SURNOM * LISANNA,*,*,<srai>QUEL EST LE SURNOM DE LISANNA</srai>,reductions.aiml
+0,* SURNOM * LISANNA *,*,*,<srai>QUEL EST LE SURNOM DE LISANNA</srai>,reductions.aiml
+0,* PSEUDO * LISANNA,*,*,<srai>QUEL EST LE SURNOM DE LISANNA</srai>,reductions.aiml
+0,* PSEUDO * LISANNA *,*,*,<srai>QUEL EST LE SURNOM DE LISANNA</srai>,reductions.aiml
+0,LISANNA * SURNOM,*,*,<srai>QUEL EST LE SURNOM DE LISANNA</srai>,reductions.aiml
+0,LISANNA * PSEUDO,*,*,<srai>QUEL EST LE SURNOM DE LISANNA</srai>,reductions.aiml
+0,LISANNA * POUVOIR,*,*,<srai>QUEL EST LE POUVOIR DE LISANNA</srai>,reductions.aiml
+0,LISANNA * POUVOIR *,*,*,<srai>QUEL EST LE POUVOIR DE LISANNA</srai>,reductions.aiml
+0,LISANNA * POUVOIRS,*,*,<srai>QUEL EST LE POUVOIR DE LISANNA</srai>,reductions.aiml
+0,LISANNA * POUVOIRS *,*,*,<srai>QUEL EST LE POUVOIR DE LISANNA</srai>,reductions.aiml
+0,LISANNA * MAGIE,*,*,<srai>QUEL EST LE POUVOIR DE LISANNA</srai>,reductions.aiml
+0,LISANNA * TECHNIQUES,*,*,<srai>QUEL EST LE POUVOIR DE LISANNA</srai>,reductions.aiml
+0,* TECHNIQUES * LISANNA,*,*,<srai>QUEL EST LE POUVOIR DE LISANNA</srai>,reductions.aiml
+0,* MAGIE * LISANNA,*,*,<srai>QUEL EST LE POUVOIR DE LISANNA</srai>,reductions.aiml
+0,* POUVOIRS * LISANNA,*,*,<srai>QUEL EST LE POUVOIR DE LISANNA</srai>,reductions.aiml
+0,* CAPACITEES * LISANNA,*,*,<srai>QUEL EST LE POUVOIR DE LISANNA</srai>,reductions.aiml
+0,LISANNA * CAPACITEES,*,*,<srai>QUEL EST LE POUVOIR DE LISANNA</srai>,reductions.aiml
+0,* RENCONTRE * LISANNA,*,*,<srai>COMMENT AS TU RENCONTRE LISANNA</srai>,reductions.aiml
+0,* RENCONTRE LISANNA,*,*,<srai>COMMENT AS TU RENCONTRE LISANNA</srai>,reductions.aiml
+0,* CONNU * LISANNA,*,*,<srai>COMMENT AS TU RENCONTRE LISANNA</srai>,reductions.aiml
+0,* LISTE * ATTAQUES * LISANNA,*,*,<srai>QUEL EST LE POUVOIR DE LISANNA</srai>,reductions.aiml
+0,LISTE * ATTAQUES * LISANNA,*,*,<srai>QUEL EST LE POUVOIR DE LISANNA</srai>,reductions.aiml
+0,QUELLES SONT LES ATTAQUES * LISANNA,*,*,<srai>QUEL EST LE POUVOIR DE LISANNA</srai>,reductions.aiml
+0,* LA FORCE * LISANNA,*,*,<srai>QUEL EST LE POUVOIR DE LISANNA</srai>,reductions.aiml
+0,* TYPE * MAGIE * LISANNA,*,*,<srai>QUEL EST LE POUVOIR DE LISANNA</srai>,reductions.aiml
+0,* TYPE * MAGIE * LISANNA *,*,*,<srai>QUEL EST LE POUVOIR DE LISANNA</srai>,reductions.aiml
+0,QUI EST GADJIL *,*,*,<srai>QUI EST GADJIL</srai>,reductions.aiml
+0,GADJIL C'EST QUI,*,*,<srai>QUI EST GADJIL</srai>,reductions.aiml
+0,CONNAIS TU GADJIL,*,*,<srai>QUI EST GADJIL</srai>,reductions.aiml
+0,TU CONNAIS GADJIL,*,*,<srai>QUI EST GADJIL</srai>,reductions.aiml
+0,* SURNOM * GADJIL,*,*,<srai>QUEL EST LE SURNOM DE GADJIL</srai>,reductions.aiml
+0,* SURNOM * GADJIL *,*,*,<srai>QUEL EST LE SURNOM DE GADJIL</srai>,reductions.aiml
+0,* PSEUDO * GADJIL,*,*,<srai>QUEL EST LE SURNOM DE GADJIL</srai>,reductions.aiml
+0,* PSEUDO * GADJIL *,*,*,<srai>QUEL EST LE SURNOM DE GADJIL</srai>,reductions.aiml
+0,GADJIL * SURNOM,*,*,<srai>QUEL EST LE SURNOM DE GADJIL</srai>,reductions.aiml
+0,GADJIL * PSEUDO,*,*,<srai>QUEL EST LE SURNOM DE GADJIL</srai>,reductions.aiml
+0,GADJIL * POUVOIR,*,*,<srai>QUEL EST LE POUVOIR DE GADJIL</srai>,reductions.aiml
+0,GADJIL * POUVOIR *,*,*,<srai>QUEL EST LE POUVOIR DE GADJIL</srai>,reductions.aiml
+0,GADJIL * POUVOIRS *,*,*,<srai>QUEL EST LE POUVOIR DE GADJIL</srai>,reductions.aiml
+0,GADJIL * MAGIE,*,*,<srai>QUEL EST LE POUVOIR DE GADJIL</srai>,reductions.aiml
+0,GADJIL * TECHNIQUES,*,*,<srai>QUEL EST LE POUVOIR DE GADJIL</srai>,reductions.aiml
+0,* TECHNIQUES * GADJIL,*,*,<srai>QUEL EST LE POUVOIR DE GADJIL</srai>,reductions.aiml
+0,* MAGIE * GADJIL,*,*,<srai>QUEL EST LE POUVOIR DE GADJIL</srai>,reductions.aiml
+0,* POUVOIR * GADJIL,*,*,<srai>QUEL EST LE POUVOIR DE GADJIL</srai>,reductions.aiml
+0,* POUVOIRS * GADJIL,*,*,<srai>QUEL EST LE POUVOIR DE GADJIL</srai>,reductions.aiml
+0,* CAPACITEES * GADJIL,*,*,<srai>QUEL EST LE POUVOIR DE GADJIL</srai>,reductions.aiml
+0,GADJIL * CAPACITEES,*,*,<srai>QUEL EST LE POUVOIR DE GADJIL</srai>,reductions.aiml
+0,* RENCONTRE * GADJIL,*,*,<srai>COMMENT AS TU RENCONTRE GADJIL</srai>,reductions.aiml
+0,* RENCONTRE GADJIL,*,*,<srai>COMMENT AS TU RENCONTRE GADJIL</srai>,reductions.aiml
+0,* CONNU * GADJIL,*,*,<srai>COMMENT AS TU RENCONTRE GADJIL</srai>,reductions.aiml
+0,* LISTE * ATTAQUES DE GADJIL,*,*,<srai>QUEL EST LE POUVOIR DE GADJIL</srai>,reductions.aiml
+0,LISTE * ATTAQUES DE GADJIL,*,*,<srai>QUEL EST LE POUVOIR DE GADJIL</srai>,reductions.aiml
+0,QUELLES SONT LES ATTAQUES * GADJIL,*,*,<srai>QUEL EST LE POUVOIR DE GADJIL</srai>,reductions.aiml
+0,* LA FORCE * GADJIL,*,*,<srai>QUEL EST LE POUVOIR DE GADJIL</srai>,reductions.aiml
+0,* TYPE * MAGIE * GADJIL,*,*,<srai>QUEL EST LE POUVOIR DE GADJIL</srai>,reductions.aiml
+0,* TYPE * MAGIE * GADJIL *,*,*,<srai>QUEL EST LE POUVOIR DE GADJIL</srai>,reductions.aiml
+0,* TAILLE,*,*,<srai>QUELLE EST TA TAILLE</srai>,reductions.aiml
+0,* TAILLE *,*,*,<srai>QUELLE EST TA TAILLE</srai>,reductions.aiml
+0,* MESURES TU,*,*,<srai>QUELLE EST TA TAILLE</srai>,reductions.aiml
+0,* MESURES-TU,*,*,<srai>QUELLE EST TA TAILLE</srai>,reductions.aiml
+0,* TU MESURES,*,*,<srai>QUELLE EST TA TAILLE</srai>,reductions.aiml
+0,* COULEUR * PREFEREE,*,*,<srai>QUELLE EST TA COULEUR PREFEREE</srai>,reductions.aiml
+0,* COULEUR * PREFERE,*,*,<srai>QUELLE EST TA COULEUR PREFEREE</srai>,reductions.aiml
+0,* COULEUR * PREFERES,*,*,<srai>QUELLE EST TA COULEUR PREFEREE</srai>,reductions.aiml
+0,* COULEUR PREFERES TU,*,*,<srai>QUELLE EST TA COULEUR PREFEREE</srai>,reductions.aiml
+0,* COULEUR * AIMES,*,*,<srai>QUELLE EST TA COULEUR PREFEREE</srai>,reductions.aiml
+0,* COULEUR AIMES-TU,*,*,<srai>QUELLE EST TA COULEUR PREFEREE</srai>,reductions.aiml
+0,* COULEUR AIMES TU,*,*,<srai>QUELLE EST TA COULEUR PREFEREE</srai>,reductions.aiml
+0,* PREFERE * COULEUR,*,*,<srai>QUELLE EST TA COULEUR PREFEREE</srai>,reductions.aiml
+0,* PREFERES * COULEUR,*,*,<srai>QUELLE EST TA COULEUR PREFEREE</srai>,reductions.aiml
+0,* AIME * COULEUR,*,*,<srai>QUELLE EST TA COULEUR PREFEREE</srai>,reductions.aiml
+0,* AIMES * COULEUR,*,*,<srai>QUELLE EST TA COULEUR PREFEREE</srai>,reductions.aiml
+0,* AIMES * COULEURS,*,*,<srai>QUELLE EST TA COULEUR PREFEREE</srai>,reductions.aiml
+0,* DES ENFANTS,*,*,<srai>AS TU DES ENFANTS</srai>,reductions.aiml
+0,* D'ENFANTS,*,*,<srai>AS TU DES ENFANTS</srai>,reductions.aiml
+0,AS TU UNE FEMME,*,*,<srai>ES TU MARIÉ</srai>,reductions.aiml
+0,ES-TU MARIE,*,*,<srai>ES TU MARIÉ</srai>,reductions.aiml
+0,ES TU MARIE,*,*,<srai>ES TU MARIÉ</srai>,reductions.aiml
+0,* EPOUSE,*,*,<srai>ES TU MARIÉ</srai>,reductions.aiml
+0,* ÉPOUSE,*,*,<srai>ES TU MARIÉ</srai>,reductions.aiml
+0,* POIDS,*,*,<srai>QUELLE EST TON POIDS</srai>,reductions.aiml
+0,* POIDS *,*,*,<srai>QUELLE EST TON POIDS</srai>,reductions.aiml
+0,* PESE TU,*,*,<srai>QUELLE EST TON POIDS</srai>,reductions.aiml
+0,* PESES TU,*,*,<srai>QUELLE EST TON POIDS</srai>,reductions.aiml
+0,* PESES-TU,*,*,<srai>QUELLE EST TON POIDS</srai>,reductions.aiml
+0,* TU PESES,*,*,<srai>QUELLE EST TON POIDS</srai>,reductions.aiml
+0,TU PESES *,*,*,<srai>QUELLE EST TON POIDS</srai>,reductions.aiml
+0,* MASSE,*,*,<srai>QUELLE EST TON POIDS</srai>,reductions.aiml
+0,QUE FAIS TU,*,*,<srai>TU FAIS QUOI</srai>,reductions.aiml
+0,QUE FAIS-TU,*,*,<srai>TU FAIS QUOI</srai>,reductions.aiml
+0,QU'EST CE QUE TU FAIT,*,*,<srai>TU FAIS QUOI</srai>,reductions.aiml
+0,QU'EST CE QUE TU FAIS,*,*,<srai>TU FAIS QUOI</srai>,reductions.aiml
+0,OU EST TU,*,*,<srai>OU ES TU</srai>,reductions.aiml
+0,OU ES-TU,*,*,<srai>OU ES TU</srai>,reductions.aiml
+0,OU TE TROUVES TU,*,*,<srai>OU ES TU</srai>,reductions.aiml
+0,OU TU ES,*,*,<srai>OU ES TU</srai>,reductions.aiml
+0,TU ES OU,*,*,<srai>OU ES TU</srai>,reductions.aiml
+0,T'ES OU,*,*,<srai>OU ES TU</srai>,reductions.aiml
